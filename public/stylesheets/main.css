@@ -1,0 +1,200 @@
+html,
+body {
+  height: 100%;
+}
+/*	font-family: Trebuchet MS, Helvetica, Arial, sans-serif; */
+body {
+  background-color: #F5F5F5;
+  font-size: 14px;
+}
+a img {
+  border: none;
+}
+.header {
+    z-index: 42;
+    width: 100%;
+    height: 9em;
+    background: #eaf4ff;
+}
+
+.userIcon {
+  height: 40px;
+  width: 40px;
+  margin-top: -10px;
+  overflow: hidden;
+}
+.sidebar li > a {
+  text-align: left;
+}
+.sidebar i {
+  width: 30px;
+  margin-top: 3px !important;
+}
+.header {
+  display: block;
+  font-weight: bold;
+}
+.logo {
+  float: left;
+  color: #fff;
+  font-style: italic;
+  font-size: 24px;
+  letter-spacing: -2px;
+  text-shadow: 1px 2px 2px #000;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+.grid {
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.infoTable td {
+  padding: 10px;
+}
+.feed {
+  border-top: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+  border-left: 1px solid #d3d3d3;
+}
+.feed .media:first-child {
+  margin-top: 15px !important;
+}
+.media {
+  margin-bottom: 15px !important;
+}
+.status {
+  border-bottom: 1px solid #d3d3d3;
+}
+.scorecard th {
+  text-align: center !important;
+}
+.scorecard tr td {
+  color: black;
+  margin: 0px;
+  padding: 2px !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+.scorecard input {
+  width: 15px;
+  margin-bottom: 4px;
+}
+/* Global */
+.errors {
+  color: red;
+  font-weight: bold;
+}
+.golfUrl {
+  color: #6b981e;
+}
+.golfUrl:hover {
+  color: #6b981e;
+  text-decoration: none;
+}
+.golfUrl:active {
+  color: #6b981e;
+}
+.golfUrl:visited {
+  color: #6b981e;
+}
+.mini {
+  width: 50px;
+}
+.offset0 {
+  margin-left: 50px important!;
+}
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center {
+  margin: 5% 30%;
+}
+.golfGreen {
+  color: #6b981e;
+}
+.golfGray {
+  color: #d3d3d3;
+}
+.white {
+  color: white;
+}
+.error dd {
+  font-size: 12px;
+  color: red;
+}
+#flash {
+  text-align: center;
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+
+  margin: 0 auto -40px;
+}
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 40px;
+}
+#footer {
+  background-color: #d3d3d3;
+}
+/* Majors */
+.data,
+.data td {
+  border: 1px solid #aaa;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  text-align: center;
+}
+.data th {
+  font-weight: bold;
+  background-color: #7db223;
+  color: white;
+}
+
+/* MailChimp Form Embed Code - Slim - 08/17/2011 */
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}
+#mc_embed_signup .clear {clear:none; display:inline;}
+
+#mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
+#mc_embed_signup input.email {display:block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:58%; min-width:130px;}
+#mc_embed_signup input.button {display:block; width:35%; margin:0 0 10px 0; min-width:90px;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+.signupForm label{
+    width: 135px !important;
+    text-align: left !important;
+}
+
+.signupForm .controls{
+    margin-left:0px !important;
+}

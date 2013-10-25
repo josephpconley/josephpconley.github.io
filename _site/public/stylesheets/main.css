@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   height: 100%;
 }
 /*	font-family: Trebuchet MS, Helvetica, Arial, sans-serif; */
@@ -23,24 +22,24 @@ a img {
   width: 30px;
   margin-top: 3px !important;
 }
+
 .header {
-  display: block;
-  font-weight: bold;
+    height:75px;
+    border-bottom: 1px solid gray;
 }
-.logo {
-  float: left;
-  color: #fff;
-  font-style: italic;
-  font-size: 24px;
-  letter-spacing: -2px;
-  text-shadow: 1px 2px 2px #000;
-  margin-top: 10px;
-  margin-right: 25px;
-}
+
 .logo a {
-  color: #fff;
-  text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 50px;
+    text-decoration: none;
 }
+
+.logo a:hover{
+    color: black;
+}
+
 .grid {
   text-align: center;
   -webkit-border-radius: 3px;

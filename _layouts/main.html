@@ -2,17 +2,18 @@
 <html lang="en">
     <head>
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" media="screen" href="/public/stylesheets/main.css">
-        <link rel="stylesheet" media="screen" href="/public/stylesheets/secure.css">
-        <link rel="stylesheet" media="screen" href="/public/stylesheets/south-street/jquery-ui-1.9.0.custom.css">
-        <link rel="shortcut icon" type="image/png" href="/public/images/favicon.png">
-
         <script src="/public/javascripts/jquery-1.7.2.min.js" type="text/javascript"></script>
         <script src="/public/javascripts/jquery-ui-1.8.20.custom.min.js" type="text/javascript"></script>
 
         <!-- bootstrap stuff -->
         <link rel="stylesheet" media="screen" href="/public/bootstrap/css/bootstrap.css")">
         <link rel="stylesheet" media="screen" href="/public/bootstrap/css/bootstrap-responsive.css")">
+
+        <link rel="stylesheet" media="screen" href="/public/stylesheets/main.css">
+        <link rel="stylesheet" media="screen" href="/public/stylesheets/secure.css">
+        <link rel="stylesheet" media="screen" href="/public/stylesheets/south-street/jquery-ui-1.9.0.custom.css">
+        <link rel="shortcut icon" type="image/png" href="/public/images/favicon.png">
+
         <script src="/public/bootstrap/js/bootstrap.min.js")" type="text/javascript"></script>
         <script src="/public/bootstrap/js/bootstrap-dropdown.js")" type="text/javascript"></script>
         <script src="/public/bootstrap/js/bootstrap-collapse.js")" type="text/javascript"></script>
@@ -21,39 +22,37 @@
     <div id="wrap">
         <div class="container" style="width:100% !important;">
             <div class="row header">
-                <div class="offset1 span11">
+                <div class="offset2 span10">
                     <span class="logo pull-left"><a href="/">Joe Conley</a></span>
                 </div>
             </div>
             <div class="row">
-                <section class="offset1 span7">
+                <section class="offset2 span6 content">
                     {{ content }}
                 </section>
-                <div class="offset1 span3">
-                    <div data-spy="affix" class="affix-top affix">
-                        <h5 class="golfUrl">ABOUT</h5>
-                        <p>
-                            SwingStats is a comprehensive cloud golf management suite, built by golfers and for golfers.
-                            We wanted an application to not only keep our scores and handicap but also help us connect with our friends,
-                            coordinate group outings, and try out different scoring formats to enjoy the game of golf.
-                        </p>
-                        <hr>
-                        <h5 class="golfUrl">FOLLOW</h5>
-                        <div>
-                            <a href="https://twitter.com/SwingStats" target="_blank"><i class="golfGreen icon-twitter-sign icon-2x"></i></a>
-                            <a href="https://www.facebook.com/pages/Swing-Stats/311138279006469" target="_blank"><i class="golfGreen icon-facebook-sign icon-2x"></i></a>
-                            <a href="http://www.linkedin.com/company/3157665?trk=tyah" target="_blank"><i class="golfGreen icon-linkedin-sign icon-2x"></i></a>
-                            <a href="https://plus.google.com/u/1/109524906109933445274/posts" target="_blank"><i class="golfGreen icon-google-plus-sign icon-2x"></i></a>
-                            <a href="/feed.xml" target="_blank"><i class="golfGreen icon-rss-sign icon-2x"></i></a>
-                        </div>
-                        <hr>
-                        <h5 class="golfUrl">NEWSLETTER</h5>
-                        <p><strong>Sign up to get the latest news and updates on SwingStats!</strong></p>
-                        <form class="form-inline validate" target="_blank" action="http://swingstats.us7.list-manage.com/subscribe/post?u=27e9cb0faca629837d416dc0a&amp;id=057e1b3512" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
-                            <input type="email" name="EMAIL" class="email span3" id="mce-EMAIL" placeholder="Enter a valid email address..." required>
-                            <button type="submit" class="btn btn-golf btn-small" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
-                        </form>
+                <div class="sidebar offset1 span3">
+                    <h5 class="golfUrl">ABOUT</h5>
+                    <p>
+                        SwingStats is a comprehensive cloud golf management suite, built by golfers and for golfers.
+                        We wanted an application to not only keep our scores and handicap but also help us connect with our friends,
+                        coordinate group outings, and try out different scoring formats to enjoy the game of golf.
+                    </p>
+                    <hr>
+                    <h5 class="golfUrl">FOLLOW</h5>
+                    <div>
+                        <a href="https://twitter.com/SwingStats" target="_blank"><i class="golfGreen icon-twitter-sign icon-2x"></i></a>
+                        <a href="https://www.facebook.com/pages/Swing-Stats/311138279006469" target="_blank"><i class="golfGreen icon-facebook-sign icon-2x"></i></a>
+                        <a href="http://www.linkedin.com/company/3157665?trk=tyah" target="_blank"><i class="golfGreen icon-linkedin-sign icon-2x"></i></a>
+                        <a href="https://plus.google.com/u/1/109524906109933445274/posts" target="_blank"><i class="golfGreen icon-google-plus-sign icon-2x"></i></a>
+                        <a href="/feed.xml" target="_blank"><i class="golfGreen icon-rss-sign icon-2x"></i></a>
                     </div>
+                    <hr>
+                    <h5 class="golfUrl">NEWSLETTER</h5>
+                    <p><strong>Sign up to get the latest news and updates on SwingStats!</strong></p>
+                    <form class="form-inline validate" target="_blank" action="http://swingstats.us7.list-manage.com/subscribe/post?u=27e9cb0faca629837d416dc0a&amp;id=057e1b3512" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
+                        <input type="email" name="EMAIL" class="email span3" id="mce-EMAIL" placeholder="Enter a valid email address..." required>
+                        <button type="submit" class="btn btn-golf btn-small" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+                    </form>
                 </div>
             </div>
         </div>

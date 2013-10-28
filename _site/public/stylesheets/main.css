@@ -4,28 +4,32 @@ html, body {
 /*	font-family: Trebuchet MS, Helvetica, Arial, sans-serif; */
 body {
   background-color: #F5F5F5;
-  font-size: 14px;
 }
+
+body, input, textarea {
+    font: 15px;
+    line-height: 22px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 24px;
+    margin-bottom: 2em;
+}
+
 a img {
   border: none;
-}
-.userIcon {
-  height: 40px;
-  width: 40px;
-  margin-top: -10px;
-  overflow: hidden;
-}
-.sidebar li > a {
-  text-align: left;
-}
-.sidebar i {
-  width: 30px;
-  margin-top: 3px !important;
 }
 
 .header {
     height:75px;
     border-bottom: 1px solid gray;
+}
+
+.sidebar {
+    margin-top:25px;
+    border-left: 1px solid gray;
+    padding-left:40px;
 }
 
 .logo a {
@@ -40,91 +44,10 @@ a img {
     color: black;
 }
 
-.grid {
-  text-align: center;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+.content{
+    font-size:
 }
-.infoTable td {
-  padding: 10px;
-}
-.feed {
-  border-top: 1px solid #d3d3d3;
-  border-right: 1px solid #d3d3d3;
-  border-left: 1px solid #d3d3d3;
-}
-.feed .media:first-child {
-  margin-top: 15px !important;
-}
-.media {
-  margin-bottom: 15px !important;
-}
-.status {
-  border-bottom: 1px solid #d3d3d3;
-}
-.scorecard th {
-  text-align: center !important;
-}
-.scorecard tr td {
-  color: black;
-  margin: 0px;
-  padding: 2px !important;
-  text-align: center !important;
-  vertical-align: middle !important;
-}
-.scorecard input {
-  width: 15px;
-  margin-bottom: 4px;
-}
-/* Global */
-.errors {
-  color: red;
-  font-weight: bold;
-}
-.golfUrl {
-  color: #6b981e;
-}
-.golfUrl:hover {
-  color: #6b981e;
-  text-decoration: none;
-}
-.golfUrl:active {
-  color: #6b981e;
-}
-.golfUrl:visited {
-  color: #6b981e;
-}
-.mini {
-  width: 50px;
-}
-.offset0 {
-  margin-left: 50px important!;
-}
-img.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.center {
-  margin: 5% 30%;
-}
-.golfGreen {
-  color: #6b981e;
-}
-.golfGray {
-  color: #d3d3d3;
-}
-.white {
-  color: white;
-}
-.error dd {
-  font-size: 12px;
-  color: red;
-}
-#flash {
-  text-align: center;
-}
+
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
@@ -142,21 +65,7 @@ img.center {
 #footer {
   background-color: #d3d3d3;
 }
-/* Majors */
-.data,
-.data td {
-  border: 1px solid #aaa;
-  border-collapse: collapse;
-  margin: 0px;
-  padding: 0px;
-  font-size: 14px;
-  text-align: center;
-}
-.data th {
-  font-weight: bold;
-  background-color: #7db223;
-  color: white;
-}
+
 
 /* MailChimp Form Embed Code - Slim - 08/17/2011 */
 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }

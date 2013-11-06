@@ -1,7 +1,7 @@
 ---
 layout: main
 type: post
-tags: news
+tags: news joe conley
 title: Hello World
 excerpt: SwingStats is a free social golf network, built by and for golfers.  We built this application to solve two problems.
          Firstly, we wanted to help golfers to track their scores and maintain a valid handicap (without needing to belong to a country club).

@@ -51,6 +51,11 @@ a img {
     background-color: white;
 }
 
+#twitter-widget-0 {
+    max-width: 360px !important;
+    width: 360px;
+}
+
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;

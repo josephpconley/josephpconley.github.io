@@ -5,11 +5,13 @@ title: Joe Conley
 
 {% capture date_format %}%A, %B %e %Y{% endcapture %}
 {% for post in site.posts %}
-<h3><a class="golfUrl" href="{{ post.url }}">{{ post.title }}</a></h3>
-<p>{{ post.excerpt }}</p>
-<footer class="row">
-    <small class="pull-left span2"><time datetime="{{ post.date | html_global_date }}">{{ post.date | date: date_format }}</time></small>
-    <small class="pull-right span1"><a class="golfUrl" href="{{ post.url }}">Full post</a></small>
-</footer>
+<div class="post">
+    <h3><a class="golfUrl" href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p>{{ post.excerpt }}</p>
+    <footer class="row">
+        <small class="pull-left span2"><time datetime="{{ post.date | html_global_date }}">{{ post.date | date: date_format }}</time></small>
+        <small class="pull-right span1"><a class="golfUrl" href="{{ post.url }}">Full post</a></small>
+    </footer>
+</div>
 <hr>
 {% endfor %}

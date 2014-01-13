@@ -1,11 +1,11 @@
-git.exe add .
-git.exe commit -am %1
-rem one
 call jekyll build
-git.exe checkout master
-git.exe pull
+call git add .
+call git commit -am %1
+rem one
+call git checkout master
+call git pull
 rem two
 cp -r _site/* . && rm -rf _site/ && touch .nojekyll
-git.exe add .
-git.exe commit -am %1
-git.exe push --all origin
+call git add .
+call git commit -am %1
+call git push --all origin

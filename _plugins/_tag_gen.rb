@@ -35,6 +35,10 @@ module Jekyll
         site.tags.keys.each do |tag|
           write_tag_index(site, File.join(dir, tag), tag)
         end
+
+        site.tags.each do |tag|
+          write_tag_rss(site, "tags", tag)
+        end
       end
     end
     def write_tag_index(site, dir, tag)
@@ -43,8 +47,10 @@ module Jekyll
       index.write(site.dest)
       site.pages << index
     end
-    def write_tag_rss(site, dir, tag)
-
+    def write_tag_rss(site, type, posts)
+      path = "/#{type}/#{posts[0]}"
+      feed = RssPage.new(site, site.source, path, type, posts[0], posts[1])
+      site.pages << feed
     end
   end
 end

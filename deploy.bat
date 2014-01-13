@@ -1,7 +1,7 @@
 git.exe add .
 git.exe commit -am %1
 rem one
-jekyll.exe build
+call jekyll build
 git.exe checkout master
 git.exe pull
 rem two

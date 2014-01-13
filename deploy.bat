@@ -1,9 +1,9 @@
-git add .
-git commit -am %1
+call git add .
+call git commit -am %1
 call jekyll build
-git checkout master
-git pull
-cp -r _site/* . && rm -rf _site/ && touch .nojekyll
-git add .
-git commit -am %1
-git push --all origin
+call git checkout master
+call git pull
+call cp -r _site/* . && rm -rf _site/ && touch .nojekyll
+call git add .
+call git commit -am %1
+call git push --all origin

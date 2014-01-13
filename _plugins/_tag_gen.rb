@@ -13,6 +13,20 @@ module Jekyll
       self.data['title'] = "#{tag_title_prefix}#{tag}#{tag_title_suffix}"
     end
   end
+  class RssPage < Page
+    def initialize(site, base, dir, type, val, posts)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = 'feed.xml'
+
+      self.process(@name)
+      self.read_yaml(File.join(base, '_layouts'), "tag_feed.xml")
+      self.data[type] = val
+      self.data["grouptype"] = type
+      self.data["posts"] = posts[0..9]
+    end
+  end
   class TagGenerator < Generator
     safe true
     def generate(site)
@@ -28,6 +42,9 @@ module Jekyll
       index.render(site.layouts, site.site_payload)
       index.write(site.dest)
       site.pages << index
+    end
+    def write_tag_rss(site, dir, tag)
+
     end
   end
 end

@@ -1,11 +1,12 @@
 ---
 layout: main
 ---
-
 {% capture date_format %}%b %-d %Y{% endcapture %}
-
 <div class="row">
-    <h2 class="offset2 post_title">{{page.title}}</h2>
+    <h2 class="offset2 post_title">
+        {{ page.title }}
+        <a href="/tags/{{ page.tag }}/feed.xml" target="_blank"><i class="icon-rss-sign"></i></a>
+    </h2>
     <br>
 </div>
 

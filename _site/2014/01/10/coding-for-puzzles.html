@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>{{ page.title }}</title>
+        <title>Coding for Puzzles</title>
         <script src="/public/javascripts/jquery-1.7.2.min.js" type="text/javascript"></script>
         <script src="/public/javascripts/jquery-ui-1.8.20.custom.min.js" type="text/javascript"></script>
 
@@ -34,17 +34,25 @@
                 <div class="row">
                     <div class="offset2 span10">
                         <div class="title pull-left">
-                            <a class="logo" href="/">{{ site.name }}</a>
-                            <i style="margin-left:20px;">{{ site.description }}</i>
+                            <a class="logo" href="/">Joe's Tech Blog</a>
+                            <i style="margin-left:20px;">Random musings about programming</i>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="offset2 span6">
                         Tags:
-                        {% for tag in site.tags %}
-                        <a href="/tags/{{ tag | first}}/">{{ tag | first}}</a>
-                        {% endfor %}
+                        
+                        <a href="/tags/swingstats/">swingstats</a>
+                        
+                        <a href="/tags/play/">play</a>
+                        
+                        <a href="/tags/scala/">scala</a>
+                        
+                        <a href="/tags/puzzles/">puzzles</a>
+                        
+                        <a href="/tags/android/">android</a>
+                        
                     </div>
                     <div class="sidebar offset1 span3">
                         <a href="/feed.xml" target="_blank"><i class="icon-rss-sign icon-2x"></i></a>
@@ -54,7 +62,27 @@
             </div>
             <div class="row">
                 <section class="span8 content">
-                    {{ content }}
+                    <div class="offset2">
+    <p>I&#8217;m a big fan of NPR&#8217;s weekly puzzle.</p>
+
+    <hr>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'josephpconley'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
                 </section>
                 <div class="sidebar offset1 span3" style="margin-top:25px;">
                     <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>

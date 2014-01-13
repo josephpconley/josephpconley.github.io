@@ -1,27 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Joe's Blog</title>
-        <description>Coding How-To's and other random musings</description>
+        <title>Joe's Tech Blog</title>
+        <description>Random musings about programming</description>
         <link>http://www.josephpconley.com</link>
         <atom:link href="http://www.josephpconley.com/feed.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Hello World</title>
-            <description>&lt;h3&gt;Hello World!&lt;/h3&gt;&lt;hr /&gt;&lt;div id='disqus_thread' /&gt;&lt;script type='text/javascript'&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'josephpconley'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;&lt;noscript&gt;Please enable JavaScript to view the &lt;a href='http://disqus.com/?ref_noscript'&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;&lt;a class='dsq-brlink' href='http://disqus.com'&gt;comments powered by &lt;span class='logo-disqus'&gt;Disqus&lt;/span&gt;&lt;/a&gt;</description>
+            <title>New Android app for SwingStats</title>
+            <description>&lt;h3&gt;Hello World!&lt;/h3&gt;</description>
+            <pubDate>Tue, 25 Feb 2014 00:00:00 -0500</pubDate>
+            <link>http://www.josephpconley.com/2014/02/25/introducing-swingdroid.html</link>
+            <guid isPermaLink="true">http://www.josephpconley.com/2014/02/25/introducing-swingdroid.html</guid>
+        </item>
+        
+        <item>
+            <title>Equitable Score Control (ESC) and You</title>
+            <description>&lt;h3&gt;Hello World!&lt;/h3&gt;</description>
+            <pubDate>Wed, 15 Jan 2014 00:00:00 -0500</pubDate>
+            <link>http://www.josephpconley.com/2014/01/15/equitable-score-control-and-you.html</link>
+            <guid isPermaLink="true">http://www.josephpconley.com/2014/01/15/equitable-score-control-and-you.html</guid>
+        </item>
+        
+        <item>
+            <title>Coding for Puzzles</title>
+            <description>&lt;p&gt;I&amp;#8217;m a big fan of NPR&amp;#8217;s weekly puzzle.&lt;/p&gt;</description>
+            <pubDate>Fri, 10 Jan 2014 00:00:00 -0500</pubDate>
+            <link>http://www.josephpconley.com/2014/01/10/coding-for-puzzles.html</link>
+            <guid isPermaLink="true">http://www.josephpconley.com/2014/01/10/coding-for-puzzles.html</guid>
+        </item>
+        
+        <item>
+            <title>Intro to SwingStats</title>
+            <description>&lt;h3&gt;Hello World!&lt;/h3&gt;</description>
             <pubDate>Mon, 11 Nov 2013 00:00:00 -0500</pubDate>
-            <link>http://www.josephpconley.com/2013/11/11/hello-world.html</link>
-            <guid isPermaLink="true">http://www.josephpconley.com/2013/11/11/hello-world.html</guid>
+            <link>http://www.josephpconley.com/2013/11/11/intro-to-swingstats.html</link>
+            <guid isPermaLink="true">http://www.josephpconley.com/2013/11/11/intro-to-swingstats.html</guid>
         </item>
         
     </channel>

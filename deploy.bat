@@ -1,11 +1,11 @@
 call jekyll build
 call git add .
 call git commit -am %1
-rem one
+echo one
 call git checkout master
-rem two
+echo two
 call git pull
-rem three
+echo three
 cp -r _site/* . && rm -rf _site/ && touch .nojekyll
 call git add .
 call git commit -am %1

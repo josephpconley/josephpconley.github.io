@@ -3,14 +3,12 @@ html, body {
 }
 /*	font-family: Trebuchet MS, Helvetica, Arial, sans-serif; */
 body, input, textarea {
-    font: 15px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 150%;
 }
 
 p {
-    font-size: 1em;
-    line-height: 24px;
-    margin-bottom: 2em;
+    margin: 1.5em 0;
 }
 
 a img {
@@ -18,7 +16,7 @@ a img {
 }
 
 .header {
-    height:80px;
+    height:85px;
     border-bottom: 1px solid gray;
 }
 

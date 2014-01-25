@@ -36,7 +36,7 @@ That's it!  You can find my complete code as part of my [scrape library](https:/
 {% gist 8591058 %}
 
 ## Deploy using Play
-Now that we have a way to generate an up-to-date RSS feed, we need a way to update our feed periodically and make it publically available to an RSS Reader like [feedly](feedly.com) (my personal favorite).  We could handle this a few different ways (i.e. schedule a CRON job to push a file to our Dropbox folder), however I'd like to demonstrate how to handle both the scheduling and file writing/serving using the Play Framework.
+Now that we have a way to generate an up-to-date RSS feed, we need a way to update our feed periodically and make it publically available to an RSS Reader like [feedly](http://feedly.com) (my personal favorite).  We could handle this a few different ways (i.e. schedule a CRON job to push a file to our Dropbox folder), however I'd like to demonstrate how to handle both the scheduling and file writing/serving using the Play Framework.
 
 Start a new Play Scala project, and either package our ebook project as a jar and copy to the lib folder, or just copy and paste the source code into the new Play project (I've done the former).
 

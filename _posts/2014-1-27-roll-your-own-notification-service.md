@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: htmlunit playframework rss sbt scala scrape
+tags: akka playframework rss sbt scala scrape
 title: Roll Your Own Notification Service
 published: true
 ---

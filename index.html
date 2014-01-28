@@ -5,10 +5,10 @@ title: Joe's Tech Blog
 
 {% capture date_format %}%b %-d %Y{% endcapture %}
 {% for post in site.posts %}
-<div class="col-md-2">
+<div class="col-sm-2 col-md-2">
     <small class="pull-right" style="margin-top:25px;"><time datetime="{{ post.date | html_global_date }}">{{ post.date | date: date_format }}</time></small>
 </div>
-<div class="col-md-5 post">
+<div class="col-sm-7 col-md-5 post">
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
     <p>{{ post.excerpt }}</p>
     <div class="pull-left">

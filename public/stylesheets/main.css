@@ -15,6 +15,13 @@ a img {
   border: none;
 }
 
+code.has-jax {
+	font: inherit; 
+	font-size: 100%; 
+	background: inherit; 
+	border: inherit;
+}
+
 .header {
     height:85px;
     border-bottom: 1px solid gray;

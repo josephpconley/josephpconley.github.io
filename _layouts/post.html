@@ -6,46 +6,46 @@ layout: main
 </div>
 <div class="col-xs-11 col-sm-11 col-md-9">
     <h1>{{ page.title }}</h1>
-        <div class="row">
-            <div class="col-md-12">
-            <table style="padding:0px;">
-                <tr>
-                    <td><a href="https://twitter.com/share" class="twitter-share-button" data-via="josephpconley">Tweet</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                    </td>
-                    <td>
-                        <div style="height: 20px !important; width: 100px !important;">
-                            <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
-                            <script type="IN/Share" data-counter="right"></script>
-                        </div>                            
-                    </td>
-                    <td>
-                        <!-- Place this tag where you want the +1 button to render. -->
-                        <div class="g-plusone" data-annotation="inline" data-width="50" style="width:50px !important"></div>
-                        <!-- Place this tag after the last +1 button tag. -->
-                        <script type="text/javascript">
-                          (function() {
-                            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                            po.src = 'https://apis.google.com/js/platform.js';
-                            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                          })();
-                        </script>
-                    </td>
-                    <td>
-                        <div id="fb-root"></div>
-                        <script>(function(d, s, id) {
-                          var js, fjs = d.getElementsByTagName(s)[0];
-                          if (d.getElementById(id)) return;
-                          js = d.createElement(s); js.id = id;
-                          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=202281876449506";
-                          fjs.parentNode.insertBefore(js, fjs);
-                        }(document, 'script', 'facebook-jssdk'));</script>
-                        <div class="fb-like pull-right" data-href="{{ site.url }}{{ page.url }}" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
-                    </td>
-                </tr>                
-            </table>            
-            </div>
-        </div>            
+    <div class="row">
+        <div class="col-md-12">
+        <table style="padding:0px;">
+            <tr>
+                <td><a href="https://twitter.com/share" class="twitter-share-button" data-via="josephpconley">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </td>
+                <td>
+                    <div style="height: 20px !important; width: 100px !important;">
+                        <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+                        <script type="IN/Share" data-counter="right"></script>
+                    </div>                            
+                </td>
+                <td>
+                    <!-- Place this tag where you want the +1 button to render. -->
+                    <div class="g-plusone" data-annotation="inline" data-width="50" style="width:50px !important"></div>
+                    <!-- Place this tag after the last +1 button tag. -->
+                    <script type="text/javascript">
+                      (function() {
+                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                        po.src = 'https://apis.google.com/js/platform.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                      })();
+                    </script>
+                </td>
+                <td>
+                    <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id;
+                      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=202281876449506";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+                    <div class="fb-like pull-right" data-href="{{ site.url }}{{ page.url }}" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
+                </td>
+            </tr>                
+        </table>            
+        </div>
+    </div>
     {{ content }}
     <hr>
     <div id="disqus_thread"></div>

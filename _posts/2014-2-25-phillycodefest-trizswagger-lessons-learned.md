@@ -10,7 +10,7 @@ This past weekend I teamed up with some buddies from [Point.io](http://point.io)
 
 <table class="image">
 	<caption align="bottom">Angel demoing Point.io's apiDoc service</caption>
-	<tr><td><img src="https://pbs.twimg.com/media/BhF9CrRIcAASzov.jpg" alt="Angel promoting Point.io"/></td></tr>
+	<tr><td><img src="/assets/angel.jpg" alt="Angel promoting Point.io"/></td></tr>
 </table>
 
 &#x20;<br>
@@ -36,5 +36,5 @@ Overall it was an awesome experience.  Even though we didn't win (or place, or s
 
 <table class="image">
 	<caption align="bottom">Jon, Dylan, and Joe doing some last-minute coding</caption>
-	<tr><td><img src="https://pbs.twimg.com/media/BhL7wYeIAAAKUpz.jpg" alt="Jon, Dylan, and Joe doing some last-minute coding"/></td></tr>
+	<tr><td><img src="/assets/triz.jpg" alt="Jon, Dylan, and Joe doing some last-minute coding"/></td></tr>
 </table>

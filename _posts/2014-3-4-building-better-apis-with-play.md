@@ -2,11 +2,11 @@
 layout: post
 type: post
 tags: api playframework point.io scala
-title: Building better APIs with Play! (with code examples)
+title: Building better APIs with Play! (code examples)
 published: true
 ---
 
-This is the technical companion to my Point.io post, [Building better APIs with Play!](http://point.io/blog).  Herein lies coding examples galore!
+This is the technical companion to my Point.io post, [Building better APIs with Play!](http://point.io/article/building-better-apis-play).  Herein lies coding examples galore!
 
 ## RESTful Architecture - Routing
 
@@ -14,9 +14,9 @@ The routes file of a Play app allows you to define the HTTP verb, the route path
 
 {% gist 9337208 %}
 
-## Action composition and Filtering
+## Action composition
 
-We define two types of custom actions: atomic and composed.  Atomic actions can be used stand-alone or as building blocks to be composed with other actions.  We use the following pattern for building a custom atomic action.
+We define two types of custom actions: atomic and composed.  Atomic actions can be used stand-alone or as building blocks to be composed with other actions.  We use the following pattern for building an atomic action.
 
 {% gist 9345681 %}
 
@@ -28,7 +28,7 @@ A composed action is strictly syntactic sugar, making it more convenient to comb
 
 {% gist 9345746 %}
 
-Here you'll notice the importance of naming both types of actions.
+## Filters
 
 [Filters](http://www.playframework.com/documentation/2.2.2/ScalaHttpFilters) are handy for cross-cutting concerns.  We've had one use case where it was necessary to modify every JSON response with links to metadata.  We achieved this using a filter and the [Play Enumeratee library](http://www.playframework.com/documentation/2.2.2/Enumeratees)
 
@@ -36,10 +36,10 @@ Here you'll notice the importance of naming both types of actions.
 
 ## JSON - Global messaging
 
-Building an API requires being responsive to users in a comprehensive manner, whether there be errors on the server or incorrect requests from the client.  Creating a Global object allows you to generically craft responses to handle these situations.  We define methods to handle events like internal errors, route not found, or a bad request.
+Building an effective API requires being responsive to users in a comprehensive manner.  All concievable events should be handled appropriately, such as incorrect requests from the client or internal server errors.  Creating a Global object allows you to generically craft responses to handle these situations.  We define methods to handle events like internal errors, route not found, or a bad request.
 
 {% gist 9345819 %}
 
 ## Conclusion
 
-Play is well-equipped to handle the nuances of API development and maintenance.
+Play is well-equipped to handle the nuances of API development and maintenance.  We're pleased with the stability and performance we've seen thus far and are looking forward to continuing down this path of [reactive goodness](http://www.reactivemanifesto.org/).  

@@ -4,20 +4,12 @@ blog
 My personal blog
 
 
-INSTALLING JEKYLL
+## Installing Jekyll on Windows
 
-yum install ruby-devel
-
-#From rubyforge
-wget http://rubyforge.org/frs/download.php/75475/rubygems-1.8.11.tgz
-tar -xzf rubygems-1.8.11.tgz
-cd rubygems-1.8.11
-ruby setup.rb
-
-gem install jekyll
+http://www.madhur.co.in/blog/2011/09/01/runningjekyllwindows.html
 
 #markdown
 What's better, RDiscount or Maruku?
 
-RUNNING JEKYLL
+## Running Jekyll
 jekyll -w serve

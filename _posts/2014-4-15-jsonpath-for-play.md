@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: datahub playframework json api
+tags: datahub playframework json api scala
 title: JSONPath Library for Play
 published: true
 ---

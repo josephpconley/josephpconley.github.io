@@ -2,7 +2,7 @@
 layout: post
 type: post
 tags: datahub playframework json api
-title: JSONPath for Play
+title: JSONPath Library for Play
 published: true
 ---
 

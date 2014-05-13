@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: knockoutjs mongodb playframework point.io scala
+tags: knockoutjs mongodb opendata playframework point.io scala
 title: (Triz)Swagging out at the Philly Codefest - Lessons Learned
 published: true
 ---

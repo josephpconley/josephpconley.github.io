@@ -13,7 +13,7 @@ title: Joe's Tech Blog
     <p>{{ post.excerpt }}</p>
     <div class="pull-left">
         {% for tag in post.tags %}
-        <a href="/tags/{{ tag }}/">{{ tag }}</a>
+        <a href="/tags/{{ tag }}/"><span class="label label-default">{{ tag }}</span></a>
         {% endfor %}
     </div>
     <div class="pull-right"><small class="pull-right"><a href="{{ post.url }}">Full post</a></small></div>

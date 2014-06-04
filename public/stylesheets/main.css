@@ -3,7 +3,6 @@ html, body {
 }
 /*	font-family: Trebuchet MS, Helvetica, Arial, sans-serif; */
 body, input, textarea {
-    font-size: 16px;
     line-height: 150%;
 }
 
@@ -40,6 +39,14 @@ code.has-jax {
 .post{
     border-bottom: 1px dotted #aab;
     margin-bottom: 20px;
+}
+
+p.copy + p, .copy{
+  font-size: 16px !important;
+}
+
+.clickableRow:hover{
+  cursor: pointer;
 }
 
 #twitter-widget-0 {

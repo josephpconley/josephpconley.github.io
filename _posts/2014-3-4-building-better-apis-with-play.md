@@ -4,6 +4,7 @@ type: post
 tags: api playframework point.io scala
 title: Building better APIs with Play! (code examples)
 published: true
+description: This is the technical companion to my Point.io post, Building better APIs with Play!  Herein lies coding examples galore!
 ---
 
 This is the technical companion to my Point.io post, [Building better APIs with Play!](http://point.io/article/building-better-apis-play).  Herein lies coding examples galore!

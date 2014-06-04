@@ -4,6 +4,7 @@ type: post
 tags: knockoutjs mongodb opendata playframework point.io scala
 title: (Triz)Swagging out at the Philly Codefest - Lessons Learned
 published: true
+description: This past weekend I teamed up with some buddies from Point.io to participate in my first hackathon, Philly Codefest.
 ---
 
 This past weekend I teamed up with some buddies from [Point.io](http://point.io) ([Angel](https://twitter.com/twrivera), [Jon](https://twitter.com/jxshin75), and [Dylan](https://twitter.com/dyang_pointio)) to participate in my first hackathon, [Philly Codefest](http://phillycodefest.com/).  We spent the weekend bringing Angel's dream to life: a platform called TrizSwagger to analyze and track the use of "swag" (i.e. T-shirts, office supplies, and other marketing mathoms).  We leveraged social media and geolocation to give companies real-time visibility to their marketing campaigns.  Feel free to check out the app [here](http://www.trizswagger.com/).

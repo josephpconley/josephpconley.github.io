@@ -4,6 +4,7 @@ type: post
 tags: datacombinator playframework json api scala
 title: JSONPath Library for Play
 published: true
+description: I've been working on a platform that transforms, composes, and serves data.  As part of this effort, I've developed a library for Play that performs a JSONPath query on a Play JsValue. 
 ---
 
 I've been working on a platform that transforms, composes, and serves data.  As part of this effort, I've developed a [library for Play](https://github.com/josephpconley/play-jsonpath) that performs a JSONPath query on a Play JsValue. You can learn about JSONPath by reading [Stefan Goessner's blog post](http://goessner.net/articles/JsonPath/) on the subject. 

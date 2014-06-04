@@ -4,6 +4,7 @@ type: post
 tags: golf scala statistics
 title: Accenture Match Play Statistics
 published: true
+description: February madness is here!  The Accenture Match Play Championship starts today, and although the usual big names of Tiger, Phil, and Adam Scott are absent this year, there still promises to be some drama.  
 ---
 
 February madness is here!  The [Accenture Match Play Championship](http://www.worldgolfchampionships.com/accenture-match-play-championship.html) starts today, and although the usual big names of Tiger, Phil, and Adam Scott are absent this year, there still promises to be some drama.  Can Matt Kuchar become the first player not named Tiger to go back-to-back?  Will Jimmy Walker improve upon his obscene winning percentage this year?  Will past Ryder Cup emotions fuel players to victory (looking at you Mr. Poulter)?  We'll find out.

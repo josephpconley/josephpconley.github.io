@@ -4,6 +4,7 @@ type: post
 tags: knockoutjs playframework puzzles scala
 title: Hacking NPR's Sunday Puzzle, and other Puzzling Tools
 published: true
+description: I've built an app to help non-programmers solve word puzzles, including utilities like an Anagram checker and a Scrabble solution generator.
 ---
 
 I'm a big fan of puzzles.  I'll often start my day attempting the Philadelphia Inquirer's jumble and crossword, with varying degress of success.  One puzzle I never miss is [NPR's Weekend Edition Puzzle](http://www.npr.org/series/4473090/sunday-puzzle) featuring New York Times puzzle editor Will Shortz.  At the end of each segment, he poses a question to the audience, and occasionally these questions can be solved with the help of programming.  To that end, I've built an app to help non-programmers solve these puzzles.  I've also added common puzzle utilities like an Anagram checker and a Scrabble solution generator.

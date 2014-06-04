@@ -4,18 +4,28 @@ title: Joe's Tech Blog
 ---
 
 {% capture date_format %}%b %-d %Y{% endcapture %}
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 <div class="col-xs-1 col-sm-1 col-md-3">
     <small class="pull-right" style="margin-top:25px;"><time datetime="{{ post.date | html_global_date }}">{{ post.date | date: date_format }}</time></small>
 </div>
 <div class="col-xs-11 col-sm-7 col-md-9 post">
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <p>{{ post.excerpt }}</p>
+    <p class="copy">{{ post.excerpt }}</p>
     <div class="pull-left">
         {% for tag in post.tags %}
-        <a href="/tags/{{ tag }}/"><span class="label label-default">{{ tag }}</span></a>
+        <a href="/tags/{{ tag }}/"><span class="label label-primary">{{ tag }}</span></a>
         {% endfor %}
     </div>
     <div class="pull-right"><small class="pull-right"><a href="{{ post.url }}">Full post</a></small></div>
 </div>
 {% endfor %}
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+<div class="col-xs-offset-1 col-xs-11 col-sm-offset-1 col-sm-11 col-md-offset-3 col-md-9">
+	<ul class="pager">
+	  	<li class="previous {% if paginator.previous_page %}{% else %}disabled{% endif %}"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a></li>
+	  	<li class="next {% if paginator.next_page %}{% else %}disabled{% endif %}"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a></li>
+	</ul>
+</div>	
+{% endif %}

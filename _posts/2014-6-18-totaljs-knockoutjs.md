@@ -2,7 +2,7 @@
 layout: post
 type: post
 tags: javascript knockoutjs nodejs totaljs 
-title: Responsive webapps using total.js and Knockout.js
+title: Build responsive webapps using total.js and Knockout.js
 published: true
 description: Use total.js and Knockout.js for rapid development of responsive webapps
 ---
@@ -35,15 +35,15 @@ Total.js follows the model-view-controller convention to much success.  Simply p
 
 ###Plays well with others
 
-Total.js enjoys all the benefits of any Node.js framework, namely access to the treasure trove of libraries in `npm`.  However, I was pleasantly surprised to find a [sizeable collection of built-in utlities](http://docs.totatljs.com) to manage common web application functionality like file operations, email, and websocket administration.  There is also the option to build your own modules by writing custom code which can hook into different events in the web application lifecycle.  Total.js [has already built a list of modules](https://www.github.com/totaljs/modules) to get you started.
+Total.js enjoys all the benefits of any Node.js framework, namely access to the treasure trove of libraries in `npm`.  However, I was pleasantly surprised to find a [sizeable collection of built-in utlities](http://docs.totaljs.com/Framework/) to manage common web application functionality like file operations, email, and websocket administration.  There is also the option to build your own modules by writing custom code which can hook into different events in the web application lifecycle.  Total.js [has already built a list of modules](https://github.com/totaljs/modules) to get you started.
 
 ###Examples
 
-One potential drawback here is the relatively small size of collaboration/interest in this framework as of now (try googling a nontrivial issue), but overall I've found that the wealth of examples provided in [totaljs examples](https://www.github.com/totaljs/examples) answered most if not all of my questions.
+One potential drawback here is the relatively small size of collaboration/interest in this framework as of now (try googling a nontrivial issue), but overall I've found that the wealth of examples provided in [totaljs examples](https://github.com/totaljs/examples) answered most if not all of my questions.
 
 ##total.js + Knockout.js - Obligatory TODO App
 
-As I evaluated Node.js frameworks, I noted that the most popular example app was the TODO application.  In that spirit, I've created a [basic TODO app using total.js and Knockout.js](https://www.github.com/totaljs/examples/knockoutjs-todo).  This app took roughly 20 minutes to build, and most of that time was spent refreshing my memory on knockout.js data-binding syntax.
+As I evaluated Node.js frameworks, I noted that the most popular example app was the TODO application.  In that spirit, I've created a [basic TODO app using total.js and Knockout.js](https://github.com/totaljs/examples/tree/master/knockoutjs-todo).  This app took roughly 20 minutes to build, and most of that time was spent refreshing my memory on knockout.js data-binding syntax.
 
 ##Caveats
 
@@ -51,4 +51,4 @@ Total.js minifies html/cs/jss by default, so debugging javascript is nigh imposs
 
 ##Conclusion
 
-There's no lack of Javascript web frameworks, and like any technology toolbox it's important to understand  surface of the framework, I would highly recommend total.js for rapid development of responsive webapps.
+There's no lack of Javascript web frameworks, and like any technology toolbox it's important to use the right tool for the job.  While I've only just scratched the surface of the framework, I would highly recommend total.js for rapid development of responsive webapps.

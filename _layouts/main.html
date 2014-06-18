@@ -93,8 +93,8 @@
                             <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 100 }}%">{{ tag | first }}</span>
                         </a>
                     {% endfor %}
+                    <!-- <div id="tags"></div> -->
                     <hr>
-
                     <a class="twitter-timeline" href="https://twitter.com/josephpconley" data-widget-id="397905147856056320">Tweets by @josephpconley</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                     <!--
@@ -111,37 +111,35 @@
     </div>
     <footer id="footer">
         <div class="container">
-            <div class="pull-right">
-                <!--
-                <div>
-                    <a href="https://twitter.com/SwingStats" target="_blank"><i class="golfGreen icon-twitter-sign icon-2x"></i></a>
-                    <a href="https://www.facebook.com/pages/Swing-Stats/311138279006469" target="_blank"><i class="golfGreen icon-facebook-sign icon-2x"></i></a>
-                    <a href="http://www.linkedin.com/company/3157665?trk=tyah" target="_blank"><i class="golfGreen icon-linkedin-sign icon-2x"></i></a>
-                    <a href="https://plus.google.com/u/1/109524906109933445274/posts" target="_blank"><i class="golfGreen icon-google-plus-sign icon-2x"></i></a>
-                    <a href="/feed.xml" target="_blank"><i class="golfGreen icon-rss-sign icon-2x"></i></a>
-                </div>
-                -->
-            </div>
+            <div class="pull-right"></div>
         </div>
     </footer>
     </body>
 </html>
 <script>
-// var tags = new Array();
-// var i = 0;
-// {% for tag in site.tags %}
-//     tags[i] = "{{ tag | first}}";
-//     i++;
-// {% endfor %}
+function compare(a,b) {
+  if (a.name < b.name)
+     return -1;
+  if (a.name > b.name)
+    return 1;
+  return 0;
+}
 
-// var tagHtml = 'Tags: ';
-// var sorted = tags.sort();
+var tags = []
+{% for tag in site.tags %}
+    var tag = {}
+    tag.name = "{{ tag | first}}"
+    tag.size = "{{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 100 }}"
+    tags.push(tag);
+{% endfor %}
 
-// for(var i = 0; i<sorted.length; i++){
-//     tagHtml += '<a href="/tags/' + sorted[i] + '"><span class="label label-primary">' + sorted[i] + '</span></a> '
-// }
+var tagHtml = '';
+var sorted = tags.sort(compare);
+for(var i = 0; i<sorted.length; i++){
+    tagHtml += '<a href="/tags/' + sorted[i].name + '"><span style="font-size:' + sorted[i].size + '%">' + sorted[i].name + '</span></a>'
+}
 
-// $("#tags").html(tagHtml);
+// $("#tags").append(tagHtml);
 
 $(".clickableRow").click(function() {
     window.open($(this).attr("href"));

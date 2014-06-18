@@ -1,5 +1,5 @@
 name: Joe's Tech Blog
 url: http://www.josephpconley.com
 description: Programming musings | Joe Conley
-paginate: 5
+paginate: 10
 paginate_path: "/page:num"

@@ -63,4 +63,4 @@ Total.js minifies html/cs/jss by default, so debugging javascript is nigh imposs
 
 ##Conclusion
 
-There's no lack of Javascript web frameworks, and like any technology toolbox it's important to use the right tool for the job.  While I've only just scratched the surface of the framework, I would highly recommend total.js to beginner and experts alike.
+There's no lack of Javascript web frameworks, and like any technology toolbox it's important to use the right tool for the job.  While I've only just scratched the surface of the framework, I would highly recommend total.js to beginners and experts alike.

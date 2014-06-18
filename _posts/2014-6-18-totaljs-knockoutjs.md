@@ -15,6 +15,12 @@ I've recently spent time evaluating the myriad universe of [Node.js](http://node
 
 After spending much time traversing the impassioned treatises of StackOverflow and consulting the hallowed counsel of the ThoughtworksRadar, I have found the simplicity of the [total.js framework](http://www.totaljs.com/) most appealing.
 
+<table class="image">
+	<tr><td><a href="http://www.totaljs.com" target="_blank"><img src="/assets/totaljs-logo.png" alt="total.js logo"/></a></td></tr>
+</table>
+
+&#x20;<br>
+
 ##Criteria
 
 ###Sensible conventions
@@ -42,6 +48,12 @@ Total.js enjoys all the benefits of any Node.js framework, namely access to the 
 One potential drawback here is the relatively small size of collaboration/interest in this framework as of now (try googling a nontrivial issue), but overall I've found that the wealth of examples provided in [totaljs examples](https://github.com/totaljs/examples) answered most if not all of my questions.
 
 ##Obligatory TODO App
+
+<table class="image">
+	<tr><td><a href="http://www.knockoutjs.com" target="_blank"><img src="/assets/ko-logo.png" alt="Knockout.js logo"/></a></td></tr>
+</table>
+
+&#x20;<br>
 
 As I evaluated Node.js frameworks, I noted that the most popular example app was the TODO application.  In that spirit, I've created a [basic TODO app using total.js and Knockout.js](https://github.com/totaljs/examples/tree/master/knockoutjs-todo).  This app took roughly 20 minutes to build, and most of that time was spent refreshing my memory on knockout.js data-binding syntax.
 

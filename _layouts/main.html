@@ -10,6 +10,7 @@
 
         <title>{{ page.title }} | Joe Conley</title>
         <script src="/public/javascripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+        <script src="/public/javascripts/jquery.tinysort.min.js" type="text/javascript"></script>
 
         <link rel="stylesheet" media="screen" href="/public/stylesheets/main.css"/>
         <link rel="shortcut icon" type="image/png" href="/public/images/favicon.png"/>
@@ -88,12 +89,13 @@
                     </table>
                     <hr>
                     <h4>Tags</h4>
+                    <div id="tags">
                     {% for tag in site.tags %}
                         <a href="/tags/{{ tag | first | slugize }}/">
                             <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 100 }}%">{{ tag | first }}</span>
                         </a>
                     {% endfor %}
-                    <!-- <div id="tags"></div> -->
+                    </div>
                     <hr>
                     <a class="twitter-timeline" href="https://twitter.com/josephpconley" data-widget-id="397905147856056320">Tweets by @josephpconley</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -125,21 +127,7 @@ function compare(a,b) {
   return 0;
 }
 
-var tags = []
-{% for tag in site.tags %}
-    var tag = {}
-    tag.name = "{{ tag | first}}"
-    tag.size = "{{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 100 }}"
-    tags.push(tag);
-{% endfor %}
-
-var tagHtml = '';
-var sorted = tags.sort(compare);
-for(var i = 0; i<sorted.length; i++){
-    tagHtml += '<a href="/tags/' + sorted[i].name + '"><span style="font-size:' + sorted[i].size + '%">' + sorted[i].name + '</span></a>'
-}
-
-// $("#tags").append(tagHtml);
+$("#tags>a").tsort();
 
 $(".clickableRow").click(function() {
     window.open($(this).attr("href"));

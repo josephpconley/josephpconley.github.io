@@ -2,12 +2,9 @@ html, body {
   height: 100%;
 }
 /*	font-family: Trebuchet MS, Helvetica, Arial, sans-serif; */
-body, input, textarea {
-    line-height: 150%;
-}
-
 p {
-    margin: 1.5em 0;
+    line-height: 175% !important;
+    margin: 1.75em 0 !important;
 }
 
 a img {

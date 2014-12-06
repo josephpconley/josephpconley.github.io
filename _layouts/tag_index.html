@@ -1,29 +1,40 @@
 ---
 layout: main
 ---
-{% capture date_format %}%b %-d %Y{% endcapture %}
-<h2 class="col-xs-offset-1 col-xs-11 col-sm-offset-5 col-sm-7 col-md-offset-3 col-md-9">
-    {{ page.title }}
-    <a href="/tags/{{ page.tag }}/feed.xml" target="_blank"><i class="fa fa-rss-square"></i></a>
-</h2>
-<br>
 
-{% for post in site.posts %}
-{% for tag in post.tags %}
-{% if tag == page.tag %}
-<div class="col-xs-1 col-sm-1 col-md-3">
-    <small class="pull-right" style="margin-top: 25px;"><time datetime="{{ post.date | html_global_date }}">{{ post.date | date: date_format }}</time></small>
-</div>
-<div class="col-xs-11 col-sm-7 col-md-9 post">
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <p class="copy">{{ post.excerpt }}</p>
-    <div class="pull-left">
-        {% for tag in post.tags %}
-        <a href="/tags/{{ tag }}/">{{ tag }}</a>
-        {% endfor %}
+<div class="col-md-offset-2 col-md-8">
+
+    <div class="row">
+        {% capture date_format %}%b %-d %Y{% endcapture %}
+        <h2>
+            {{ page.title }}
+            <a href="/tags/{{ page.tag }}/feed.xml" target="_blank"><i class="fa fa-rss-square"></i></a>
+        </h2>
+        <br>
     </div>
-    <div class="pull-right"><small class="pull-right"><a href="{{ post.url }}">Full post</a></small></div>
-</div>
-{% endif %}
-{% endfor %}
-{% endfor %}
+
+    {% capture date_format %}%b %-d %Y{% endcapture %}
+    {% for post in site.posts %}
+    {% for tag in post.tags %}
+    {% if tag == page.tag %}
+    <div class="row">
+
+        <div class="post-preview">
+            <a href="{{ post.url }}">
+                <h2 class="post-title">{{ post.title }}</h2>
+            </a>
+            <p class="post-subtitle">{{ post.subtitle }}</p>
+            <p class="post-meta">
+                Posted on <time datetime="{{ post.date | html_global_date }}">{{ post.date | date: date_format }}</time>
+                &nbsp;&nbsp;&nbsp;
+                {% for tag in post.tags %}
+                <a href="/tags/{{ tag }}/"><span class="label label-default">{{ tag }}</span></a>
+                {% endfor %}
+            </p>
+        </div>
+        <hr>
+    </div>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+</div>    

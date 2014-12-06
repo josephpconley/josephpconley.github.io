@@ -2,7 +2,8 @@
 layout: post
 type: post
 tags: datacombinator api json xml csv opendata
-title: Query JSON/XML/CSV using SQL, and other useful data transformations
+title: Query JSON/XML/CSV using SQL
+subtitle: ...and other useful data transformations
 published: true
 description: Ever wish you could use your favorite query language across different data formats?  Or get query results in several formats (XML, JSON, and CSV/XLS)?  Then check out DataCombinator's new query engine.
 ---

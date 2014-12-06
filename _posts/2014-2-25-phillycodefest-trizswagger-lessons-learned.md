@@ -2,7 +2,8 @@
 layout: post
 type: post
 tags: knockoutjs mongodb opendata playframework point.io scala
-title: (Triz)Swagging out at the Philly Codefest - Lessons Learned
+title: (Triz)Swagging out at the Philly Codefest
+subtitle: Lessons learned from my first hackathon
 published: true
 description: This past weekend I teamed up with some buddies from Point.io to participate in my first hackathon, Philly Codefest.
 ---

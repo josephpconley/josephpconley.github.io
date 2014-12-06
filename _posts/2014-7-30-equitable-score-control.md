@@ -3,6 +3,7 @@ layout: post
 type: post
 tags: golf swingstats
 title: Equitable Stroke Control
+subtitle: Calculating your golfing handicap the correct way.
 published: true
 ---
 

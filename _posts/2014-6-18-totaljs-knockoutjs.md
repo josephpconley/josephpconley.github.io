@@ -3,6 +3,7 @@ layout: post
 type: post
 tags: javascript knockoutjs nodejs totaljs 
 title: Build responsive webapps using total.js and Knockout.js
+subtitle: Rapid web application development powered by Node.js and NoSQL
 published: true
 description: Use total.js and Knockout.js for rapid development of responsive webapps
 ---

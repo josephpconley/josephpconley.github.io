@@ -3,6 +3,7 @@ layout: post
 type: post
 tags: datacombinator playframework json api scala
 title: JSONPath Library for Play
+subtitle: Efficient query language for JSON and Play apps
 published: true
 description: I've been working on a platform that transforms, composes, and serves data.  As part of this effort, I've developed a library for Play that performs a JSONPath query on a Play JsValue. 
 ---

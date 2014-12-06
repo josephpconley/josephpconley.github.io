@@ -3,6 +3,7 @@ layout: post
 type: post
 tags: golf majors statistics
 title: 2014 PGA Championship Preview
+subtitle: Glory's Last Shot of 2014
 published: true
 ---
 

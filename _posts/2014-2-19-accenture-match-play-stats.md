@@ -3,6 +3,7 @@ layout: post
 type: post
 tags: golf scala statistics
 title: Accenture Match Play Statistics
+subtitle: March madness comes a month early.
 published: true
 description: February madness is here!  The Accenture Match Play Championship starts today, and although the usual big names of Tiger, Phil, and Adam Scott are absent this year, there still promises to be some drama.  
 ---

@@ -3,6 +3,7 @@ layout: post
 type: post
 tags: akka playframework rss sbt scala scrape
 title: Roll Your Own Notification Service
+subtitle: Screen scraping and Scala to the rescue!
 published: true
 description: Have you ever wished you could receive customized updates whenever your favorite websites update their content?  Armed with the mighty powers of HTML scraping, the Scala programming language, and a recurring scheduling mechanism (in this case Play's Akka scheduler), you have all the tools you need to setup your custom notification.  
 ---

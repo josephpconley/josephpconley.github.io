@@ -2,7 +2,8 @@
 layout: post
 type: post
 tags: knockoutjs playframework puzzles scala
-title: Hacking NPR's Sunday Puzzle, and other Puzzling Tools
+title: Hacking NPR's Sunday Puzzle
+subtitle: ...and other puzzling tools
 published: true
 description: I've built an app to help non-programmers solve word puzzles, including utilities like an Anagram checker and a Scrabble solution generator.
 ---

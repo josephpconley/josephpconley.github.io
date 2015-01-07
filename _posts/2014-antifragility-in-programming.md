@@ -10,8 +10,8 @@ I recently finished [Nassim Taleb's](https://twitter.com/nntaleb) book [Antifrag
 
 ## Dealing with volatility
 
-I would argue that most software systems
+I would argue that most software systems focus on robustness, that is, handling the 
+
+
 
 ## Building antifragile software systems
-
-## Robust

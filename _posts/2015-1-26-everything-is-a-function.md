@@ -51,7 +51,7 @@ This has some more advanced concepts like [XPath](http://www.w3schools.com/xpath
 
 ###Website monitoring
 
-As an owner/maintainer of a few websites, it's important to know when any of them go down.  There are several free services that will do this for you, but what if we wanted a customized view into our website uptime?  Let's write a script that monitors a [really cool website you can use to track your golf scores and handicap, SwingStats] (http://www.swingstats.com/)
+As an owner/maintainer of a few websites, it's important to know when any of them go down.  There are several free services that will do this for you, but what if we wanted a customized view into our website uptime?  Let's write a script that monitors a [really cool webapp you can use to track your golf scores and handicap, SwingStats](http://www.swingstats.com/)
 
 {% gist 798a18bc5f789d6747c4 %}
 

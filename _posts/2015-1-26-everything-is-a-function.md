@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: api datacombinator
+tags: api datacombinator integration json rss
 title: Everything is a Function
 subtitle: How to program the Internet
 published: true

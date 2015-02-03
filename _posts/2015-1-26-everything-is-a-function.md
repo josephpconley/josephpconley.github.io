@@ -16,7 +16,9 @@ Here are the main concepts you need to know to understand how to execute and com
 - JSONPath ([tutorial](http://goessner.net/articles/JsonPath/))
 - Handlebars.js for templating ([tutorial](http://handlebarsjs.com/))
 
-That's it.  Composing functions is as easy as writing a sequence of commands (separated by semi-colon).  Each function will return a valid JSON value, which will be passed to the context of the subsequent function.  The "current" JSON value can be accessed using the `_` character, and can also be used in argument strings using the Handlebars.js syntax.
+That's it.  Composing functions is as easy as writing a sequence of commands (separated by semi-colon).  Each function will return a valid JSON value, which will be passed to the context of the subsequent function.  <strike>The "current" JSON value can be accessed using the `_` character, and can also be used in argument strings using the Handlebars.js syntax.</strike>
+
+**UPDATE** As I was going through some various examples it became clear to me that I needed both the most recent JSON value as well as past ones, so to that end I've modified the scripting language to use `this` as the current JSON value and `_` to represent the array of all results in the script (with the 0th entry being the JSON value representing arguments passed to the script).  I've updated the examples below accordingly.
 
 ##Examples
 

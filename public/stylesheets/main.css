@@ -68,3 +68,7 @@ p.copy + p, .copy{
 #footer {
   background-color: #d3d3d3;
 }
+
+.dropdown-toggle:active, .open .dropdown-menu{
+  background: transparent !important;
+}

@@ -1,0 +1,20 @@
+---
+layout: post
+type: post
+tags: chariot technology 
+title: Philly ETE 2015 Roundup
+subtitle: Reflections on my first tech conference
+published: true
+---
+
+Last week I attended my first tech conference, the [Emerging Technologies for the Enterprise Conference](http://phillyemergingtech.com/) in Philadelphia.  I was able to sneak in at the last minute as a new member of [Chariot Solutions](http://chariotsolutions.com/), a company which thus far has proven to be an uncommon collection of intelligent individuals.  Their conference set the bar high for future conferences as there was a wealth of interesting talks covering a great swath of subjects.  It was also nice to reconnect with former coworkers and learn what new and exciting technologies they were using.
+
+The keynote speakers on both days gave excellent talks focusing on our relationship to technology.  [Tom Igoe](http://www.tigoe.net/blog/) focused on the impact of physical computing in our lives and closed with a very poignant example of how a son used physical computing to allow his father to continue playing guitar despite his decreased motor skills.  [Dave Thomas](https://twitter.com/pragdave) gave an insightful talk about the important of gaining tacit knowledge through experience and not being afraid to make mistakes as that's how the best knowledge is found.
+
+My favorite talk was What is Rust? by [Yehuda Katz](https://twitter.com/wycats).  Having been so immeresed in the JVM world, I was pleasantly surprised at the simplicity of the Rust language in handling memory management and mutability.  I'll definitely be building my next pet project in Rust.  I also thoroughly enjoyed [Brian Shirai's](https://twitter.com/brixen) talk The End Of General Purpose Languages: Rubinius 3.0 And The Next 10 Million Programs.  Brian was very thoughtful and challenged my basic assumptions and beliefs about programming.  I'm now frantically scouring YouTube for more of his talks.  All of these talks brought to mind a recent [Freakonomics podcast about teachers](http://freakonomics.com/2014/11/27/is-americas-education-problem-really-just-a-teacher-problem-a-new-freakonomics-radio-podcast/) which notes that the best teachers "appeal to both the head and the heart".  The same goes for good tech talks as well.
+
+I was forutnate to attend this conference when I did.  I was starting to feel "inspiration inertia" for the field of programming.  I mean how many blog posts can you read about Reactive/Big Data/Microservices before you start to wonder, is there anything else going on in this field?  One audience member at a talk hinted at this malaise, complaining about the "marketingspeak" that can dominate certain organizations.  Attending this conference proved to me that, on the contrary, the field of computer science is rife with new and exciting advances, probably moreso than any other field (dentists or lawyers don't deal with the rate of change that programmers do).  It's simply incumbent upon you as a technologist to constantly seek out new and exciting things (and not get bogged down by "[marchitecture](http://en.wikipedia.org/wiki/Marchitecture)" as [Jamie Allen](https://twitter.com/jamie_allen) put it).
+
+This leads me to my advice for future conference-goers: go to talks outside of your comfort zone.  While I certainly was impressed by the JVM-based talks I attended, I didn't learn as much, mostly because I tend to watch similar talks online anyway.  The most interesting and thought-provoking talks were the ones where I knew little or nothing about the subject matter.  Also, don't be afraid to socialize with the speakers.  The presenters I spoke with were very approachable and eager to delve deeper into their subject matter or talk about anything under the sun.
+
+The folks at Chariot did a phenomenal job with ETE.  I'm now eagerly investigating which tech conference to attend this year (another perk of working for Chariot, they'll send you to a conference once a year).  If you have the means, I'd highly recommend checking out conferences like ETE on a regular basis.

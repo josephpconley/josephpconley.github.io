@@ -2,7 +2,7 @@
 layout: post
 type: post
 tags: chariot technology 
-title: Philly ETE 2015 Roundup
+title: Philly ETE 2015 Recap
 subtitle: Reflections on my first tech conference
 published: true
 ---

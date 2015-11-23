@@ -6,8 +6,6 @@ title: Departing Words
 published: false
 ---
 
-
-
 ##Philosophy Matters
 
 ##The Matrix Trilogy is better than you think

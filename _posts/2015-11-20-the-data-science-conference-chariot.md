@@ -4,7 +4,7 @@ type: post
 tags: chariot technology conferences datascience
 title: The Data Science Conference Recap
 subtitle: Deep dishin' with the best and brightest in Data Science
-published: true
+published: false
 ---
 
 I recently attended the first annual [The Data Science Conference](http://www.thedatascienceconference.com) in downtown Chicago.  The unique selling point was the promise of a" vendor-free, sponsor-free, and recruiter-free" experience, a promise which held true to an almost comical level (try talking about data science and not saying Hadoop or Spark).  The conference drew practitioners and academics from all walks of life, representing the auto insurance, retail, and finance industries.  The big technology companies in data science were also represented with speakers from Google, IBM, and Microsoft delivering interesting talks.

@@ -12,9 +12,9 @@ a img {
 }
 
 code.has-jax {
-	font: inherit; 
-	font-size: 100%; 
-	background: inherit; 
+	font: inherit;
+	font-size: 100%;
+	background: inherit;
 	border: inherit;
 }
 
@@ -36,6 +36,10 @@ code.has-jax {
 .post{
     border-bottom: 1px dotted #aab;
     margin-bottom: 20px;
+}
+
+.sidebar {
+  font-size: 14px;
 }
 
 p.copy + p, .copy{

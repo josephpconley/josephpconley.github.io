@@ -12,15 +12,10 @@ a img {
 }
 
 code.has-jax {
-	font: inherit; 
-	font-size: 100%; 
-	background: inherit; 
+	font: inherit;
+	font-size: 100%;
+	background: inherit;
 	border: inherit;
-}
-
-.header {
-    height:85px;
-    border-bottom: 1px solid gray;
 }
 
 .title{
@@ -31,11 +26,6 @@ code.has-jax {
     color: black;
     font-size: 28px;
     text-decoration: none;
-}
-
-.post{
-    border-bottom: 1px dotted #aab;
-    margin-bottom: 20px;
 }
 
 p.copy + p, .copy{

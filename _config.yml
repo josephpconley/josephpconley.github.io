@@ -1,5 +1,6 @@
-name: Joe's Tech Blog
+name: Joe Conley
 url: http://www.josephpconley.com
-description: Programming musings | Joe Conley
+description: Some Stuff
 paginate: 10
 paginate_path: "/page:num"
+gems: [jekyll-paginate, jekyll-gist]

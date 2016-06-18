@@ -16,7 +16,7 @@ I use [Gatling's jsonpath library](https://github.com/gatling/jsonpath) to parse
 
 Here's a scala worksheet which traces the examples on Stefan's post:
 
-{% gist 10647739 %}
+<script src="https://gist.github.com/josephpconley/10647739.js"></script>
 
 ##Deviation from JSONPath
 

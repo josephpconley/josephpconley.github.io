@@ -28,7 +28,7 @@ In order to implement coast-to-coast design effectively, it's important to have 
 
 One caveat is the creation of a new object using this plugin.  Since the plugin requires a JSON object to build out the observable, I wrote a basic method in Play to take an expected JSON object and "empty" it, setting default values that would be used in the new object form.
 
-{% gist 9207995 %}
+<script src="https://gist.github.com/josephpconley/9207995.js"></script>
 
 ### Understanding your tools
 TrizSwagger integrates with both Twitter and Facebook.  Understanding and setting up those integrations, however, occupied a lot of our time.  We also ran into issues with a server on OpenShift, slowing us down further.  Ultimately I think simpler is better, and every choice in technology needs to be well thought-out and well-suited to its use case.

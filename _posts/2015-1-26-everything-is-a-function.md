@@ -27,7 +27,7 @@ To quote George R. R. Martin, "Words are wind", so let's look at some actual cod
 ###Weather Alerts
 Here's an example of a custom weather alert service (one of the [most popular IFTTT recipes](https://ifttt.com/recipes/popular)).
 
-{% gist adcca77c201b3f5a55b7 %}
+<script src="https://gist.github.com/josephpconley/adcca77c201b3f5a55b7.js"></script>
 
 This script does the following:
 
@@ -43,7 +43,7 @@ Pretty straightforward.  The beauty of this is we can customize it to our prefer
 
 Despite the demise of Google Reader, I've always been a big fan of RSS.  It tends to be a less noisy channel of information than social media, allowing for less frequent but longform communication.  This example checks the AV Club for reviews of new episodes for a given show (I chose game-of-thrones-experts for this example, you'll have to inspect the URL for your show) and generates an RSS feed.
 
-{% gist 11a556fbecd20f159eb8 %}
+<script src="https://gist.github.com/josephpconley/11a556fbecd20f159eb8.js"></script>
 
 - Performs a web request to get the html source code of the webpage
 - Performs an XPath query to extract the HTML elements we need (and implicitly converts to JSON)
@@ -55,7 +55,7 @@ This has some more advanced concepts like [XPath](http://www.w3schools.com/xpath
 
 As an owner/maintainer of a few websites, it's important to know when any of them go down.  There are several free services that will do this for you, but what if we wanted a customized view into our website uptime?  Let's write a script that monitors a [really cool webapp you can use to track your golf scores and handicap, SwingStats](http://www.swingstats.com/)
 
-{% gist 798a18bc5f789d6747c4 %}
+<script src="https://gist.github.com/josephpconley/798a18bc5f789d6747c4.js"></script>
 
 - Performs a web request to the site we're monitoring
 - Save the response info in a MongoDB database collection

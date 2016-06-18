@@ -41,13 +41,13 @@ I've gathered two common word lists, a list of valid Scrabble words mentioned [h
 ## Technology
 I've built this app using [Play Scala](http://www.playframework.com/documentation/2.2.x/ScalaHome) as the backend.  After importing my puzzles library, here's the relevant controller code:
 
-{% gist 8862621 %}
+<script src="https://gist.github.com/josephpconley/8862621.js"></script>
 
 I probably could have handled the JSON a bit safer by using a Reads[T] object to handle the parsing, but as this app was fairly simple I used the unsafe conversion JsPath.as.  Please don't think less of me!
 
 I've also employed [Knockout.js](http://knockoutjs.com) to manage the front-end functionality.  Knockout.js is a lightweight MVVM framework which manages DOM updates automatically and succinctly, ensuring that your front-end code is not a monolith of jQuery calls.  Here's the code for the front-end:
 
-{% gist 8862697 %}
+<script src="https://gist.github.com/josephpconley/8862697.js"></script>
 
 And that's it!  A good future exercise would be to stream the solutions reactively, especially when dealing with a long word list.  This would be done using Play's [Enumeratee library](http://www.playframework.com/documentation/2.1.x/Enumeratees).  If anyone's interested in that I can post a follow-up detailing that solution.
 
@@ -72,7 +72,7 @@ Using that regular expression, we can use our Puzzle Solver to determine which w
 
 The previous non-coding solution might have seemed a bit convoluted.  A much simpler method would be to use my Scala library directly to find the solutions, which can be done with as little as four lines of code:  
 
-{% gist 8915428 %}
+<script src="https://gist.github.com/josephpconley/8915428.js"></script>
 
 ## Conclusion
 If you enjoy NPR's Sunday Puzzle, I'd highly recommend [Blaine's Puzzle Blog](http://puzzles.blainesville.com/) as an excellent companion resource.  This blog community offers tantalizing, interesting hints for the solution of the puzzle and often digress into other challenging puzzles as well.

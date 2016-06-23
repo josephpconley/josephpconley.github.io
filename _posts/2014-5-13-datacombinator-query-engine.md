@@ -14,7 +14,7 @@ Ever wish you could use your favorite query language across different data forma
 You can copy and paste structured data manually, point to a URL, or connect to a database directly (H2, MongoDB, MySQL, or PostgreSQL).  The engine hasn't been optimized yet to handle large documents or tables so please be mindful.
 
 ##Query languages
-The engine supports JSONPath (powered by [my open-source Play library](http://www.josephpconley.com/2014/04/15/jsonpath-for-play.html)), XPath and SQL.  You can use any of these languages to query data in any of the JSON, XML or CSV formats.  Since JSONPath and XPath are fairly similar and straightforward, the more interesting use cases tend to involve SQL. 
+The engine supports JSONPath (powered by [my open-source Play library](http://www.josephpconley.com/2014/04/15/jsonpath-for-play.html)), XPath and SQL.  You can use any of these languages to query data in any of the JSON, XML or CSV formats.  Since JSONPath and XPath are fairly similar and straightforward, the more interesting use cases tend to involve SQL.
 
 ###SQL
 The FROM CLAUSE isn't necessary as the query only applies to one "table", that is, the data being queried.  For SQL to work against JSON, the JSON must be an array of objects, e.g.
@@ -73,7 +73,7 @@ So for example, if I wanted to find out stats on my beloved Philadelphia Phillie
 
 ###Weather Data - XML
 
-OpenWeatherMap.org provides a [free weather API](http://openweathermap.org/API) which returns data in XML format.  For example, if I wanted to get the current weather in my hometown of Springfield, PA, I could use the URL 
+OpenWeatherMap.org provides a [free weather API](http://openweathermap.org/API) which returns data in XML format.  For example, if I wanted to get the current weather in my hometown of Springfield, PA, I could use the URL
 
 	http://api.openweathermap.org/data/2.5/weather?q=Springfield&mode=xml&units=imperial
 
@@ -86,7 +86,7 @@ to get an XML document back.  I could then query the document using XPath to get
 Public institutions are starting to embrace open data practices, enabling civic-minded hackers to build useful applications that provide a public service.  In this spirit, the city of Philadelphia has made [various data sets](https://github.com/CityOfPhiladelphia) available for public consumption.  Most of these data sets are in CSV format.  We'll take one such data set, [phl-site-stats](https://github.com/CityOfPhiladelphia/phl-site-stats), and use the Raw url from Github to query it (I picked this dataset as it's relatively small).
 
 We'll take a look at the latest month's stats found at [https://raw.githubusercontent.com/CityOfPhiladelphia/phl-site-stats/master/SiteStats0514.csv](https://raw.githubusercontent.com/CityOfPhiladelphia/phl-site-stats/master/SiteStats0514.csv).  Without entering a query, we would get the entire data set in the results.  One point to note is that the query engine will try to convert strings to numbers, making it easy to query based on certain conditions.  If we wanted to view the most popular sites for phila.gov, we would simply enter a query of
-	
+
 	select * order by page_count desc  
 
 Or we could get the total number of unique hits for the month of May

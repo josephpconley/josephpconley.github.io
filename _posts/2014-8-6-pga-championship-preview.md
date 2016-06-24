@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: golf majors statistics
+tags: golf majors statistics pgatour
 title: 2014 PGA Championship Preview
 subtitle: Glory's Last Shot of 2014
 published: true
@@ -11,7 +11,7 @@ The [2014 PGA Championship at Valhalla Golf Club](http://www.pga.com/pgachampion
 
 As an administrator (and participant) of a Golf Majors pool, I like to know the [world rankings and betting odds for the field](http://www.swingstats.com/majors/draft) to help inform the draft and facilitate automated picks.  For this last major, I also wanted to know how the field has performed in this year's prior majors.  Here's how they've fared in 2014 (must have played in at least one major).
 
-<table class="table table-striped table-bordered table-condensed">
+<table class="ui striped compact table">
 	<thead>
 		<tr>
 			<th>Player</th>

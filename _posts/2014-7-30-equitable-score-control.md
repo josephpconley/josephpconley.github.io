@@ -19,12 +19,12 @@ If you don't have an established handicap index yet, you would use the maximum h
 
 Once you have the course handicap for your round, you can find the maximum score for a given hole using the following table.
 
-<table class="table table-striped table-bordered table-condensed">
+<table class="ui table striped compact">
 	<thead>
 		<tr>
 			<th>Course Handicap</th>
-			<th>Maximum Score</th>			
-		</tr>			
+			<th>Maximum Score</th>
+		</tr>
 	</thead>
 	<tbody>
 		<tr>
@@ -47,17 +47,17 @@ Once you have the course handicap for your round, you can find the maximum score
 			<td>40 or more</td>
 			<td>10</td>
 		</tr>
-	</tbody>		
-</table>	
+	</tbody>
+</table>
 
 Using this table, you would go through each hole and determine the net strokes for the hole (the minimum of your score and the maximum score), and add up the net strokes giving you a net total for the round.  It is this net total which you should apply towards your handicap calculation.  For those interested here's a good article on [calculating your own handicap](http://golf.about.com/cs/handicapping/a/howcalculated.htm).  I won't go into detail on the handicap calculation as I would simply advise you to use SwingStats!
 
-##ESC on SwingStats
+## ESC on SwingStats
 
 SwingStats performs the ESC calculation automatically when generating your handicap.  You can see the result for each round by looking at the NET score once your round is saved (in parentheses).  Here's my [most recent round](http://www.swingstats.com/rounds/405), where you can see my raw score of 93 and net score of 92.  I earned a net 7 for the second hole as my handicap is 14.9, making the max on any hole a 7.   
 
 ![Equitable Score Control Example](/assets/ESC.bmp)
 
-##Big Data Analysis for your Golf Game
+## Big Data Analysis for your Golf Game
 
 Equitable Score Control is just one of the many benefits of using a scoring system like [SwingStats](http://www.swingstats.com).  We're working on solutions to extract intelligence from our database of rounds to pinpoint areas of your game that need the most work.  Check back for future updates, or [let us know](http://www.swingstats.com/contact) if you have any requests or feedback!

@@ -24,7 +24,7 @@ This mode will search for all potential anagrams of the input word.  Helpful for
 	GREEV
 	WORNC
 	KNITSY
-	KRUTYE	
+	KRUTYE
 </div>
 
 Setting the app controls to Mode = Anagram and Word List Source = Scrabble (a good list source for most purposes), we set Input once for each jumble and after hitting Submit, we get one proper anagram for each jumble.

@@ -1,11 +1,11 @@
 ---
 layout: main
+title: Joe Conley
 subtitle: Temet nosce
 ---
 
 <div class="ui grid">
-    <div class="two wide column"></div>
-    <div class="eight wide column">
+    <div class="ten wide column">
       <div class="ui divided items">
       {% capture date_format %}%b %-d %Y{% endcapture %}
       {% for post in paginator.posts %}
@@ -34,7 +34,7 @@ subtitle: Temet nosce
       </div>
       {% endif %}
     </div>
-    <div class="four wide column">
+    <div class="six wide column">
       <h2>Tags</h2>
       <div id="tags">
         {% for tag in site.tags %}

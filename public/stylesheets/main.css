@@ -3,7 +3,7 @@ body{
 }
 
 p {
-  line-height: 175% !important;
+  line-height: 1.6 !important;
   margin: 1.75em 0 !important;
   text-rendering: optimizeLegibility;
 }

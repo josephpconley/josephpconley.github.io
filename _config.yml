@@ -1,6 +1,6 @@
 name: Joe Conley
 url: http://www.josephpconley.com
-description: Mathoms
+description: Temet nosce
 paginate: 10
 paginate_path: "/page:num"
 gems: [jekyll-paginate, jekyll-gist]

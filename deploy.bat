@@ -1,3 +1,4 @@
+call jekyll clean
 call jekyll build
 call git add .
 call git commit -am %1

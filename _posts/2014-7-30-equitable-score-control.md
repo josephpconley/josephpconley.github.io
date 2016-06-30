@@ -7,6 +7,23 @@ subtitle: Calculating your golfing handicap the correct way.
 published: true
 ---
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    //latex stuff
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    });
+
+     MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
 Before [SwingStats](http://www.swingstats.com), I maintained my golf handicap index like most casual golfers, via formulas in an Excel spreadsheet.  While effective (though inelegant), it became difficult to manage as the number of rounds and courses increased.  Furthermore, I soon learned about Equitable Stroke Control (ESC), a formula which applies net scores to your handicap index, thereby dampening the effects of spectacularly bad holes (a regrettably common occurrence of my game).  I didn't think many golfers were aware of this methodology so I'll explain it briefly here.
 
 To implement ESC for a given round, we need to calculate a **Course Hanidcap** using this formula:

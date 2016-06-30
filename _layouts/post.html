@@ -5,8 +5,24 @@ layout: main
   <div class="two wide column"></div>
   <div class="twelve wide column">
     <h1>{{ page.title }}</h1>
+    {% capture date_format %}%b %-d %Y{% endcapture %}
+    <time datetime="{{ page.date | html_global_date }}">{{ page.date | date: date_format }}</time>
     <div class="copy">
       {{ content }}
+
+      {% for tag in post.tags %}
+      <a href="/tags/{{ tag }}/" class="ui label">{{ tag }}</a>
+      {% endfor %}
+
+      <a class="ui blue button" href="http://twitter.com/home/?status={{page.title}} by @josephpconley http://www.josephpconley.com{{page.url}}" target="_blank">
+        <i class="twitter icon"></i> Tweet
+      </a>
+      <a class="ui blue button" href="https://www.facebook.com/sharer/sharer.php?u=http://www.josephpconley.com{{page.url}}" target="_blank">
+        <i class="facebook icon"></i> Share
+      </a>
+      <a class="ui blue button" href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.josephpconley.com{{page.url}}&title={{page.title}}" target="_blank">
+        <i class="linkedin icon"></i> Share
+      </a>
     </div>
     <hr>
     <div id="disqus_thread"></div>

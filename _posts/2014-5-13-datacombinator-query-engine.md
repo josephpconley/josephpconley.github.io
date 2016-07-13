@@ -18,18 +18,52 @@ The engine supports JSONPath (powered by [my open-source Play library](http://ww
 ### SQL
 The FROM CLAUSE isn't necessary as the query only applies to one "table", that is, the data being queried.  For SQL to work against JSON, the JSON must be an array of objects, e.g.
 
-	[{"id": 1, "name": "Joe"}, {"id": 2, "name": "Janine"}]
+```js
+[
+   {
+      "id":1,
+      "name":"Joe"
+   },
+   {
+      "id":2,
+      "name":"Janine"
+   }
+]
+```
 
 If the objects in the array have nested levels, each object will be flattened, and the keys concatenated with an "_", e.g.
 
-	[{"id": 1, "name": "Joe", "address" : { "street" : "123 Main St.", "city": "Springfield", "state": "PA"}]
+```js
+[
+    {
+        "id": 1, 
+        "name": "Joe", 
+        "address" : { 
+            "street" : "123 Main St.", 
+            "city": "Springfield", 
+            "state": "PA"
+        }
+    }
+]
+```
 
 would be flattened to
 
-	[{"id": 1, "name": "Joe", "address_street" : "123 Main St.", "address_city": "Springfield", "address_state": "PA"}]
+```js
+[
+   {
+      "id":1,
+      "name":"Joe",
+      "address_street":"123 Main St.",
+      "address_city":"Springfield",
+      "address_state":"PA"
+   }
+]
+```
 
 Similarly, an XML must be in a "table format" in order to handle a SQL query, e.g.
 
+```xml
 	<table class="ui table">
 		<row>
 			<id>1</id>
@@ -40,6 +74,7 @@ Similarly, an XML must be in a "table format" in order to handle a SQL query, e.
 			<name>Janine</name>
 		</row>
 	</table>
+```
 
 ### Supported SQL functions
 The engine supports basic single-table query functionality (no self joins yet) with simple clauses (WHERE, GROUP BY, and ORDER BY) and a few basic aggregation functions (COUNT, MIN, MAX, SUM).  I'll be working to expand upon this, so if you have any requests [let me know](http://www.datacombinator.com/contact).
@@ -57,18 +92,20 @@ ESPN has released a [variety of APIs](http://developer.espn.com/docs) that allow
 
 So for example, if I wanted to find out stats on my beloved Philadelphia Phillies, I would enter http://api.espn.com/v1/sports/baseball/mlb/teams?apikey=MY_API_KEY as the URL in DataCombinator.  Using the JSON Raw tab, I can see the pretty printed response, and quickly search on Phillies to find their id of 22.  Using this id, I can get the latest news on the Phightins by using the URL of http://api.espn.com/v1/sports/baseball/mlb/teams/22/news?apikey=MY_API_KEY.  I can then use JSONPath to only include the part of the response I want.  For example, if I just want all the latest headlines associated with the Phillies, I take a quick look at the structure and apply the `$..headline` JSONPath query to return an array of headlines:
 
-	[
-	    "Mets end 5-game skid, rally past Phils 5-4 in 11",
-	    "Howard, Rollins lead Phillies past slumping Mets",
-	    "Byrd's double lifts Phillies over Mets 3-2 in 11",
-	    "The base: Approach at your own risk",
-	    "Phillies fall to hot-hitting Blue Jays in 20,000th game",
-	    "Adam Lind activated by Blue Jays",
-	    "Mark Buehrle posts MLB-best sixth win as Blue Jays rock Phillies",
-	    "Blue Jays edge Phillies on sac fly in 10th after blowing 5-run lead",
-	    "Happ stifles Phillies, Blue Jays win 3-0",
-	    "Hernandez outduels Gonzalez, Phillies edge Nats"
-	]
+```js
+[
+    "Mets end 5-game skid, rally past Phils 5-4 in 11",
+    "Howard, Rollins lead Phillies past slumping Mets",
+    "Byrd's double lifts Phillies over Mets 3-2 in 11",
+    "The base: Approach at your own risk",
+    "Phillies fall to hot-hitting Blue Jays in 20,000th game",
+    "Adam Lind activated by Blue Jays",
+    "Mark Buehrle posts MLB-best sixth win as Blue Jays rock Phillies",
+    "Blue Jays edge Phillies on sac fly in 10th after blowing 5-run lead",
+    "Happ stifles Phillies, Blue Jays win 3-0",
+    "Hernandez outduels Gonzalez, Phillies edge Nats"
+]
+```	
 
 ### Weather Data - XML
 
@@ -86,11 +123,15 @@ Public institutions are starting to embrace open data practices, enabling civic-
 
 We'll take a look at the latest month's stats found at [https://raw.githubusercontent.com/CityOfPhiladelphia/phl-site-stats/master/SiteStats0514.csv](https://raw.githubusercontent.com/CityOfPhiladelphia/phl-site-stats/master/SiteStats0514.csv).  Without entering a query, we would get the entire data set in the results.  One point to note is that the query engine will try to convert strings to numbers, making it easy to query based on certain conditions.  If we wanted to view the most popular sites for phila.gov, we would simply enter a query of
 
-	select * order by page_count desc
+```sql
+select * order by page_count desc
+```
 
 Or we could get the total number of unique hits for the month of May
 
-	select sum(unique_page_count)
+```sql
+select sum(unique_page_count)
+```
 
 ## Next steps
 This query engine will be the foundation of DataCombinator's platform of data collection and composition tools.  Our next step is to not only host structured data via API endpoints, but to also combine multiple datasources into one document (which in turn would be hosted as well!).  If you're interested in learning more, [sign up](http://www.datacombinator.com) for e-mail updates or [follow us on Twitter @DataCombinator](https://www.twitter.com/DataCombinator).

@@ -3,7 +3,9 @@ url: http://www.josephpconley.com
 description: Temet nosce
 paginate: 10
 paginate_path: "/page:num"
-gems: [jekyll-paginate, jekyll-gist]
+gems: [jekyll-paginate, jekyll-gist, github-pages, jekyll-sitemap, jekyll-feed]
 markdown: kramdown
-highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 future: true

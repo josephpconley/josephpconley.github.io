@@ -18,7 +18,7 @@ The engine supports JSONPath (powered by [my open-source Play library](http://ww
 ### SQL
 The FROM CLAUSE isn't necessary as the query only applies to one "table", that is, the data being queried.  For SQL to work against JSON, the JSON must be an array of objects, e.g.
 
-```js
+```json
 [
    {
       "id":1,
@@ -33,7 +33,7 @@ The FROM CLAUSE isn't necessary as the query only applies to one "table", that i
 
 If the objects in the array have nested levels, each object will be flattened, and the keys concatenated with an "_", e.g.
 
-```js
+```json
 [
     {
         "id": 1, 
@@ -49,7 +49,7 @@ If the objects in the array have nested levels, each object will be flattened, a
 
 would be flattened to
 
-```js
+```json
 [
    {
       "id":1,

@@ -1,15 +1,9 @@
-body{
-  font-size: 20px !important;
-}
-
-p {
-  line-height: 1.6 !important;
-  margin: 1.75em 0 !important;
-  text-rendering: optimizeLegibility;
-}
-
 a img {
   border: none;
+}
+
+.copy{
+    font-size: 18px !important;
 }
 
 code.has-jax {

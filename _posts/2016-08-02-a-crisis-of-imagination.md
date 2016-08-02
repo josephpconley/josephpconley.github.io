@@ -20,7 +20,7 @@ Yet despite these ambiguities, we have concrete evidence that the response was m
 Unfortunately, these public figures have been mostly vilified for their efforts, accused of saving the arsonists on Wall St. while ignoring the common people on Main St.  That's the reality of a crisis.  Systemically important institutions had to be saved to protect the whole system.  And that's certainly a thankless task, to do something you know is right when it's unpopular.  But history will be the ultimate judge, and I think it will ultimately look kindly on the efforts of these individuals.
 
 I was very inspired reading Geithner's first-hand account of the response to the Great Recession.  His story highlights the importance of
-public service, and shows how a "small group of thoughtful, dedicated citizens can change the world" [1](http://www.brainyquote.com/quotes/quotes/m/margaretme100502.html).  I for one think they did, for the better.
+public service, and shows how a "small group of thoughtful, dedicated citizens can change the world" [1](http://www.brainyquote.com/quotes/quotes/m/margaretme100502.html).  I for one think they did, and for the better.
 
 ## Further reading
 - [Too Big to Fail](https://www.goodreads.com/book/show/6687247-too-big-to-fail) - great account of the crisis by Aaron Ross Sorkin (and the equally good [HBO movie](http://www.imdb.com/title/tt1742683/?ref_=fn_al_tt_1) as well)

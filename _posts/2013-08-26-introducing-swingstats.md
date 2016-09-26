@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: golf swingstats
+tags: golf SwingStats
 title: Introducing SwingStats
 subtitle: A social network for golfers, built by golfers.
 published: true

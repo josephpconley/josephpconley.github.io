@@ -1,15 +1,36 @@
-body{
-  font-size: 20px !important;
+body {
+    color: #555 !important;
 }
 
-p {
-  line-height: 1.6 !important;
-  margin: 1.75em 0 !important;
-  text-rendering: optimizeLegibility;
+h1, h2, h3, h4 {
+    padding-top: 1em !important;
+}
+
+h1, h2, h3, h4, strong {
+    color: #333 !important;
 }
 
 a img {
-  border: none;
+    border: none;
+}
+
+.copy p, li{
+    font-size: 18px !important;
+    max-width: 50em;
+    line-height: 1.75;
+}
+
+code, pre {
+    background: #eee
+}
+
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+pre {
+    padding: 1em;
 }
 
 code.has-jax {
@@ -27,14 +48,6 @@ li:first-child {
   margin-top:0;
 }
 
-/*.post .header {*/
-  /*font-size: 1.6em;*/
-/*}*/
-
-/*.post .description {*/
-  /*font-size: 1.25em;*/
-/*}*/
-
 .clickableRow:hover{
   cursor: pointer;
 }
@@ -42,4 +55,8 @@ li:first-child {
 #twitter-widget-0 {
     max-width: 360px !important;
     width: 360px;
+}
+
+.tags a {
+    padding-right: 5px;
 }

@@ -1,0 +1,197 @@
+{
+  "basics": {
+    "name": "Joe Conley",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "josephpconley@gmail.com",
+    "phone": "",
+    "website": "http://www.josephpconley.com",
+    "summary": "I have several years of experience developing full-stack enterprise applications in Java/Scala and maintaining databases in Oracle/Postgres. I've worked with a variety of JVM frameworks, specializing in Typesafe technologies (Play/Akka/Slick).  I also have extensive front-end experience with Bootstrap/CSS and KnockoutJS/jQuery, and have managed the hosting of cloud applications on IaaS platforms like Amazon Web Services (AWS), Heroku, and OpenShift.  In addition to my technical abilities, I have managed technical resources and served as product manager for various projects.",
+    "location": {
+      "address": "430 Foulke Ln",
+      "postalCode": "PA 19064",
+      "city": "Springfield",
+      "countryCode": "US",
+      "region": "Pennsylvania"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "josephpconley",
+        "url": "https://twitter.com/josephpconley"
+      },
+      {
+        "network": "Github",
+        "username": "josephpconley",
+        "url": "https://github.com/josephpconley"
+      },
+      {
+        "network": "Stack-Overflow",
+        "username": "josephpconley",
+        "url": "http://stackoverflow.com/users/1031290/josephpconley"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/joe-conley-9a32887"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Chariot Solutions",
+      "position": "Consultant",
+      "website": "http://chariotsolutions.com/",
+      "startDate": "2015-03-01",
+      "summary": "",
+      "highlights": [
+        "At Comcast, used Spark and Cassandra to build an analytics and reporting platform tracking upsell performance",
+        "At IMS Health, worked on a Big Data platform to allow business end-users to efficiently run and compose modular Spark jobs.  Integrated data from several dozen sources and technologies to handle ingestion and extraction.",
+        "At Angie’s List, helped to rewrite the PaymentService API using Play Scala and the Cake and Microservices patterns.  Implemented Swagger UI to facilitate interactive API documentation, built a prototype for newer API version using Spray and Akka, and worked with operations to customize CircleCI and Docker scripts to accommodate the new API",
+        "At Angie’s List, enhanced the API and refactored large portions using Scala/Spray best practices.  Designed and built an automated test framework in Scala/Spray to perform white-box testing of APIs and HTTP servers in any environment"
+      ]
+    },
+    {
+      "company": "Point.io",
+      "position": "Senior Developer",
+      "website": "point.io",
+      "startDate": "2013-10-01",
+      "endDate": "2015-03-01",
+      "summary": "",
+      "highlights": [
+        "Developed a comprehensive authentication/authorization framework for the Point.io API",
+        "Developed a BPM workflow engine and API in Play Scala leveraging the core Point.io API document platform and the open-source BPM Activiti library",
+        "Developed front-end reactive marketing tools using the workflow engine and Ember.js",
+        "As the \"performance czar\", developed cross-cutting solutions for JVM-based applications to track performance metrics, store them in MongoDB, and provide an interface to analyze the data",
+        "Built a Play Scala application to interactively test the Java library of the core API using Specs2",
+        "Led seminars on best practices for Scala/Play and wrote complementary blog posts"
+      ]
+    },
+    {
+      "company": "Mainstream Integration",
+      "position": "Co-founder/CTO",
+      "website": "www.mainstreamintegration.com",
+      "startDate": "2011-10-05",
+      "endDate": "2013-10-01",
+      "summary": "",
+      "highlights": [
+        "Developed and maintained enterprise web applications focused on data integration for clients in healthcare and logistics industries using Play (Java and Scala), Knockout.js, and PostgreSQL",
+        "Administered development and production environments on AWS by setting up web and database servers and monitoring these systems using Nagios and New Relic",
+        "Responsible for database administration and development for PostgreSQL, Redis, and S3",
+        "Performed basic sales functions by interacting with prospective clients, and performing systems evaluations to gather requirements and build proposals for custom technology solutions"
+      ]
+    },
+    {
+      "company": "Planalytics, Inc",
+      "position": "Enterprise Application Developer",
+      "website": "www.planalytics.com",
+      "startDate": "2011-06-06",
+      "endDate": "2013-02-02",
+      "summary": "",
+      "highlights": [
+        "Maintained and enhanced a SaaS suite of web applications built in JSF and Java",
+        "Improved a proprietary Java framework for long-running jobs, resolving performance bottlenecks",
+        "Wrote scripts for Oracle ETL transactions and for statistics processing using R",
+        "Enhanced a proprietary widget framework built in Restlet and Freemarker",
+        "Enhanced/modified SAP's BusinessObjects suite for use in internal/external reporting"
+      ]
+    },
+    {
+      "company": "BDP International",
+      "position": "Application/Integration Developer",
+      "website": "www.bdpinternational.com",
+      "startDate": "2009-06-03",
+      "endDate": "2011-05-01",
+      "summary": "",
+      "highlights": [
+        "Used Java/Struts/JS to develop logistics applications used by several international companies",
+        "Used integration tools (JCAPS) and PL/SQL to translate and process client data for ETL",
+        "Interacted daily with the business owners to establish requirements and meet client needs",
+        "Demoed web applications to both internal resources and prospective clients",
+        "Earned awards for Team Dedication (March 2010), Customer Service (April 2010), and Process Improvement (November 2010) based on my work on our nationally-recognized ISF application"
+      ]
+    },
+    {
+      "company": "Tufts University",
+      "position": "ITS Student Trainer",
+      "website": "tufts.edu",
+      "startDate": "2008-09-05",
+      "endDate": "2009-07-01",
+      "summary": "",
+      "highlights": [
+        "Helped administer training sessions for programs like MS Office, Mozilla, and Adobe",
+        "Created a variety of learning manuals for these programs using MS Office and updated website information and graphics using Microsoft FrontPage 2003",
+        "Provided individual tutoring sessions for students, faculty, and staff"
+      ]
+    },
+    {
+      "company": "ACE USA Insurance Co.",
+      "position": "Actuarial Assistant",
+      "website": "chubb.com",
+      "startDate": "2007-07-07",
+      "endDate": "2008-08-08",
+      "summary": "",
+      "highlights": [
+        "Created actuarial models using Excel to justify rate changes and aid in writing insurance policies",
+        "Manipulated databases using Access and other query tools to obtain historic data for actuarial exhibits to state insurance departments",
+        "Improved communication skills by explaining actuarial models to sales/business departments",
+        "Completed Exam P and Exam FM of the Society of Actuaries"
+      ]
+    }    
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Drexel University",
+      "area": "Computer Science",
+      "studyType": "Master's",
+      "startDate": "2009-01-01",
+      "endDate": "2012-03-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Scranton",
+      "area": "Mathematics and Economics",
+      "studyType": "Bachelor's",
+      "startDate": "2003-08-30",
+      "endDate": "2007-06-20",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Full-Stack Software Development",
+      "level": "Expert",
+      "keywords": ["Scala", "Java", "Play Framework", "Slick"]
+    },
+    {   
+      "name": "Big Data Analytics and Database Management",
+      "level": "Intermediate",
+      "keywords": ["Spark", "Hadoop", "Cassandra", "PostgreSQL", "Oracle", "Redis"]
+    },    
+    {
+      "name": "DevOps",
+      "level": "Intermediate",
+      "keywords": ["AWS", "OpenShift", "Heroku", "lighttpd", "nginx"]
+    },        
+    {
+      "name": "Web Development",
+      "level": "Expert",
+      "keywords": ["HTML","CSS","Javascript", "jQuery", "Knockout.js", "jsblocks", "Bootstrap", "Semantic-UI"]
+    }    
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    { "name": "Golf"},
+    { "name": "Reading"}
+  ],
+  "references": []
+}

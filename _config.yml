@@ -1,6 +1,7 @@
 name: Joe Conley
+title: Joe Conley
 url: http://www.josephpconley.com
-description: Temet nosce
+description: Random thoughts on technology, books, golf, and everything else that interests me
 paginate: 10
 paginate_path: "/page:num"
 gems: [jekyll-paginate, jekyll-gist, github-pages, jekyll-sitemap, jekyll-feed]

@@ -4,7 +4,7 @@ url: http://www.josephpconley.com
 description: Random thoughts on technology, books, golf, and everything else that interests me
 paginate: 10
 paginate_path: "/page:num"
-gems: [jekyll-paginate, jekyll-gist, github-pages, jekyll-sitemap, jekyll-feed]
+gems: [jekyll-paginate, jekyll-gist, github-pages, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 markdown: kramdown
 kramdown:
   input: GFM

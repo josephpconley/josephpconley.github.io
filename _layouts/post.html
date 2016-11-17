@@ -2,8 +2,8 @@
 layout: main
 ---
 <div class="ui grid">
-  <div class="two wide column"></div>
-  <div class="twelve wide column">
+  <div class="one wide column"></div>
+  <div class="fourteen wide column">
     <h1>{{ page.title }}</h1>
     {% capture date_format %}%b %-d %Y{% endcapture %}
     <time datetime="{{ page.date | html_global_date }}">{{ page.date | date: date_format }}</time>
@@ -25,7 +25,9 @@ layout: main
         <i class="linkedin icon"></i> Share
       </a>
     </div>
+
     <hr>
+
     <div id="disqus_thread"></div>
     <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -41,5 +43,5 @@ layout: main
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     
   </div>
-  <div class="two wide column"></div>
+  <div class="one wide column"></div>
 </div>

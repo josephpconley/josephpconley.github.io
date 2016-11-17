@@ -6,11 +6,11 @@ layout: main
     <div class="ten wide column">
         <h1>
             {{ page.title }}
-            <a href="/tags/{{ page.tag }}/feed.xml" target="_blank"><i class="rss icon"></i></a>
+            <a href="/tags/{{ page.slug }}/feed.xml" target="_blank"><i class="rss icon"></i></a>
         </h1>
         <div class="ui divided items">
             {% capture date_format %}%b %-d %Y{% endcapture %}
-            {% for post in site.tags.[page.tag] %}
+            {% for post in site.tags[page.slug] %}
             <div class="item">
                 <div class="content post">
                     <a class="header" href="{{ post.url }}">{{post.title}}</a>

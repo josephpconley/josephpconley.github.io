@@ -1,0 +1,76 @@
+---
+layout: main
+title: Projects
+---
+
+<div class="copy">
+    <h1>Projects</h1>
+    <p>
+        In addition to the code I've written (the public stuff you can find on my <a href="github.com/josephpconley" target="_blank">Github</a>),
+    here are some random tools and things I've built over the years.  Most of the recent stuff has been built using <a href="www.datacombinator.com" target="_blank">DataCombinator</a>
+    to handle the backend data integrationand minimal UI requirements
+    </p>
+
+    <h2>Twitter Bots</h2>
+    <ul>
+        <li>
+            <a href="http://twitter.com/birdie_bot" target="_blank">BirdieBot</a>
+            - easily my most popular bot, I had wanted to experiment with my unofficial PGATour datasource.
+            Turns out that the DFS fantasy crowd took a liking to this one.
+            I'm still trying to generalize the concept to give users more power to filter out streams of data
+            (see <a href="http://localhost:4000/2016/04/08/atomic-events-pgastream.html">Atomic Events and PGAStream</a>).
+        </li>
+        <li>
+            <a href="http://twitter.com/owgrbot" target="_blank">OWGRWeekly</a>
+            - uses another "unofficial" datasource to tweet the latest Official World Golf Rankings every Monday morning.
+        </li>
+        <li>
+            <a href="http://twitter.com/did76erscover" target="_blank">Did the Sixers Cover?</a>
+            - takes the nightly NBA scores and odds to determine if my hometown Sixers covered the spread for that day's game.  I promise you I don't have a gambling problem.
+        </li>
+        <li>
+            <a href="http://twitter.com/wofspin" target="_blank">WOF Spin ID</a>
+            - who has time to watch Wheel of Fortune every night?  Follow this one to find out the latest spin ID (currently down due to a bad datasource).
+        </li>
+    </ul>
+
+    <h2>Search Engines</h2>
+    <ul>
+        <li>
+            <a href="http://datacombinator.com/app/books/search">Book Search Engine</a> -
+            I use this ALL the time.  Anytime I come across a good book recommendation, I search here first as it gathers info from my two local libraries,
+            Google Play, and Hoopla.  Would eventually like to integrate Kindle as well.
+        </li>
+        <li>
+            <a href="http://datacombinator.com/app/movies/search">Movie Search Engine</a> -
+            Nice integrated search over several different movie sites and APIs for a movie's availability.  Works pretty well!
+        </li>
+    </ul>
+
+    <h2>RSS Feeds</h2>
+    <p>
+        I've built quite a few RSS feeds with DataCombinator, and am still doing do on a regular basis.  Here are a few of the more useful ones.
+        Most of the ones I've built are based on HTML scraping so there's always a chance that the scraping logic will need to be updated as the
+        target site HTML changes.
+    </p>
+    <ul>
+        <li>
+            <b>Github Issues</b> - using a backend Github API integration, I converted the Issues API to an RSS format.
+            Works for any public repo on Github.  You have to pass the `org` and `repo` parameters to specify the organization and repository name,
+            the rest of the parameters are the same you'd pass to filter issues on Github.
+
+            e.g. <a href="http://www.datacombinator.com/api/github/issues.rss?org=lagom&repo=lagom&state=open&sort=created" target="_blank">http://www.datacombinator.com/api/github/issues.rss?org=lagom&repo=lagom&state=open&sort=created</a>
+        </li>
+        <li>
+            <a href="http://www.datacombinator.com/api/nyt/articles.rss?author=andrew-ross-sorkin" target="_blank">Latest NYT Author Articles</a>
+            - I wrote this specifically to follow Andrew Ross Sorkin articles, I like his work and the other RSS feeds purporting
+            to have his latest and greatest weren't working.  It's actually a generalized feed for any NYT author,
+            just find their slug id (e.g. Aaron's is `andrew-ross-sorkin`) and plug in to the url,
+            e.g. <a href="http://www.datacombinator.com/api/nyt/articles.rss?author=thomas-l-friedman">http://www.datacombinator.com/api/nyt/articles.rss?author=thomas-l-friedman</a>
+            for Thomas Friedman.
+        </li>
+    </ul>
+
+    <h2>SwingStats</h2>
+    <p><a href="http://www.swingstats.com" target="_blank">Free app</a> to track your golf handicap.  I also use it to run my Golf Majors Pool.</p>
+</div>

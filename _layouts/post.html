@@ -2,8 +2,8 @@
 layout: main
 ---
 <div class="ui grid">
-  <div class="one wide column"></div>
-  <div class="fourteen wide column">
+  <div class="three wide column"></div>
+  <div class="ten wide column">
     <h1>{{ page.title }}</h1>
     {% capture date_format %}%b %-d %Y{% endcapture %}
     <time datetime="{{ page.date | html_global_date }}">{{ page.date | date: date_format }}</time>
@@ -43,5 +43,5 @@ layout: main
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     
   </div>
-  <div class="one wide column"></div>
+  <div class="three wide column"></div>
 </div>

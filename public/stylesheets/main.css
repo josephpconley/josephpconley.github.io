@@ -15,9 +15,13 @@ a img {
 }
 
 .copy p, li{
-    font-size: 18px !important;
+    font-size: 20px !important;
     max-width: 50em;
     line-height: 1.75;
+}
+
+.copy p {
+    margin-bottom: 40px;
 }
 
 code, pre {

@@ -36,9 +36,9 @@ subtitle: Temet nosce
     </div>
     <div class="six wide column">
       <h2>Tags</h2>
-      <div class="tags">
+      <div id="tags">
         {% for tag in site.tags %}
-          <a class="item" href="/tags/{{ tag | first | slugize }}/">
+          <a class="item" href="/tags/{{ tag | first | slugify }}/">
             <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 100 }}%">{{ tag | first }}</span>
           </a>
         {% endfor %}

@@ -1,4 +1,4 @@
 ---
 slug: swingstats
-name: swingstats
+name: SwingStats
 ---

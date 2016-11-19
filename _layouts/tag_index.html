@@ -5,12 +5,12 @@ layout: main
 <div class="ui grid">
     <div class="ten wide column">
         <h1>
-            {{ page.title }}
+            {{ page.name }}
             <a href="/tags/{{ page.slug }}/feed.xml" target="_blank"><i class="rss icon"></i></a>
         </h1>
         <div class="ui divided items">
             {% capture date_format %}%b %-d %Y{% endcapture %}
-            {% for post in site.tags[page.slug] %}
+            {% for post in site.tags[page.name] %}
             <div class="item">
                 <div class="content post">
                     <a class="header" href="{{ post.url }}">{{post.title}}</a>
@@ -40,7 +40,7 @@ layout: main
         <h2>Tags</h2>
         <div id="tags">
             {% for tag in site.tags %}
-            <a href="/tags/{{ tag | first | slugize }}/">
+            <a href="/tags/{{ tag | first | slugify }}/">
                 <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 100 }}%">{{ tag | first }}</span>
             </a>
             {% endfor %}

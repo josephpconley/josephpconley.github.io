@@ -1,8 +1,8 @@
 ---
 layout: post
 type: post
-tags: [lagom, Nicolas Nassim Taleb, chariot, microservices]
-title: The Evolutions of Software Architecture
+tags: [lagom, Nassim Nicholas Taleb, chariot, microservices]
+title: The Evolution of Software Architecture
 subtitle: Using microservices to build antifragile systems
 published: true
 ---
@@ -13,7 +13,7 @@ A now ubiquitous term, microservices takes that age-old programming tenet of "do
 
 This trend was almost inevitable in hindsight (as most trends are).  The rise of functional programming, with its focus on functions as first-class citizens and immutable state, encouraged developers to write smaller, simpler methods that compose rather than long, unwieldy algorithms.  Reactive programming also heralded a sea change in thinking about inter-service communication, with emphasis on asynchronous message-passing, back-pressure, and resilience.  Containerization provided another boost, literally encapsulating entire processes in portable, runnable environments.  These trends all enabled a microservices way of thinking.
 
-So what great benefit, then, did we achieve from the microservices movement, other than some fancy new language to add to our resumes?  David Dawson captured the idea best when he [described the end goal of microservices as achieving Antifragility](http://www.simplicityitself.io/microservices/2016/07/20/microservices-philosophy.html).  This term was popularized by the stoic trader-turned-philosopher Nicolas Nassim Taleb in _Antifragile: Things That Gain from Disorder_.  Taleb uses examples from all walks of life (financial options, political organization, physical training) to enumerate the tuple of <Fragile, Robust, Antifragile> that can be used to describe systems.  A system under stress can either degrade (fragile), maintain normal operations (robust), or improve (antifragile).  Antifragility, then, is the true aim for microservices, a system that can handle failure gracefully and scale elastically to meet demand.  An ambitious goal, but one within reach given our current technology.
+So what great benefit, then, did we achieve from the microservices movement, other than some fancy new language to add to our resumes?  David Dawson captured the idea best when he [described the end goal of microservices as achieving Antifragility](http://www.simplicityitself.io/microservices/2016/07/20/microservices-philosophy.html).  This term was popularized by the stoic trader-turned-philosopher Nassim Nicholas Taleb in [_Antifragile: Things That Gain from Disorder_](https://www.goodreads.com/book/show/13530973-antifragile?from_search=true   ).  Taleb uses examples from all walks of life (financial options, political organization, physical training) to enumerate the tuple of <Fragile, Robust, Antifragile> that can be used to describe systems.  A system under stress can either degrade (fragile), maintain normal operations (robust), or improve (antifragile).  Antifragility, then, is the true aim for microservices, a system that can handle failure gracefully and scale elastically to meet demand.  An ambitious goal, but one within reach given our current technology.
 
 Will this journey from the familiarity of the monolith to the unknown of the microservices be easy?  No, there are always tradeoffs when making such choices.  Developers will face increased complexity in running and testing multiple services locally.  Architects will struggle to define appropriate boundaries for services.  Operations folks will now have _n_ builds to maintain and monitor instead of one.  Change won't come easy, but for most enterprise-level systems, the pros can outweigh the cons.
 

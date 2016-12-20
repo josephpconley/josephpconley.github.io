@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: api DataCombinator philosophy
+tags: api datacombinator philosophy
 title: Apps are Dead
 subtitle: Well not really, but they should be
 published: true

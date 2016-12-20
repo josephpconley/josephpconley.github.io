@@ -15,14 +15,23 @@ kramdown:
 future: true
 
 collections:
-  my_tags:
+  tag_pages:
     output: true
     permalink: /tags/:name/
+  tag_feeds:
+    output: true
+    permalink: /tags/:name/feed.xml
 
 defaults:
   -
     scope:
       path: ""
-      type: my_tags
+      type: tag_pages
     values:
       layout: tag_index
+  -
+    scope:
+      path: ""
+      type: tag_feeds
+    values:
+      layout: tag_feed

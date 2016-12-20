@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: DataCombinator api json xml csv opendata
+tags: datacombinator api json xml csv opendata
 title: Query JSON/XML/CSV using SQL
 subtitle: ...and other useful data transformations
 published: true

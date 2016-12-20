@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: DataCombinator playframework json api scala
+tags: datacombinator playframework json api scala
 title: JSONPath Library for Play
 subtitle: Efficient query language for JSON and Play apps
 published: true

@@ -1,0 +1,4 @@
+---
+slug: economics
+name: economics
+---

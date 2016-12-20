@@ -1,0 +1,4 @@
+---
+slug: majors
+name: majors
+---

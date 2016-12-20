@@ -1,4 +1,4 @@
 ---
 slug: datacombinator
-name: DataCombinator
+name: datacombinator
 ---

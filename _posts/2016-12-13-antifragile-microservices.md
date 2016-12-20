@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: [lagom, Nassim Nicholas Taleb, chariot, microservices]
+tags: [lagom, taleb, chariot, microservices]
 title: The Evolution of Software Architecture
 subtitle: Using microservices to build antifragile systems
 published: true

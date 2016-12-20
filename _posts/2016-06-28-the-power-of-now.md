@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: [Derek Sivers]
+tags: [sivers]
 title: The Power of /now
 subtitle: Going beyond 140 characters
 published: true

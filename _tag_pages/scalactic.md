@@ -1,0 +1,4 @@
+---
+slug: scalactic
+name: scalactic
+---

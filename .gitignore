@@ -16,3 +16,4 @@ RUNNING_PID
 atlassian-ide-plugin.xml
 _site
 *.lock
+*.class

@@ -1,138 +1,121 @@
 ---
-layout: main
+layout: static
 title: Models
 ---
+<h1>Mental Models</h1>
+<small>Last updated December 20, 2016.</small>
+<p>
+    I'm a big fan of the Farnam Street blog.
+    One really neat section is <a href="https://www.farnamstreetblog.com/mental-models/" target="_blank">Mental Models</a>, where Shane Parrish
+    explains the ideas of Charlie Munger in organizing knowledge using models.
+    This resonates strongly with me as I have a great disdain for the rote memorization that sometimes passes as knowledge (usually in formal education settings, standardized testing, etc.).
+    What's more, the focus here is for knowledge that's <b>useful</b>.  I sometimes get so lost in books that I forget
+    that to truly grasp the ideas I'm reading about, the idea needs to be put into <b>practice</b>.
+</p>
+<p>
+    So in that spirit, I've listed some of the mental models that I find relevant in my life (in no particular order).
+    I'll try to expand on these models in future blog posts.
+</p>
 
-<div class="copy">
-    <h1>Mental Models</h1>
-    <small>Last updated December 20, 2016.</small>
-    <p>
-        I'm a big fan of the Farnam Street blog.
-        One really neat section is <a href="https://www.farnamstreetblog.com/mental-models/" target="_blank">Mental Models</a>, where Shane Parrish
-        explains the ideas of Charlie Munger in organizing knowledge using models.
-        This resonates strongly with me as I have a great disdain for the rote memorization that sometimes passes as knowledge (usually in formal education settings, standardized testing, etc.).
-        What's more, the focus here is for knowledge that's <b>useful</b>.  I sometimes get so lost in books that I forget
-        that to truly grasp the ideas I'm reading about, the idea needs to be put into <b>practice</b>.
-    </p>
-    <p>
-        So in that spirit, I've listed some of the mental models that I find relevant in my life (in no particular order).
-        I'll try to expand on these models in future blog posts.
-    </p>
-
-    <h1>Joe's Mental Models</h1>
-    <ul>
-        <li>
-            <b>Bottom-up Thinking</b>
-            <ul>
-                <li>
-                    <b>Software Engineering</b> - If you truly want to understand how a program works, don't look at API specs or
-                    UML diagrams, read the damn source code!
-                </li>
-                <li>
-                    <b>Economics</b> - Ray Dalio mentions in his <a href="http://www.valuewalk.com/wp-content/uploads/2014/10/ray_dalio__how_the_economic_machine_works__leveragings_and_deleveragings.pdf" target="_blank">Economic Principles</a>
-                    that the best way to understand the economy is a bottom-up approach, it's really all just a bunch of transactions.
-                </li>
-                <li>
-                    <b>Golf</b> - A tour pro once asked Ben Hogan for help with his golf swing. Hogan replied
-                    <a href="http://www.nytimes.com/1997/07/27/sports/hogan-constant-focus-on-perfection.html" target="_blank">"Dig it out of the dirt, like I did"</a>.
-                    Hogan would spend long hours on the driving range working on his game.  He'd hit golf balls until his fingers blistered,
-                    go inside and ice down the blisters until they were numb, then go right back out and hit more balls.
-                    I think the idea here is twofold: true knowledge requires unrelenting, focused action, and that
-                    sometimes you have to find it on your own.  I wonder how this second part affects modern tour pros today.
-                    Most pros have a team of trainers and swing coaches, so you wonder how their swing holds up on the home stretch
-                    of a major when it's just them and the course (and millions of people watching).
-                </li>
-            </ul>
-        </li>
-        <li>
-            <b>Picky in Selection but Aggressive in Execution</b>
-            <ul>
-                <li>
-                    <b>Poker (a.k.a. The Mike McDermott Principle)</b> - In <i>Rounders</i>,
-                    Mike McDermott describes a solid Texas Hold 'Em strategy as being tight in pre-hand selection,
-                    but for the hands you do play, being aggressive.  I like this approach,
-                    it requires discipline, and by default your opponents will assume you only play with good cards.
-                    Of course, in poker it's also good to deviate completely from this strategy to throw people off the scent,
-                    so if you're ever across the felt from me, you've been warned!
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <b>Information Consumption</b> - In the books you read, the movies you watch, and the fields of study you undertake,
-                    I think you should be picky in what you choose to spend your time on, but be fully present and engaged in what you do.
-                    We're on this earth for a short while, you owe it to yourself to converse with the best art humanity has produced.
-                    And do try to limit social media, the endorphins are nice but there's so much else out there.
-                </li>
-            </ul>
-        </li>
-        <li>
-            <b>Single Responsbility Principle</b>
-            <ul>
-                <b>Software Engineering</b> - When defining a class or a method, it should focus on doing only ONE thing and doing it well.
-                If your method starts doing multiple things, it's probably time to split into smaller methods to handle each one things.
-                This makes your code easier to reason about and easier to debug.
-            </ul>
-            <ul>
-                <b>Business</b> - For some companies/startups, it pays to focus on only ONE niche/market/service and have all of your
-                decisions go through that one filter.
-            </ul>
-        </li>
-        <li>
-            <b>Batching Tasks for Efficiency</b>
-            <ul>
-                <b>Productivity</b> - If you have a list of regular tasks that need to be done and aren't super time-sensitive,
-                schedule an hour or a day a week to get them all done then (I do my "Taking Out the Trash" on Monday nights, which coincide with my actual trash day).
-                Inspired by several folks but first heard it from Tim Ferriss in <a href="https://www.goodreads.com/book/show/368593.The_4_Hour_Workweek?from_search=true" target="_blank"><i>The Four Hour Workweek</i></a>.
-                I'd also suggest that if a task takes two minutes or less, <a href="http://jamesclear.com/how-to-stop-procrastinating" target="_blank">just do it right away.</a>
-            </ul>
-            <ul>
-                <b>Software Engineering</b> - A typical pattern in ETL when moving large chunks of data from a big data source (i.e. huge Hadoop cluster)
-                to another data source (i.e. relational database for reporting) is to batch the operation and run it once a day/week/month
-                depending on your needs.  Constantly running an expensive job like that will most often not make sense, so batching time-intensive operations
-                late at night is effective.
-            </ul>
-        </li>
-        <li>
-            <b>Premature Optimization</b>
-            <ul>
-                <b>Productivity/Organization</b> - I've noticed recently that in an effort to try to stay organized, I over-label emails in
-                Gmail, documents in Evernote, and notes in Keep, yet whenever I want to find information in any of these platforms,
-                I do a simple search (which is usually fast and effective).  So my advice is, only use tags sparingly for
-                a few main contexts that you use often.  For example, in Keep I have tags for my clients, writing, shopping, housework, and general tasks.
-            </ul>
-            <ul>
-                <b>Software Engineering</b> - Premature optimization is <a href="http://wiki.c2.com/?PrematureOptimization" target="_blank">the root of all evil</a>.
-                Couldn't agree more.  I'd also extend that to the startup world to say that the premature building of software before
-                proving out a market is evil and a waste of time and money.
-            </ul>
-        </li>
-        <li>
-            <b>Efficient and Purposeful Storage of Information</b> (suggestions on better name welcome)
-            <ul>
-                <b>Data Structures</b> - some data structures like <a href="https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree" target="_blank">balanced binary trees</a>
-                store data in such a way so as to make operations like search efficient.  Certainly not a mind blowing concept
-                but I appreciate thoughtful consideration ahead of time to improve future needs.
-            </ul>
-            <ul>
-                <b>Cassandra</b> - this is efficient and purposeful storage on steroids.  <a href="https://academy.datastax.com/resources/brief-introduction-apache-cassandra" target="_blank">Cassandra</a>,
-                all but forces you to store data and design tables in an efficient manner.  Schema design is based on the predefined queries you'll need in your application.
-                Only a small subset of SQL is allowed to ensure that you run efficient queries over the cluster.
-                While it may not be suitable for every use case, if you need to read/write Big Data effectively, this should probably be your datastore.
-            </ul>
-        </li>
-    </ul>
-</div>
-<hr>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-var disqus_shortname = 'josephpconley'; // required: replace example with your forum shortname
-/* * * DON'T EDIT BELOW THIS LINE * * */
-(function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<h1>Joe's Mental Models</h1>
+<ul>
+    <li>
+        <b>Bottom-up Thinking</b>
+        <ul>
+            <li>
+                <b>Software Engineering</b> - If you truly want to understand how a program works, don't look at API specs or
+                UML diagrams, read the damn source code!
+            </li>
+            <li>
+                <b>Economics</b> - Ray Dalio mentions in his <a href="http://www.valuewalk.com/wp-content/uploads/2014/10/ray_dalio__how_the_economic_machine_works__leveragings_and_deleveragings.pdf" target="_blank">Economic Principles</a>
+                that the best way to understand the economy is a bottom-up approach, it's really all just a bunch of transactions.
+            </li>
+            <li>
+                <b>Golf</b> - A tour pro once asked Ben Hogan for help with his golf swing. Hogan replied
+                <a href="http://www.nytimes.com/1997/07/27/sports/hogan-constant-focus-on-perfection.html" target="_blank">"Dig it out of the dirt, like I did"</a>.
+                Hogan would spend long hours on the driving range working on his game.  He'd hit golf balls until his fingers blistered,
+                go inside and ice down the blisters until they were numb, then go right back out and hit more balls.
+                I think the idea here is twofold: true knowledge requires unrelenting, focused action, and that
+                sometimes you have to find it on your own.  I wonder how this second part affects modern tour pros today.
+                Most pros have a team of trainers and swing coaches, so you wonder how their swing holds up on the home stretch
+                of a major when it's just them and the course (and millions of people watching).
+            </li>
+        </ul>
+    </li>
+    <li>
+        <b>Picky in Selection but Aggressive in Execution</b>
+        <ul>
+            <li>
+                <b>Poker (a.k.a. The Mike McDermott Principle)</b> - In <i>Rounders</i>,
+                Mike McDermott describes a solid Texas Hold 'Em strategy as being tight in pre-hand selection,
+                but for the hands you do play, being aggressive.  I like this approach,
+                it requires discipline, and by default your opponents will assume you only play with good cards.
+                Of course, in poker it's also good to deviate completely from this strategy to throw people off the scent,
+                so if you're ever across the felt from me, you've been warned!
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <b>Information Consumption</b> - In the books you read, the movies you watch, and the fields of study you undertake,
+                I think you should be picky in what you choose to spend your time on, but be fully present and engaged in what you do.
+                We're on this earth for a short while, you owe it to yourself to converse with the best art humanity has produced.
+                And do try to limit social media, the endorphins are nice but there's so much else out there.
+            </li>
+        </ul>
+    </li>
+    <li>
+        <b>Single Responsbility Principle</b>
+        <ul>
+            <b>Software Engineering</b> - When defining a class or a method, it should focus on doing only ONE thing and doing it well.
+            If your method starts doing multiple things, it's probably time to split into smaller methods to handle each one things.
+            This makes your code easier to reason about and easier to debug.
+        </ul>
+        <ul>
+            <b>Business</b> - For some companies/startups, it pays to focus on only ONE niche/market/service and have all of your
+            decisions go through that one filter.
+        </ul>
+    </li>
+    <li>
+        <b>Batching Tasks for Efficiency</b>
+        <ul>
+            <b>Productivity</b> - If you have a list of regular tasks that need to be done and aren't super time-sensitive,
+            schedule an hour or a day a week to get them all done then (I do my "Taking Out the Trash" on Monday nights, which coincide with my actual trash day).
+            Inspired by several folks but first heard it from Tim Ferriss in <a href="https://www.goodreads.com/book/show/368593.The_4_Hour_Workweek?from_search=true" target="_blank"><i>The Four Hour Workweek</i></a>.
+            I'd also suggest that if a task takes two minutes or less, <a href="http://jamesclear.com/how-to-stop-procrastinating" target="_blank">just do it right away.</a>
+        </ul>
+        <ul>
+            <b>Software Engineering</b> - A typical pattern in ETL when moving large chunks of data from a big data source (i.e. huge Hadoop cluster)
+            to another data source (i.e. relational database for reporting) is to batch the operation and run it once a day/week/month
+            depending on your needs.  Constantly running an expensive job like that will most often not make sense, so batching time-intensive operations
+            late at night is effective.
+        </ul>
+    </li>
+    <li>
+        <b>Premature Optimization</b>
+        <ul>
+            <b>Productivity/Organization</b> - I've noticed recently that in an effort to try to stay organized, I over-label emails in
+            Gmail, documents in Evernote, and notes in Keep, yet whenever I want to find information in any of these platforms,
+            I do a simple search (which is usually fast and effective).  So my advice is, only use tags sparingly for
+            a few main contexts that you use often.  For example, in Keep I have tags for my clients, writing, shopping, housework, and general tasks.
+        </ul>
+        <ul>
+            <b>Software Engineering</b> - Premature optimization is <a href="http://wiki.c2.com/?PrematureOptimization" target="_blank">the root of all evil</a>.
+            Couldn't agree more.  I'd also extend that to the startup world to say that the premature building of software before
+            proving out a market is evil and a waste of time and money.
+        </ul>
+    </li>
+    <li>
+        <b>Efficient and Purposeful Storage of Information</b> (suggestions on better name welcome)
+        <ul>
+            <b>Data Structures</b> - some data structures like <a href="https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree" target="_blank">balanced binary trees</a>
+            store data in such a way so as to make operations like search efficient.  Certainly not a mind blowing concept
+            but I appreciate thoughtful consideration ahead of time to improve future needs.
+        </ul>
+        <ul>
+            <b>Cassandra</b> - this is efficient and purposeful storage on steroids.  <a href="https://academy.datastax.com/resources/brief-introduction-apache-cassandra" target="_blank">Cassandra</a>,
+            all but forces you to store data and design tables in an efficient manner.  Schema design is based on the predefined queries you'll need in your application.
+            Only a small subset of SQL is allowed to ensure that you run efficient queries over the cluster.
+            While it may not be suitable for every use case, if you need to read/write Big Data effectively, this should probably be your datastore.
+        </ul>
+    </li>
+</ul>

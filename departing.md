@@ -5,6 +5,10 @@ title: Departing Words
 
 # Departing Words
 
+<div>
+    <small>Last updated December 27, 2016.</small>
+</div>    
+
 Life is short.  Cliche, but true.  With the knowledge that I could drop dead tomorrow, and casting aside the typical 
 but important concerns of financial planning and the like, I wanted to take the time to bequeath
 to anyone who's interested (hopefully my kids at least) some thoughts.  More specifically, these are ideas

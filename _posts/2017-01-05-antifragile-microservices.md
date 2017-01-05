@@ -13,8 +13,9 @@ A now-ubiquitous term, microservices takes that age-old programming tenet of ["d
 
 This approach allows a team to build a service in isolation, choosing the appropriate language and datastore for that service's needs.  This also allows the teams themselves to be more specialized.  Instead of having several full-stack developers who are pretty good at every aspect of the monolith, you can have entire teams to dedicated to just UI, server-side, or database development.  This allows for higher quality of software, and a faster rate of evolution.
 
-<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/863_RC25/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"microservices","geo":"","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"q=microservices"}); </script>
-<small>Popularity of the term "microservices" - Google Trends</small>
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/884_RC03/embed_loader.js"></script>
+<script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"microservices","geo":"","time":"2012-01-01 2016-12-01"}],"category":0,"property":""}, {"exploreQuery":"date=2012-01-01%202016-12-01&q=microservices"}); </script> 
+<small>Popularity of the term "microservices" - <a href="https://www.google.com/trends/explore?date=2012-01-01%202016-12-01&q=microservices" target="_blank">Google Trends</a></small>
 
 Some recent trends have contributed to the popularity of microservices architectures. The rise of functional programming, with its focus on functions as first-class citizens and immutable state, encouraged developers to write smaller, simpler methods that compose rather than long, unwieldy algorithms. Reactive programming further refined inter-service communication with asynchronous message-passing, back-pressure, and resilience. Containerization provided another boost, literally encapsulating entire processes in portable, runnable environments. These ideas all lay the foundation for a microservices way of thinking.
 

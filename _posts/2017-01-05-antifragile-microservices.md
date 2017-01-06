@@ -2,7 +2,7 @@
 layout: post
 type: post
 tags: [lagom, taleb, chariot, microservices]
-title: The Evolution of Software Architecture
+title: Microservices and the Evolution of Software Architecture
 subtitle: Using microservices to build antifragile systems
 published: true
 ---

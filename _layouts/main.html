@@ -19,6 +19,36 @@
             ga('send', 'pageview');
         </script>
 
+        <script>
+            function compare(a,b) {
+              if (a.name < b.name)
+                 return -1;
+              if (a.name > b.name)
+                return 1;
+              return 0;
+            }
+
+            $("#tags>a").tsort();
+
+            $(".clickableRow").click(function() {
+                window.open($(this).attr("href"));
+            });
+
+            function callback(data){
+                $("#lastUpdated").html(new Date(Date.parse(data.date)).toLocaleDateString());
+                $("#lastUpdated").attr("href", data.url);
+            }
+
+            function lastUpdated(page){
+                $.ajax({
+                    url: "http://www.datacombinator.com/api/redis.jsonp?key=" + page,
+                    dataType: "jsonp",
+                    jsonpCallback: "callback"
+                });
+            }
+
+        </script>
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -51,32 +81,3 @@
       </div>
     </body>
 </html>
-<script>
-function compare(a,b) {
-  if (a.name < b.name)
-     return -1;
-  if (a.name > b.name)
-    return 1;
-  return 0;
-}
-
-$("#tags>a").tsort();
-
-$(".clickableRow").click(function() {
-    window.open($(this).attr("href"));
-});
-
-function callback(data){
-    $("#lastUpdated").html(new Date(Date.parse(data.date)).toLocaleDateString());
-    $("#lastUpdated").attr("href", data.url);
-}
-
-function lastUpdated(page){
-    $.ajax({
-        url: "http://www.datacombinator.com/api/redis.jsonp?key=" + page,
-        dataType: "jsonp",
-        jsonpCallback: "callback"
-    });
-}
-
-</script>

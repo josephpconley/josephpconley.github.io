@@ -4,6 +4,7 @@ title: Departing Words
 ---
 
 # Departing Words
+<small>Last updated <a id="lastUpdated" target="_blank"></a></small>
 
 <div>
     <small>Last updated December 27, 2016.</small>
@@ -71,3 +72,7 @@ Life can be full of conflict, don't let a simple game be dominated by conflict t
 - The Greatest Game Ever Played by Mark Frost - not directly related to my thoughts above, it's just an awesome book about 
 the history of golf and one of the greatest underdog stories ever.  I'm reluctant to recommend the corresponding movie, it tried
 hard but the book does a much better job of setting the stage for the 1913 U.S. Open and making the characters interesting and relatable.
+
+<script>
+lastUpdated("departing")
+</script>

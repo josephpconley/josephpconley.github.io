@@ -42,7 +42,7 @@ Total.js follows the model-view-controller convention to much success.  Simply p
 
 ### Plays well with others
 
-Total.js enjoys all the benefits of any Node.js framework, namely access to the treasure trove of libraries in `npm`.  However, I was pleasantly surprised to find a [sizeable collection of built-in utlities](http://docs.totaljs.com/Framework/) to manage common web application functionality like file operations, email, and websocket administration.  There is also the option to build your own modules by writing custom code which can hook into different events in the web application lifecycle.  Total.js [has already built a list of modules](https://github.com/totaljs/modules) to get you started.
+Total.js enjoys all the benefits of any Node.js framework, namely access to the treasure trove of libraries in `npm`.  However, I was pleasantly surprised to find a [sizeable collection of built-in utlities](https://docs.totaljs.com/latest/en.html#api~Framework) to manage common web application functionality like file operations, email, and websocket administration.  There is also the option to build your own modules by writing custom code which can hook into different events in the web application lifecycle.  Total.js [has already built a list of modules](https://github.com/totaljs/modules) to get you started.
 
 ### Examples
 

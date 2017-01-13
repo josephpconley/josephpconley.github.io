@@ -6,11 +6,10 @@ title: Lists
 # Lists
 <small>Last updated <a id="lastUpdated" target="_blank"></a></small>
 
-Kind of a follow-up to the spirit of the [Departing Words](/departing) page, here's an easy-to-digest list of my favorite things.
-Trying to keep this to be short-and-sweet so that only the best of the best make the cut.
+Kind of a follow-up to the spirit of the [Departing Words](/departing) page, here's the short list of my favorite things.
 
 ## Movies
-- The Matrix Collection (Trilogy + The Animatrix + )
+- The Matrix Collection (Trilogy + The Animatrix)
 - In Bruges               
 - The Godfather (1 and 2)
 - The Last Samurai

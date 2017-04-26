@@ -3,7 +3,7 @@ layout: post
 type: post
 tags: [comcast, chariot, episteme, javascript]
 title: Graph-Based Documentation
-subtitle: Mental Models are important!
+subtitle: All visual models are false, but we can build some that are useful right?
 published: true
 ---
 

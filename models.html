@@ -40,6 +40,11 @@ title: Mental Models
                 Most pros have a team of trainers and swing coaches, so you wonder how their swing holds up on the home stretch
                 of a major when it's just them and the course (and millions of people watching).
             </li>
+            <li>
+                <b>Winston Churchill and Information Gathering</b> - For the life of me I can't remember where I read this (and a quick Google search turned up nada)
+                but I remember reading that Churchill preferred to get most of his wartime information directly from lieutenants on the front lines
+                rather than from generals who might distort the information based on their own beliefs/ambitions.
+            </li>
         </ul>
     </li>
     <li>
@@ -69,7 +74,7 @@ title: Mental Models
         </ul>
     </li>
     <li>
-        <b>Single Responsbility Principle</b>
+        <b>Single Responsibility Principle</b>
         <ul>
             <li>
                 <b>Software Engineering</b> - When defining a class or a method, it should focus on doing only ONE thing and doing it well.
@@ -87,7 +92,11 @@ title: Mental Models
         <ul>
             <li>
                 <b>Productivity</b> - If you have a list of regular tasks that need to be done and aren't super time-sensitive,
-                schedule an hour or a day a week to get them all done then (I do my "Taking Out the Trash" on Monday nights, which coincide with my actual trash day).
+                schedule an hour or a day a week to get them all done then.  I have a "Taking Out the Trash" on Monday nights,
+                which coincide with my actual trash day so it feels natural and I don't need a reminder. In addition to paying bills
+                and balancing my checkbox, I also catch up on RSS to see the blogs/newsletters from the past week and do a bit of reading
+                and/or assigning articles to Pocket.
+
                 Inspired by several folks but first heard it from Tim Ferriss in <a href="https://www.goodreads.com/book/show/368593.The_4_Hour_Workweek?from_search=true" target="_blank"><i>The Four Hour Workweek</i></a>.
                 I'd also suggest that if a task takes two minutes or less, <a href="http://jamesclear.com/how-to-stop-procrastinating" target="_blank">just do it right away.</a>
             </li>
@@ -109,7 +118,8 @@ title: Mental Models
                 a few main contexts that you use often.  For example, in Keep I have tags for my clients, writing, shopping, housework, and general tasks.
             </li>
             <li>
-                <b>Software Engineering</b> - Premature optimization is <a href="http://wiki.c2.com/?PrematureOptimization" target="_blank">the root of all evil</a>.
+                <b>Software Engineering</b> - Premature optimization is
+                <a href="http://wiki.c2.com/?PrematureOptimization" target="_blank">the root of all evil</a>.
                 Couldn't agree more.  I'd also extend that to the startup world to say that the premature building of software before
                 proving out a market is evil and a waste of time and money.
             </li>
@@ -153,13 +163,25 @@ title: Mental Models
             </li>
             <li>
                 <b>Data Persistence</b> - Rather than storing data in a typical RDBMS where you can constantly mutate rows,
-                consider an append-only datastore (also called <a href="https://msdn.microsoft.com/en-us/library/dn589792.aspx" target="_blank">Event Sourcing</a>).
+                consider an append-only datastore
+                (also called <a href="https://msdn.microsoft.com/en-us/library/dn589792.aspx" target="_blank">Event Sourcing</a>).
                 Querying becomes more difficult (you effectively need to query the entire history of appends or save snapshots of queries)
                 but you get an audit trail for free and schema evolution is trivial.
             </li>
             <li>
-                <b>Accounting</b> - Similar to previous point, data is never mutated, every transaction is entered into the ledger and totals/sums are derived
-                from the entire history.
+                <b>Accounting</b> - Similar to previous point, data is never mutated, every transaction is entered into the ledger
+                and aggregate queries like totals/sums are derived from the entire history.
+            </li>
+        </ul>
+    </li>
+    <li>
+        <b>Addition by Subtraction</b>
+        <ul>
+            <li>
+                <b>Dieting</b>
+            </li>
+            <li>
+                <b>Productivity</b>
             </li>
         </ul>
     </li>

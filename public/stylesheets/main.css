@@ -14,6 +14,11 @@ a img {
     border: none;
 }
 
+.copy img {
+    max-width: 700px;
+    max-height: 450px;
+}
+
 .copy p, li{
     font-size: 20px !important;
     max-width: 50em;
@@ -22,6 +27,7 @@ a img {
 
 .copy p {
     margin-bottom: 40px;
+    word-spacing: 2px;
 }
 
 code, pre {

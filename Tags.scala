@@ -6,7 +6,7 @@ object Tags extends App {
     val body =
       s"""
          |---
-         |slug: $name
+         |slug: ${name.replace(".", "-")}
          |name: $name
          |---
        """.stripMargin.trim

@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: innovation Tolkien startups creativity
+tags: innovation tolkien startups creativity
 title: The Real Secret of Monkey Island - Innovation
 subtitle: Adventure and puzzling on the high seas
 published: true

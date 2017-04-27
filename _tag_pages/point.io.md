@@ -1,4 +1,4 @@
 ---
-slug: point.io
+slug: point-io
 name: point.io
 ---

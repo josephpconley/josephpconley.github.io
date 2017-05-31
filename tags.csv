@@ -2,6 +2,7 @@ akka
 aop
 api
 books
+cassandra
 chariot
 comcast
 conferences

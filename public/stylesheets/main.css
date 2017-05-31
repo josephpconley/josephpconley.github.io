@@ -21,7 +21,7 @@ a img {
 
 .copy p, li{
     font-size: 20px !important;
-    max-width: 50em;
+    max-width: 60em;
     line-height: 1.75;
 }
 
@@ -36,7 +36,6 @@ code, pre {
 
 code {
     padding: 2px 4px;
-    vertical-align: text-bottom;
 }
 
 pre {

@@ -30,7 +30,7 @@ when running on a fraction of the data for the daily runs.  Panic time!
 
 <img src="/assets/fry-panic.jpg" alt="Philip J. Fry Panicking"/><br>
 
-After wading through my own logs and some cryptic YARN stacktraces, it dawned on me to check my configuration properties.  
+After wading through my own logs and some cryptic YARN stacktraces, it dawned on me to check my configuration properties.
 One thing in particular jumped out at me:
 
 ```
@@ -43,6 +43,8 @@ resulted from the overhead of using so many partitions for so little data (my ow
 I disabled this property (defaulting to 200) and my job started running in ~2 minutes, much better!
 
 <img src="/assets/futurama-happy.jpg" alt="Futurama gang happy"/><br>
+
+(UPDATE: after some experimentation on the cluster, I set the number of partitions to 64)
 
 More lessons learned:
 
@@ -63,7 +65,7 @@ for any knowledge work.  You need to [do the work](https://www.farnamstreetblog.
 to acquire knowledge.  This involves not just reading but challenging assumptions, proving out ideas, and
 [digging knowledge out of the dirt](http://www.nytimes.com/1997/07/27/sports/hogan-constant-focus-on-perfection.html?src=pm).
 Active engagement using quick feedback loops will lead to much deeper and usable knowledge, and that'll make you, as Mick would say,
-"a very dangerous person!"
+["a very dangerous person!"](https://www.youtube.com/watch?v=o0CXUv-xxtY)
 
 Party on!
 

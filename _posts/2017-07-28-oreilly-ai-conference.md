@@ -7,7 +7,7 @@ subtitle: Getting to know our robot overlords
 published: true
 ---
 
-<p><img src="/assets/ainy.jpg"/><br><small>Photo credit: [O'Reilly AI](https://conferences.oreilly.com/artificial-intelligence/ai-ny)</small></p>
+<p><img src="/assets/ainy.jpg"/><br><small>Photo credit: <a href="https://conferences.oreilly.com/artificial-intelligence/ai-ny">O'Reilly AI</a></small></p>
 
 I recently had the pleasure of attending the nascent [O'Reilly AI Conference](https://conferences.oreilly.com/artificial-intelligence/ai-ny) in Midtown Manhattan.  The event focused on the technical progress being made in deep learning, reinforcement learning, and cognitive systems that augment human intelligence.  These advancements have already had a significant impact in many walks of life like autonomous driving, health care, and knowledge work.  My impression from the conference was that while there's been amazing gains in specific domains (i.e. narrow AI), there hasn't been much focus yet on practical paths to developing fully-thinking, superintelligent systems (i.e. strong AI).
 

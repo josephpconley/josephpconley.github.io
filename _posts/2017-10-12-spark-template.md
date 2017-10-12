@@ -7,6 +7,9 @@ subtitle: Using `sbt new` to quickly create Spark projects
 published: true
 ---
 
+<img src="https://images.gr-assets.com/books/1427583285l/25238425.jpg"/>
+<img src="https://images.gr-assets.com/books/1347800461l/324750.jpg"/>
+
 [Edmond Lau](https://twitter.com/edmondlau) talks a lot about leverage in his book 
 [The Effective Engineer](https://www.goodreads.com/book/show/25238425-the-effective-engineer?from_search=true), 
 a term he borrowed from Andy Grove's [High Output Management](https://www.goodreads.com/book/show/324750.High_Output_Management?ac=1&from_search=true).

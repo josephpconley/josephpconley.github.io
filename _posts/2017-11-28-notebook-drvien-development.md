@@ -15,6 +15,20 @@ The craftier of you might turn to that most estimable of tools, the REPL (Read-E
 
 So yes, the REPL is nice and all but you can go even FURTHER, FASTER with notebooks like [Apache Zeppelin](https://zeppelin.apache.org/).  Zeppelin (like [Jupyter](http://jupyter.org/)) allows you to write snippets of runnable code in notebooks and execute them from the browser.  What separates Zeppelin from Jupyter is how well it works out of the box with Spark.  Spark is the default interpreter for Zeppelin and provides the spark and sql contexts for you implicitly.  You also get great visualizations of SQL queries for free.
 
+<table class="image">
+	<caption align="bottom">Simple SQL query using Zeppelin's bank example</caption>
+	<tr><td><img src="/assets/zeppelin-sql.png" alt="Simple SQL query using Zeppelin's bank example"/></td></tr>
+</table>
+
+<br>
+
+<table class="image">
+	<caption align="bottom">Simple SQL query with bar graph and form input</caption>
+	<tr><td><img src="/assets/zeppelin-bar.png" alt="Simple SQL query with bar graph"/></td></tr>
+</table>
+
+<br>
+
 With Zeppelin, if you're trying to query some dataset and want to understand its total size, the cardinality of a column, or simple descriptive statistics, you can do that immediately from the notebook itself with simple SQL queries.  This sounds trivial but it ABSOLUTELY saves you time and effort by giving you a tight feedback loop when asking questions of data and not having to reload it every single time (when you use `cache`).  In addition, you get documentation for free with Markdown, data visualization support with Angular, a growing ecosystem of modules in the Big Data ecosystem, and simple support for collaboration and sharing among your team.
 
 I also think Zeppelin helps you write more scalable Spark code.  Writing code in paragraphs reinforces the idea of making methods as small and concise as possible.  Once these chunks of code are worked out, building out your codebase is more or less a matter of composing these chunks into logical classes or methods.

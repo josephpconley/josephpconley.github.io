@@ -2,6 +2,7 @@ akka
 aop
 api
 books
+buyside
 cassandra
 chariot
 comcast
@@ -27,6 +28,7 @@ majors
 maven
 microservices
 mongodb
+newsletter
 nodejs
 opendata
 pgatour

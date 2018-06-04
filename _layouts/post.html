@@ -11,11 +11,16 @@ layout: main
       <a href="/tags/{{ tag }}/" class="ui label blue">{{ tag }}</a>
     {% endfor %}
 
-    <br><br>
-    <div class="copy">
-      {{ content }}
+    <div class="eta"></div>
 
-      <br>
+    <br><br>
+
+    <div class="copy">
+      <div class="content">
+      {{ content }}
+      </div>
+
+      <br><br>
       <a class="ui blue button" href="http://twitter.com/home/?status={{page.title}} by @josephpconley http://www.josephpconley.com{{page.url}}" target="_blank">
         <i class="twitter icon"></i> Tweet
       </a>
@@ -39,6 +44,8 @@ layout: main
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
+
+    $('.content').readingTime();
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>

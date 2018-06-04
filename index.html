@@ -35,23 +35,43 @@ subtitle: Temet nosce
           {% endif %}
     </div>
     <div class="six wide column">
-      <h2>Tags</h2>
-      <div id="tags">
-        {% for tag in site.tags %}
-          <a class="item" href="/tags/{{ tag | first | slugify }}/">
-            <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 100 }}%">{{ tag | first }}</span>
-          </a>
-        {% endfor %}
-      </div>
+        <!-- Begin MailChimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+        <div id="mc_embed_signup">
+        <form action="https://josephpconley.us18.list-manage.com/subscribe/post?u=22f8d6ce684f380ec49311bf5&amp;id=165889396a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+            <label for="mce-EMAIL">Subscribe to my monthly newsletter</label>
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_22f8d6ce684f380ec49311bf5_165889396a" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+        </div>
+        <!--End mc_embed_signup-->
 
-      <h2>Most Popular Posts</h2>
-      <div class="ui relaxed divided list">
-        <div class="item"><a href="/2014/04/15/jsonpath-for-play.html">JSONPath Library for Play</a></div>
-        <div class="item"><a href="/2014/03/04/building-better-apis-with-play.html">Building better APIs with Play!</a></div>
-        <div class="item"><a href="/2014/05/13/datacombinator-query-engine.html">Query JSON/XML/CSV using SQL</a></div>
-      </div>
+        <h2>Tags</h2>
+        <div id="tags">
+          {% for tag in site.tags %}
+            <a class="item" href="/tags/{{ tag | first | slugify }}/">
+              <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 100 }}%">{{ tag | first }}</span>
+            </a>
+          {% endfor %}
+        </div>
 
-      <a class="twitter-timeline" href="https://twitter.com/josephpconley" data-widget-id="692183110067343360">@josephpconley</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <h2>Most Popular Posts</h2>
+        <div class="ui relaxed divided list">
+            <div class="item"><a href="/2014/04/15/jsonpath-for-play.html">JSONPath Library for Play</a></div>
+            <div class="item"><a href="/2014/03/04/building-better-apis-with-play.html">Building better APIs with Play!</a></div>
+            <div class="item"><a href="/2014/05/13/datacombinator-query-engine.html">Query JSON/XML/CSV using SQL</a></div>
+        </div>
+
+        <a class="twitter-timeline" href="https://twitter.com/josephpconley" data-widget-id="692183110067343360">@josephpconley</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </div>
 </div>

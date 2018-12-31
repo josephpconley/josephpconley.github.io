@@ -1,0 +1,22 @@
+---
+layout: static
+title: Buyside
+---
+
+<script type="text/javascript" src="https://devapi.buyermls.com/widget/buyside-widget-ss-v1.js"></script>
+<script>
+    $.BuysideWidget({
+        key: "1519151123037216",
+        ssApiKey: "21656520188567909",
+        widgetSettings: [{widgetSource: 'avmwidget',widgetContainerId: 'avm-widget-container',formClass: 'col-xs-12',
+            formName: 'avmSearch',formId: 'avmSearch',fieldName: 'avmSearchAddress',fieldId: 'avmSearchAddress',
+            fsieldPlaceHolder: 'e.g. 123 Your Street, City, State Zip',invalidMessage: 'Address not verified',
+            formFieldsClass: 'col-xs-9',customSubmitBtn: '',submitBtnClass: 'home-worth-submit hourglass input-group-button',
+            submitSelector: 'btn-submit',submitBtnValue: '',openNewWindow:  true, userName: '', customCssLink: ''}]
+    });
+</script>
+<div class="upper-section">
+    <h2>What is Your <span class="bolded-header">Home Worth</span>?</h2>
+    <div id="avm-widget-container">&nbsp;</div>
+    <div style="height: 0px;" class="clearfix">&nbsp;</div>
+</div>

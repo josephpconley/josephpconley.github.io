@@ -8,7 +8,7 @@ layout: main
     {% capture date_format %}%b %-d %Y{% endcapture %}
     <time datetime="{{ page.date | html_global_date }}">{{ page.date | date: date_format }}</time>
     {% for tag in page.tags %}
-      <a href="/tags/{{ tag }}/" class="ui label blue">{{ tag }}</a>
+      <a href="/tags/{{ tag }}/" class="ui label gray">{{ tag }}</a>
     {% endfor %}
 
     <div class="eta"></div>
@@ -21,13 +21,13 @@ layout: main
       </div>
 
       <br><br>
-      <a class="ui blue button" href="http://twitter.com/home/?status={{page.title}} by @josephpconley http://www.josephpconley.com{{page.url}}" target="_blank">
+      <a class="ui gray button" href="http://twitter.com/home/?status={{page.title}} by @josephpconley http://www.josephpconley.com{{page.url}}" target="_blank">
         <i class="twitter icon"></i> Tweet
       </a>
-      <a class="ui blue button" href="https://www.facebook.com/sharer/sharer.php?u=http://www.josephpconley.com{{page.url}}" target="_blank">
+      <a class="ui gray button" href="https://www.facebook.com/sharer/sharer.php?u=http://www.josephpconley.com{{page.url}}" target="_blank">
         <i class="facebook icon"></i> Share
       </a>
-      <a class="ui blue button" href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.josephpconley.com{{page.url}}&title={{page.title}}" target="_blank">
+      <a class="ui gray button" href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.josephpconley.com{{page.url}}&title={{page.title}}" target="_blank">
         <i class="linkedin icon"></i> Share
       </a>
     </div>

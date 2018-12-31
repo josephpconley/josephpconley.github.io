@@ -17,7 +17,7 @@ subtitle: Temet nosce
                         <time datetime="{{ post.date | html_global_date }}">{{ post.date | date: date_format }}</time>
                         &nbsp;&nbsp;&nbsp;
                         {% for tag in post.tags %}
-                        <a href="/tags/{{ tag }}/" class="ui label blue">{{ tag }}</a>
+                        <a href="/tags/{{ tag }}/" class="ui label gray">{{ tag }}</a>
                         {% endfor %}
                     </div>
                   </div>

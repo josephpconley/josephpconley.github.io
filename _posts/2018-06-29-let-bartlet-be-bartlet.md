@@ -4,7 +4,7 @@ type: post
 tags: [essentialism]
 title: Chef Bartlet
 subtitle: Stop dangling your feet!
-published: true
+published: false
 ---
 
 In Aaron Sorkin's masterpiece *The West Wing*, there's one particularly good episode ("Let Bartlet Be Bartlet") where President Bartlet is struggling to stay energized throughout the day.  Here's Part One:

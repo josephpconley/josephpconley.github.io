@@ -4,7 +4,6 @@ title: Principles
 ---
 
 # Principles
-<small>Last updated <a id="lastUpdated" target="_blank"></a></small>
 
 Were I to be so bold to write a book someday, I might expand upon my experiences and how I've "earned" each of these principles.  For now, this is just a running list of some helpful ideas that have proven useful to me thus far (and may be underreported by other similar lists).
 
@@ -83,8 +82,3 @@ Even though from a technical perspective there are things that might be low lift
 **Be Mindful of the Decision Makers**
 
 When gauging the happiness of the client, it's all well and good to ensure your project champion is happy.  However, most times that resource is not the one making decisions.  It's important to understand the dynamics of your client and have a clear and open relationship with the actual decision makers, proving out your bottom-line value to them.
-
-
-<script>
-lastUpdated("principles")
-</script>

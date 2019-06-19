@@ -7,8 +7,6 @@ subtitle: (so far)
 published: true
 ---
 
-# My Principles (so far)
-
 I think it's important to learn from those who came before us.  There are rarely any "new" occurrences.  For instance, the Great Recession had some unique circumstances (complex securities mixed with a rare nationwide housing downturn), yet the root causes were nothing new (greed for more transactions, arrogance in assuming we can measure risk).  Often times there's more to gain from remembering then seeking something novel.
 
 In this spirit of remembering, I think it's important to talk about our principles.  It forces us to formalize them, open them up for debate and refine them.  What's nice is the word "principle" is a bit softer and more open for interpretation than words like "rule" or "law".  It suggests a rule of thumb, a heuristic to test in a specific context, to be tweaked depending on performance.

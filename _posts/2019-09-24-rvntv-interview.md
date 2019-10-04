@@ -2,7 +2,8 @@
 layout: post
 type: post
 tags: [news, buyside]
-title: RVNTV Interview 
+title: RVNTV Interview
+subtitle: Latest on Buyside, ETL, and my thoughts on AI 
 published: true
 ---
 

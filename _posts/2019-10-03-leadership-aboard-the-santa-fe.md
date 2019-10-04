@@ -3,7 +3,7 @@ layout: post
 type: post
 tags: [books, leadership, cto]
 title: Leadership Aboard the Santa Fe
-subtitle: I will trust but certify that you read this article...
+subtitle: I will trust but certify that you read this article
 published: true
 ---
 

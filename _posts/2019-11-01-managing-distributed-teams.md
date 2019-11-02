@@ -3,7 +3,7 @@ layout: post
 type: post
 tags: [news, buyside, cto]
 title: Managing Distributed Teams
-subtitle: Latest on Buyside, ETL, and my thoughts on AI 
+subtitle: Spread the love! 
 published: true
 ---
 

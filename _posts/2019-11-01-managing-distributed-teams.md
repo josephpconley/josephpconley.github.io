@@ -15,4 +15,4 @@ and our company is the better for it.
 
 Enjoy! 
 
-<a href="https://arkenea.com/blog/managing-distributed-teams/">https://arkenea.com/blog/managing-distributed-teams/</a>
+<a href="https://arkenea.com/blog/managing-distributed-teams/" target="_blank">https://arkenea.com/blog/managing-distributed-teams/</a>

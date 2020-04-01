@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: [news, buyside, cto]
+tags: [news, buyside, cto, forbes]
 title: Managing Distributed Teams
 subtitle: Spread the love! 
 published: true

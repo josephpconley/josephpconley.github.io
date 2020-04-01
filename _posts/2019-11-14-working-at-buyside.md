@@ -3,7 +3,7 @@ layout: post
 type: post
 tags: [buyside, cto]
 title: Working at Buyside
-subtitle: Spread the love! 
+subtitle: Culture matters 
 published: true
 ---
 

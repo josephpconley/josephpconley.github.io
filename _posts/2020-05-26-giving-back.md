@@ -13,6 +13,6 @@ I'd like to return the favor.  I know how hard it can be to get started in softw
 
 I also know how hard it can be for non-technical folks to try to start a technology-centric business.    Nowadays it's hard to imagine starting a business that doesn't have some need for technology, and the options are legion.  Buy or build?  Outsource or hire direct?  Mobile-first?  AI-first?  How to separate the noise (e.g. blockchain) from the signal?
 
-So in an effort to help folks in both camps, I'm setting up regular office hours (likely on my commute once the pandemic subsides).  If you wanna chat feel free to reach out over social, or if you're interested you can join my Slack group [here](https://join.slack.com/t/jpc2/shared_invite/zt-ekejgc4w-pWlPUJg_PXALVhXEHnrpSw).  I'll help where I can, or make referrals or intros where I can't.
+So in an effort to help folks in both camps, I'm setting up regular office hours (likely on my commute once the pandemic subsides).  If you wanna chat feel free to reach out over social, or if you're interested you can join my Slack group [here](https://join.slack.com/t/jpc2/shared_invite/zt-f5cpago5-OOVrJTM4REDy3wTRUhw0tQ).  I'll help where I can, or make referrals or intros where I can't.
 
 Don't be shy!  When reflecting on where I've had the biggest impact, I've constantly turned to service and leadership as where I've been the proudest of my work.  Drop me a line!

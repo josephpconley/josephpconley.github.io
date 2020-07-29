@@ -70,18 +70,32 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5PSJ6Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
+
       <div class="ui large sticky secondary borderless top menu blue" style="margin-top: 0px;">
         <a class="header item" href="/">Joe Conley</a>
         <a class="item" href="/now">Now</a>
-        <a class="item" href="/joe-os">Joe OS</a>
-        <a class="item" href="/principles">Principles</a>
-        <a class="item" href="/models">Models</a>
+        <div class="ui dropdown item">
+            My Ideas
+            <i class="dropdown icon"></i>
+            <div class="menu">
+                <a class="item" href="/joe-os">Joe OS</a>
+                <a class="item" href="/principles">Principles</a>
+                <a class="item" href="/models">Models</a>
+                <a class="item" href="/lists">Lists</a>
+            </div>
+        </div>
+          <div class="ui dropdown item">
+              My Work
+              <i class="dropdown icon"></i>
+              <div class="menu">
+                  <a class="item" href="/projects">Projects</a>
+                  <a class="item" href="/presentations">Presentations</a>
+                  <a class="item" href="/resume">Resume</a>
+              </div>
+          </div>
+
         <a class="item" href="/departing">Departing Words</a>
-        <a class="item" href="/projects">Projects</a>
-        <a class="item" href="/presentations">Presentations</a>
-        <a class="item" href="/lists">Lists</a>
-        <a class="item" href="/resume">Resume</a>
+
         <div class="right menu">
             <div class="item">
                 <a href="/feed.xml" target="_blank"><i class="rss icon"></i></a>
@@ -101,4 +115,7 @@
         {{ content }}
       </div>
     </body>
+    <script>
+        $('.ui.dropdown').dropdown();
+    </script>
 </html>

@@ -6,7 +6,7 @@ description: Random thoughts on technology, books, golf, and everything else tha
 paginate: 10
 paginate_path: "/page:num"
 
-gems: [jekyll-paginate, jekyll-gist, github-pages, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-gist, github-pages, jekyll-sitemap, jekyll-feed, jekyll-seo-tag, jekyll-target-blank]
 
 markdown: kramdown
 kramdown:

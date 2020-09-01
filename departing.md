@@ -69,6 +69,17 @@ Life can be full of conflict, don't let a simple game be dominated by conflict t
 the history of golf and one of the greatest underdog stories ever.  I'm reluctant to recommend the corresponding movie, it tried
 hard but the book does a much better job of setting the stage for the 1913 U.S. Open and making the characters interesting and relatable.
 
+## Figure out your DNA
+
+There will be a lot of forces in your life, both internal and external, that will vie for your attention and your headspace.
+But I believe there is some craft that you are uniquely attuned to doing, and it's not something you're gonna figure out by 
+following people on Twitter or subscribing to certain blogs.  You have to dig it out of the ground yourself, and figure out
+which activities truly express who you are.  
+
+### Recommended Reading
+- Everything by [Kapil Gupta](https://twitter.com/KapilGuptaMD) 
+- [Taming the Mammmoth](https://waitbutwhy.com/2014/06/taming-mammoth-let-peoples-opinions-run-life.html) by Tim Urban
+
 <script>
 lastUpdated("departing")
 </script>

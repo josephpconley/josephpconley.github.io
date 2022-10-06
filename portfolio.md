@@ -4,9 +4,8 @@ title: My Portfolio
 ---
 
 # My Portfolio
-<small>Last updated <a id="lastUpdated" target="_blank"></a></small>
 
-Herein lies my latest snapshot (updated quarterly) of the equity portion of my portfolio.  I've omitted the more "boring" parts (529, Treasuries, Fundrise) but will still talk about them in quarterly updates as needed.
+Here's my latest snapshot (updated quarterly) of the equity portion of my portfolio.  I've omitted the more "boring" parts (529, Treasuries, Fundrise) but will still talk about them in quarterly updates as needed.
 
 <table class="ui basic collapsing celled table">
     <thead>
@@ -53,4 +52,3 @@ Despite being a CTO, I haven't been as drawn to most high-flying tech companies 
 Hard to find a common theme for the rest of my companies here, but I think they're all outstanding companies that have great potential to grow with minimal downside.  Plus it's been fun learning about all of them.
 
 <br><br><br>
-

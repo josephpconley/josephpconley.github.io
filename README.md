@@ -14,6 +14,9 @@ export SSL_CERT_FILE=/home/jconley/Downloads/cacert.pem
 bundle exec jekyll serve 
 ```
 
+## deploy
+simply push to latest master, can take up to 10 min for GitHub to deploy
+
 ## resume
 I use [JSONResume](https://jsonresume.org/) to generate both HTML and PDF versions of my resume.  For my reference, the commands I use (from _includes directory) are:
 - `resume export --format html --theme kwan test.html`

@@ -25,7 +25,7 @@ subtitle: Temet nosce
             {% if site.feed_show_excerpt == false %}
             {% if thumbnail != "" %}
             <div class="post-image post-image-normal">
-                <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+                <a href="{{ post.url }}" aria-label="Thumbnail">
                     <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
                 </a>
             </div>
@@ -49,7 +49,7 @@ subtitle: Temet nosce
 
             {% if thumbnail != "" %}
             <div class="post-image post-image-small">
-                <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+                <a href="{{ post.url }}" aria-label="Thumbnail">
                     <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
                 </a>
             </div>
@@ -58,7 +58,7 @@ subtitle: Temet nosce
             {% unless site.feed_show_excerpt == false %}
             {% if thumbnail != "" %}
             <div class="post-image post-image-short">
-                <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+                <a href="{{ post.url }}" aria-label="Thumbnail">
                     <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
                 </a>
             </div>
@@ -69,7 +69,7 @@ subtitle: Temet nosce
                 {{ post.excerpt | strip_html | truncatewords: excerpt_length }}
                 {% assign excerpt_word_count = post.excerpt | number_of_words %}
                 {% if post.content != post.excerpt or excerpt_word_count > excerpt_length %}
-                <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
+                <a href="{{ post.url }}" class="post-read-more">[Read&nbsp;More]</a>
                 {% endif %}
             </div>
             {% endunless %}
@@ -107,60 +107,3 @@ subtitle: Temet nosce
     {% endif %}
 </ul>
 {% endif %}
-
-
-<!--<div class="ui grid">-->
-<!--    <div class="ten wide column">-->
-<!--        <div class="ui divided items">-->
-<!--          {% capture date_format %}%b %-d %Y{% endcapture %}-->
-<!--          {% for post in paginator.posts %}-->
-<!--              <div class="item">-->
-<!--                  <div class="content post">-->
-<!--                    <a class="header" href="{{ post.url }}">{{post.title}}</a>-->
-<!--                    <div class="description"><p>{{ post.subtitle }}</p></div>-->
-<!--                    <div class="extra">-->
-<!--                        <time datetime="{{ post.date | html_global_date }}">{{ post.date | date: date_format }}</time>-->
-<!--                        &nbsp;&nbsp;&nbsp;-->
-<!--                        {% for tag in post.tags %}-->
-<!--                        <a href="/tags/{{ tag }}/" class="ui label gray">{{ tag }}</a>-->
-<!--                        {% endfor %}-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--              </div>-->
-<!--          {% endfor %}-->
-<!--          </div>-->
-<!--          &lt;!&ndash; Pagination links &ndash;&gt;-->
-<!--          {% if paginator.total_pages > 1 %}-->
-<!--          <div class="ui pagination menu">-->
-<!--            <a class="item {% if paginator.previous_page %}{% else %}disabled{% endif %}"-->
-<!--               href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>-->
-<!--            <a class="item {% if paginator.next_page %}{% else %}disabled{% endif %}"-->
-<!--               href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>-->
-<!--          </div>-->
-<!--          {% endif %}-->
-<!--    </div>-->
-<!--    <div class="six wide column">-->
-<!--        &lt;!&ndash; Newsletter Signup &ndash;&gt;-->
-<!--&lt;!&ndash;        <iframe src="https://jpc2.substack.com/embed" width="360" height="240" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>&ndash;&gt;-->
-<!--        &lt;!&ndash;End Newsletter Signup&ndash;&gt;-->
-
-<!--        <h2>Tags</h2>-->
-<!--        <div id="tags">-->
-<!--          {% for tag in site.tags %}-->
-<!--            <a class="item" href="/tags/{{ tag | first | slugify }}/">-->
-<!--              <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 100 }}%">{{ tag | first }}</span>-->
-<!--            </a>-->
-<!--          {% endfor %}-->
-<!--        </div>-->
-
-<!--        <h2>Most Popular Posts</h2>-->
-<!--        <div class="ui relaxed divided list">-->
-<!--            <div class="item"><a href="/2017/07/21/shallow-vs-deep-research.html">Shallow vs. Deep Research</a></div>-->
-<!--            <div class="item"><a href="/2014/04/15/jsonpath-for-play.html">JSONPath Library for Play</a></div>-->
-<!--            <div class="item"><a href="/2014/02/10/hacking-npr-sunday-puzzle.htm">Hacking NPR's Sunday Puzzle</a></div>-->
-<!--        </div>-->
-
-<!--        <a class="twitter-timeline" href="https://twitter.com/josephpconley" data-widget-id="692183110067343360">@josephpconley</a>-->
-<!--        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
-<!--    </div>-->
-<!--</div>-->

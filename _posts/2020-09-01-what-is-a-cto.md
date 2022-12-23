@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: [cto, leadership]
+tags: [cto, startups, leadership]
 title: What is a CTO?
 subtitle:     
 published: true

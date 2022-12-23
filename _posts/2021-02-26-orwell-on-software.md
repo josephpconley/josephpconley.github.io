@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: [cto, startup, software, scala]
+tags: [cto, startups, software, scala]
 title: Orwell's Rules for Writing (Software)
 subtitle: All code is equal, but some code is more equal than others.
 published: true

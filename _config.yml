@@ -65,12 +65,10 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  github: josephpconley
   twitter: _jpc2
-  reddit: josepi08
   linkedin: jpc2
+  github: josephpconley
 #  stackoverflow: "3943160/daattali"
 
 # If you want your website to generate an RSS feed, provide a description
@@ -84,7 +82,7 @@ rss-description: This website is a virtual proof that I'm awesome
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: true
   vk: false
 
@@ -93,7 +91,7 @@ share-links-active:
 #url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
+excerpt_length: 30
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
@@ -110,7 +108,7 @@ edit_page_button: true
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
 # See https://github.com/daattali/beautiful-jekyll/issues/765 to understand the issue this setting can solve
-navbar-var-length: false
+navbar-var-length: true
 
 # The keywords to associate with your website, for SEO purposes
 #keywords: "my,list,of,keywords"

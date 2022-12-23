@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-tags: [cto, startup, leadership]
+tags: [cto, startups, leadership]
 title: Hire Joel Embiid
 subtitle: Why early-stage startups should Trust The Process
 published: true

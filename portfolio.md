@@ -5,31 +5,31 @@ title: My Portfolio
 
 # My Portfolio
 
-Here's my latest snapshot (updated quarterly) of the equity portion of my portfolio.  I've omitted the more "boring" parts (529, Treasuries, Fundrise) but will still talk about them in quarterly updates as needed.
+Here's my latest snapshot (updated quarterly) of the equity portion of my portfolio.  As it's just equities I've omitted the more "boring" parts (529, Treasuries, Fundrise) but will still talk about them in quarterly updates as needed.
 
-<table class="ui basic collapsing celled table">
+<table>
     <thead>
         <tr><th>Company</th><th>%</th></tr>
 	</thead>
 	<tbody>
-	    <tr><td>BOC</td><td>20%</td></tr>
-	    <tr><td>AMPS</td><td>17%</td></tr>
+	    <tr><td>BOC</td><td>21%</td></tr>
 	    <tr><td>BRK.B</td><td>10%</td></tr>
-	    <tr><td>NNI</td><td>8%</td></tr>
-	    <tr><td>CSU.TO</td><td>7%</td></tr>
-	    <tr><td>TOI.V</td><td>5%</td></tr>
-	    <tr><td>SNOW</td><td>5%</td></tr>
-	    <tr><td>SKYH</td><td>5%</td></tr>
-	    <tr><td>JDC.DE</td><td>5%</td></tr>
-	    <tr><td>HIFS</td><td>4.5%</td></tr>
-	    <tr><td>HGTY</td><td>4%</td></tr>
-	    <tr><td>PLTR</td><td>4%</td></tr>
-	    <tr><td>cash</td><td>5.5%</td></tr>
+        <tr><td>AMPS</td><td>10%</td></tr>
+	    <tr><td>NNI</td><td>9%</td></tr>
+	    <tr><td>CSU.TO</td><td>9%</td></tr>
+	    <tr><td>JDC.DE</td><td>8%</td></tr>
+        <tr><td>SNOW</td><td>6%</td></tr>        
+        <tr><td>HIFS</td><td>6%</td></tr>
+        <tr><td>PLTR</td><td>5%</td></tr>
+        <tr><td>TOI.V</td><td>5%</td></tr>
+	    <tr><td>HGTY</td><td>4.5%</td></tr>
+        <tr><td>SKYH</td><td>4%</td></tr>
     </tbody>
 </table>
 
+**Watchlist**: PAR, ONEW, LILM
 
-I'm hoping to learn as much as I can about these great businesses and go a few rounds with Mr. Market in the process.  I'll link these positions with deeper dives as time permits (any requests?)
+I'm hoping to learn as much as I can about these great businesses and go a few rounds with Mr. Market in the process.  I'll link these positions with deeper dives as time permits, or if anyone has any requests?
 
 Here's a high-level overview of the pieces of business I own grouped by category/thesis:
 
@@ -50,5 +50,3 @@ Despite being a CTO, I haven't been as drawn to most high-flying tech companies 
 ## Small-Cap Niches I Really Like - AMPS, SKYH, HGTY, HIFS
 
 Hard to find a common theme for the rest of my companies here, but I think they're all outstanding companies that have great potential to grow with minimal downside.  Plus it's been fun learning about all of them.
-
-<br><br><br>

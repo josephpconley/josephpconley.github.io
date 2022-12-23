@@ -28,5 +28,5 @@ The Twitter team mentions that today it takes at least a few weeks for a new hir
 Between IaC, Docker, and other automation tools, onboarding ramp-up time should take days, not weeks.
 (N.B. I'm just as guilty of giving onboarding/documentation short shrift, but as a tech executive what could be more important than keeping your team productive and thereby happy?)
 
-I'm excited to see what Twitter can do over the next 18 months (it does seem like a few recent changes has improved performance).
-Especially as, like Elon said, "we're not splitting the atom here".  
+I'm excited to see what Twitter can do over the next 18 months.  It does seem like a few recent changes has improved performance.
+Especially as, like Elon said, "we're not splitting the atom here".  Compared to his other endeavors this should be a cakewalk!

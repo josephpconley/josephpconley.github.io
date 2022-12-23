@@ -1,123 +1,40 @@
+---
+common-css:
+    - "/assets/css/bootstrap-social.css"
+    - "/assets/css/beautifuljekyll.css"
+common-ext-css:
+    - href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      sri: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    - "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    - "https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+    - "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+common-ext-js:
+    - href: "https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      sri: "sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    - href: "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      sri: "sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    - href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      sri: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+common-js:
+    - "/assets/js/beautifuljekyll.js"
+---
+
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45507918-5"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-45507918-5');
-        </script>
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-T5PSJ6Z');</script>
-        <!-- End Google Tag Manager -->
-
-
-        <script src="/public/javascripts/jquery-1.7.2.min.js" type="text/javascript"></script>
-        <script src="/public/javascripts/jquery.tinysort.min.js" type="text/javascript"></script>
-<!--        <script src="/public/javascripts/semantic.min.js" type="text/javascript"></script>-->
-        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/reading-time/1.0.0/readingTime.min.js" type="text/javascript"></script>
-
-        <link rel="stylesheet" media="screen" href="/public/stylesheets/main.css"/>
-        <link rel="shortcut icon" type="image/png" href="/assets/jc-logo.png"/>
-        <link href="/public/stylesheets/semantic.readable.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
-
-        <script>
-            function compare(a,b) {
-              if (a.name < b.name)
-                 return -1;
-              if (a.name > b.name)
-                return 1;
-              return 0;
-            }
-
-            $("#tags>a").tsort();
-
-            $(".clickableRow").click(function() {
-                window.open($(this).attr("href"));
-            });
-
-            function callback(data){
-                $("#lastUpdated").html(new Date(Date.parse(data.date)).toLocaleDateString());
-                $("#lastUpdated").attr("href", data.url);
-            }
-
-            function lastUpdated(page){
-                $.ajax({
-                    url: "http://www.datacombinator.com/api/redis.jsonp?key=" + page,
-                    dataType: "jsonp",
-                    jsonpCallback: "callback"
-                });
-            }
-
-        </script>
-
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Joe Conley">
-        {% seo %}
-    </head>
+<html lang="{{ page.language | default: site.language | default: 'en' }}">
+    {% include head.html %}
     <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5PSJ6Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5PSJ6Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-      <div class="ui large sticky secondary borderless top menu blue" style="margin-top: 0px;">
-        <a class="header item" href="/">Joe Conley</a>
-        <a class="item" href="/now">Now</a>
-        <div class="ui dropdown item">
-            Ideas
-            <i class="dropdown icon"></i>
-            <div class="menu">
-                <a class="item" href="/joe-os">Joe OS</a>
-                <a class="item" href="/principles">Principles</a>
-                <a class="item" href="/models">Models</a>
-                <a class="item" href="/lists">Lists</a>
-            </div>
-        </div>
-          <div class="ui dropdown item">
-              Work
-              <i class="dropdown icon"></i>
-              <div class="menu">
-                  <a class="item" href="/projects">Projects</a>
-                  <a class="item" href="/presentations">Presentations</a>
-                  <a class="item" href="/resume">Resume</a>
-              </div>
-          </div>
+        {% include nav.html %}
 
-        <a class="item" href="/portfolio">Portfolio</a>
-
-        <a class="item" href="/departing">Departing Words</a>
-
-        <div class="right menu">
-            <div class="item">
-                <a href="/feed.xml" target="_blank"><i class="rss icon"></i></a>
-                <a href="https://www.twitter.com/jpc2_" target="_blank"><i class="twitter icon"></i></a>
-                <a href="https://www.linkedin.com/in/jpc2" target="_blank"><i class="linkedin icon"></i></a>
-                <a href="https://app.slack.com/client/T013FS0CNNP/C013U9S5D4P/details" target="_blank"><i class="slack hash icon"></i></a>
-                <a href="https://www.github.com/josephpconley" target="_blank"><i class="github icon"></i></a>
-                <a href="https://www.goodreads.com/user/show/29497890-joe-conley" target="_blank"><i class="goodreads g icon"></i></a>
-                <a href="https://medium.com/@josephpconley" target="_blank"><i class="medium icon"></i></a>
-                <a href="http://stackoverflow.com/users/1031290/josephpconley" target="_blank"><i class="stack overflow icon"></i></a>
-            </div>
-        </div>
-      </div>
-
-      <!-- Main Content -->
-      <div class="ui container">
+        <!-- Main Content -->
+        <div class="ui container">
         {{ content }}
-      </div>
+        </div>
     </body>
-    <script>
-        $('.ui.dropdown').dropdown();
-    </script>
+    {% include footer.html %}
+    {% include footer-scripts.html %}
+<!--    <script>-->
+<!--        $('.ui.dropdown').dropdown();-->
+<!--    </script>-->
 </html>

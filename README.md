@@ -33,3 +33,7 @@ Remember to use Import Story... when duplicating content in Medium, otherwise yo
 ## Jekyll setup
 - sudo apt-get install ruby ruby-dev
 - https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+
+## TODO
+
+- cleaned up version of resume - [online-cv](https://github.com/sharu725/online-cv)

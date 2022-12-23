@@ -4,7 +4,7 @@ author: Joe Conley
 url: jpc2.org
 description: Random thoughts on technology, business, books, and everything in between
 
-paginate: 5
+paginate: 8
 paginate_path: "/page:num"
 
 plugins: [jekyll-paginate, jekyll-gist, github-pages, jekyll-sitemap, jekyll-feed, jekyll-seo-tag, jekyll-target-blank]

@@ -44,9 +44,10 @@ I still believe BOC has the biggest upside based on their solid "ground game" an
 
 Hard to deny the outstanding track record of CSI, hoping their recent spin-off TOI.V can follow suit.  The biggest question hanging over both here is, just how long can they compound capital by acquiring small-sized vertical market software companies?  The recent pace for both is proving promising, plus they have a mountain of data and experience to draw from and CSI has already shown signs of evolving with their [700M purchase of Allscripts](https://twitter.com/Teemacsj/status/1499378195287756802) in 2022.
 
-## Software Platforms - PLTR, SNOW, JDC.DE
+## Software Platforms - PLTR, SNOW, JDC.DE, PAR
 
-Despite being a CTO, I haven't been as drawn to most high-flying tech companies (and as such have dodged most of the recent downturn).  However, the strength of these companies is remarkable, and I find it hard to believe any of these platforms will not continue to grow considerably over the next ten years.
+Despite being a CTO, I haven't been as drawn to most high-flying tech companies (and as such have dodged some of the 2022 tech bloodbath).
+However, the strength of these companies and their products is remarkable, and I find it hard to believe any of these platforms will not continue to grow considerably over the next ten years.
 
 ## Small-Cap Niches I Really Like - AMPS, SKYH, HGTY, HIFS
 

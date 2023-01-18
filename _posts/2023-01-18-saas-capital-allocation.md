@@ -29,3 +29,5 @@ On another note, it's great to hear Savneet's focus shifting away from (short-te
 Like most things in life (markets, politics, Philadelphia sports teams), software development cycles between periods of rapid feature growth followed by significant refactoring, correction, and restructuring for the next marathon (and so on and so on).
 This is perfectly natural; I have yet to build a platform where we knew all customer use cases upfront and designed it perfectly in advance.
 Great companies understand how to manage this tension by building with simplicity and flexibility in mind, and seems like $PAR has been refactored with a similar philosophy.
+
+<small>Note: I do have a <a href="/portfolio">small position</a> in $PAR (hoping to grow it over the coming weeks!)</small>

@@ -1,0 +1,4 @@
+---
+slug: $par
+name: $par
+---

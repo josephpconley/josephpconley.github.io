@@ -50,7 +50,7 @@ subtitle: Temet nosce
             {% if thumbnail != "" %}
             <div class="post-image post-image-small">
                 <a href="{{ post.url }}" aria-label="Thumbnail">
-                    <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+                    <img src="{{ thumbnail }}" alt="Post thumbnail">
                 </a>
             </div>
             {% endif %}
@@ -59,7 +59,7 @@ subtitle: Temet nosce
             {% if thumbnail != "" %}
             <div class="post-image post-image-short">
                 <a href="{{ post.url }}" aria-label="Thumbnail">
-                    <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+                    <img src="{{ thumbnail }}" alt="Post thumbnail">
                 </a>
             </div>
             {% endif %}

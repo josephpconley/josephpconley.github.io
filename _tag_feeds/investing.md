@@ -1,0 +1,4 @@
+---
+slug: investing
+name: investing
+---

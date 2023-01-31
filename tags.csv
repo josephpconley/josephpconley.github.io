@@ -15,8 +15,6 @@ datascience
 django
 economics
 episteme
-evolution
-forbes
 golf
 history
 innovation
@@ -25,17 +23,11 @@ integration
 java
 javascript
 json
-knockoutjs
-lagom
 leadership
 majors
-maven
 microservices
-mongodb
-newsletter
 news
 nodejs
-opendata
 $par
 pgatour
 philosophy
@@ -48,9 +40,7 @@ puzzles
 python
 rss
 sbt
-sass
 scala
-scalactic
 scrape
 sivers
 software

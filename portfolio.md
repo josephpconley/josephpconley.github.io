@@ -36,13 +36,16 @@ Here's a high-level overview of the pieces of business I own grouped by category
 
 ## The Compounders - BOC, BRK.B, NNI
 
-Maybe I've read too much about Buffett, but I've just naturally built more and more of position in proven compounders of capital that have several avenues of deploying capital and minimal downside based on their variety of businesses.  And honestly it's just more fun to read about conglomerates.  
+Maybe I've read too much about Buffett, but I've just naturally built more and more of a position in proven compounders of capital that have several avenues of deploying capital and minimal downside based on their variety of businesses.
+And honestly it's just more fun to read about conglomerates.  
 
 I still believe BOC has the biggest upside based on their solid "ground game" and the optionality of their more high-flying "passing game" (see their latest [annual letter](https://s29.q4cdn.com/675306481/files/doc_financials/2021/ar/2021-Annual-Letter.pdf)).
 
-## VMS Acquirers - CSU.TO, TOI.V
+## VMS Acquirers - CSU.TO, TOI.V (Lumine coming soon!)
 
-Hard to deny the outstanding track record of CSI, hoping their recent spin-off TOI.V can follow suit.  The biggest question hanging over both here is, just how long can they compound capital by acquiring small-sized vertical market software companies?  The recent pace for both is proving promising, plus they have a mountain of data and experience to draw from and CSI has already shown signs of evolving with their [700M purchase of Allscripts](https://twitter.com/Teemacsj/status/1499378195287756802) in 2022.
+Hard to deny the outstanding track record of CSI, hoping their recent spin-out Topicus (TOI.V) can follow suit.
+The biggest question hanging over both here is, just how long can they compound capital by acquiring small-sized vertical market software companies?
+The recent pace for both is proving promising, plus they have a mountain of data and experience to draw from and CSI has already shown signs of evolving with their [700M purchase of Allscripts](https://twitter.com/Teemacsj/status/1499378195287756802) in 2022.
 
 ## Software Platforms - PLTR, SNOW, JDC.DE, PAR
 

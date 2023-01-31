@@ -21,7 +21,7 @@ simply push to latest master, can take up to 10 min for GitHub to deploy
 common code/helpers used in posts
 ```
 <img class="ui large centered rounded image rotate180" src="/assets/20220902_185904.jpg" />
-<iframe width="700" height="450" src="https://www.youtube.com/embed/vc3i2Q49kWI" frameborder="0" allowfullscreen></iframe><br>
+<iframe width="700" height="450" src="https://www.youtube.com/embed/vc3i2Q49kWI" frameborder="0" allowfullscreen></iframe>
 ```
 
 ## resume

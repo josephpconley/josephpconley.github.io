@@ -35,17 +35,28 @@ subtitle: Temet nosce
             <a href="{{ post.url }}">
                 <h2 class="post-title">{{ post.title | strip_html }}</h2>
 
-                {% if post.subtitle %}
-                <h3 class="post-subtitle">
-                    {{ post.subtitle | strip_html }}
-                </h3>
-                {% endif %}
+<!--                {% if post.subtitle %}-->
+<!--                <h3 class="post-subtitle">-->
+<!--                    {{ post.subtitle | strip_html }}-->
+<!--                </h3>-->
+<!--                {% endif %}-->
             </a>
 
-            <p class="post-meta">
-                {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-                Posted on {{ post.date | date: date_format }}
-            </p>
+            <div class="post-meta">
+                {% assign date_format = site.date_format | default: "%b %-d %Y" %}
+                {{ post.date | date: date_format }}
+
+                {% if site.feed_show_tags != false and post.tags.size > 0 %}
+                    <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+                    <ul class="d-inline list-inline blog-tags" role="list">
+                        {% for tag in post.tags %}
+                        <li class="list-inline-item">
+                            <a href="{{ '/tags' }}/{{- tag -}}">{{- tag -}}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
 
             {% if thumbnail != "" %}
             <div class="post-image post-image-small">
@@ -73,20 +84,6 @@ subtitle: Temet nosce
                 {% endif %}
             </div>
             {% endunless %}
-
-            {% if site.feed_show_tags != false and post.tags.size > 0 %}
-            <div class="blog-tags">
-                <span>Tags:</span>
-                <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-                <ul class="d-inline list-inline" role="list">
-                    {% for tag in post.tags %}
-                    <li class="list-inline-item">
-                        <a href="{{ '/tags' }}/{{- tag -}}">{{- tag -}}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            {% endif %}
 
         </article>
     </li>

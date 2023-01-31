@@ -2,18 +2,18 @@
 layout: main
 ---
 <div class="ui grid">
-  <div class="three wide column"></div>
-  <div class="ten wide column">
     {% capture date_format %}%b %-d %Y{% endcapture %}
     <time datetime="{{ page.date | html_global_date }}">{{ page.date | date: date_format }}</time>
-    {% for tag in page.tags %}
-      <a href="/tags/{{ tag }}/" class="ui label gray">{{ tag }}</a>
-    {% endfor %}
-
-    <div class="eta"></div>
-
-    <br><br>
-
+    <div class="blog-tags">
+      <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+      <ul class="d-inline list-inline" role="list">
+        {% for tag in page.tags %}
+        <li class="list-inline-item">
+          <a href="/tags/{{tag}}/">{{tag}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
     <div class="copy">
       <h1>{{ page.title }}</h1>
       <div class="content">
@@ -62,7 +62,4 @@ layout: main
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-  </div>
-  <div class="three wide column"></div>
 </div>

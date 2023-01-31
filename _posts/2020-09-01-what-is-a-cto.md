@@ -28,10 +28,10 @@ I've also been blessed to have found an informal network of mentors who I rely o
 
 At the end of the day, it's just really cool to helping spearhead the deployment of technology for an organization.  I'm a huge Elon Musk fan for a lot of reasons, but his quote about why he went into engineering really spoke to me:
 
-<iframe width="700" height="450" src="https://www.youtube.com/embed/g9FD1UE6E1g" frameborder="0" allowfullscreen></iframe><br>
+<iframe width="700" height="450" src="https://www.youtube.com/embed/g9FD1UE6E1g" frameborder="0" allowfullscreen></iframe>
 
 
 Just really cool to think about engineering in terms of building new things which enable really smart people to keep making progress and ultimately improve our collective consciousness.  It's inspiring to think we're all trying to play a part to create a better future.  It's why I pivoted from a pure mathematics career to one grounded in technology.  Because it's "what's next"
 
-<iframe width="700" height="450" src="https://www.youtube.com/embed/oHGK96-WixU" frameborder="0" allowfullscreen></iframe><br>
+<iframe width="700" height="450" src="https://www.youtube.com/embed/oHGK96-WixU" frameborder="0" allowfullscreen></iframe>
 

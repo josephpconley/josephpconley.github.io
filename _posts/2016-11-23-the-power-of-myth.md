@@ -21,7 +21,7 @@ One other oddity I've often wondered about: how did a tiny island in Europe conq
 
 I think I most appreciated the power that the individual has in our current age. We've advanced technologically by leaps and bounds, and as most dystopian books or movies will tell you, with that great power comes a great responsibility. Climate change is real folks. We have not been very hospitable guests of this planet, exterminating entire species of animal wholesale and polluting our environment. Yet through our ingenuity, we have the ability to develop renewable sources of energy, preserve endangered species, and even one day colonize other planets like Mars (really hoping to live long enough to see that one).  Yeah Science!
 
-<iframe width="700" height="450" src="https://www.youtube.com/embed/WoKvRzOw5hg" frameborder="0" allowfullscreen></iframe><br>
+<iframe width="700" height="450" src="https://www.youtube.com/embed/WoKvRzOw5hg" frameborder="0" allowfullscreen></iframe>
 
 Harari concludes with a thoughtful exploration of human happiness.  Despite our progress and relative prosperity, we seem more discontented than ever.  He cites research that shows that money and good health provide diminishing returns for happiness, and offers Buddhism as an interesting path to ending suffering.  His final line, though, strikes a note of caution in his beautifully phrased warning, "Is there anything more dangerous than dissatisfied and irresponsible gods who don't know what they want?"
 

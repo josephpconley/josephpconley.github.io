@@ -15,7 +15,7 @@ I recently had the pleasure of attending the nascent [O'Reilly AI Conference](ht
 
 The talks I enjoyed the most on day one focused on building intelligent systems that work as "thought partners" with humans.  David Ferrucci, the creator of IBM's Watson and [Elemental Cognition](https://www.elementalcognition.com/), is creating intelligent systems which build a foundation of knowledge via dialogue with human counterparts.  In this way, an intelligent system could learn much like a child does, asking questions and learning from experience.  Whereas most predictive systems tend to rely on patterns in data, these systems would try to build actual knowledge that considers things like context, language, and even culture.  
 
-<iframe src="https://player.vimeo.com/video/190292710" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br>
+<iframe src="https://player.vimeo.com/video/190292710" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Another talk that I really enjoyed was about advanced [Natural language generation (NLG)](https://en.wikipedia.org/wiki/Natural_language_generation) by Kristian Hammond of [Narrative Science](https://narrativescience.com).  He talked about intelligent systems as storytellers.  Instead of presenting fancy visualizations for a data table in Excel, such a system could parse the table, do statistical analysis, and use NLG to tell you what's interesting and important about the data.  I love the efficiency in that!  Developers spend so much time massaging, transforming, and visualizing data when really the endgame is to answer a few simple questions.  Advances in NLG hold the promise of minimizing all this ceremony, freeing engineers up to solve more interesting problems and making us more productive.
 
@@ -31,11 +31,11 @@ Day Two had some interesting talks on reinforcement learning, especially in the 
 
 Another neat example was Libratus (Latin for "balanced"), a heads-up no-limit Texas Hold 'Em bot with a three-pronged strategy to playing poker.  It starts with computing a Nash Equilibrium based on the abstraction of the game (they use an abstraction to reduce the problem space).  Then, during the later stages of the hand, it would employ an endgame solver to help analyze all possible permutations of play.  Finally, it would analyze *its own* historical play to find its own weaknesses and improve on them.  Consequently, Libratus [beat the world's best poker players handily](http://www.pokerlistings.com/libratus-poker-ai-smokes-humans-for-1-76m-is-this-the-end-42839), earning over $1 million in the process.  Though this might seem like a narrow application of AI, systems like Libratus could provide insight into other applications where imperfect information with one or more agents is relevant.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/jLXPGwJNLHk" frameborder="0" allowfullscreen></iframe><br>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/jLXPGwJNLHk" frameborder="0" allowfullscreen></iframe>
 
 Finally, the keynote given by Peter Norvig, one of the fathers of AI, stressed how AI could revolutionize software development.  He spoke about a future where engineers were more like teachers than plumbers, instructing machines how to model certain processes at a higher level. In contrast, today's software engineers are essentially micromanagers, writing every single instruction for the machine to handle.  It's refreshing to picture a world where coders could effectively build systems with more higher-level thinking but still have the confidence that the instructions will be interpreted and implemented without loss of meaning or control.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/mJHvE2JLN3Q" frameborder="0" allowfullscreen></iframe><br>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/mJHvE2JLN3Q" frameborder="0" allowfullscreen></iframe>
 
 ## Reflection
 

@@ -49,7 +49,7 @@ Another interesting extension would be having teams share and collaborate on the
 get version control for free and can see how the graph evolves over time?  Throw in some live documentation a la [Swagger](http://swagger.io/)
 and baby you've got a stew going!
    
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Sr2PlqXw03Y" frameborder="0" allowfullscreen></iframe><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sr2PlqXw03Y" frameborder="0" allowfullscreen></iframe>
    
 One cool thing to note is it took me five hours to get a useful protoype working, and most of that time was spent learning Electron.  
 I've spent a few more hours on refinements but [vis.js](http://visjs.org/) and [SimpleMDE](https://simplemde.com/) do all the heavy lifting, and 

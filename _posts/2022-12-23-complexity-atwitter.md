@@ -8,7 +8,7 @@ published: true
 
 As a software executive and engineer, it was fascinating to hear Elon's chat with the Twitter team about the tech stack:
 
-<iframe width="700" height="450" src="https://www.youtube.com/embed/vc3i2Q49kWI" frameborder="0" allowfullscreen></iframe><br>
+<iframe width="700" height="450" src="https://www.youtube.com/embed/vc3i2Q49kWI" frameborder="0" allowfullscreen></iframe>
 
 I really appreciated hearing the intense focus on customer ROI.  This is clearly one of the key constraints that the new
 team is operating under in their mission to get to breakeven (Twitter currently loses ~3.5B a year).

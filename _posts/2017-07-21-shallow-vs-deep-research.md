@@ -20,7 +20,7 @@ In "How Will You Measure Your Life?", Clayton Christensen tells the story of Del
 
 What's the lesson here?  Don't sacrifice long-term growth and learning for the quick hit of an answer on Google.  If you're stuck in a **really really** time-sensitive situation where you need the quick answer, then leave a TODO for yourself to do a deep dive on the problem in your spare time.  Once you have time, use [the Feynman technique](https://www.farnamstreetblog.com/2012/04/learn-anything-faster-with-the-feynman-technique/) to deeply understand the problem, and try to question it from all angles.  It's ultimately up to you to decide how far down the rabbit hole to go.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M7W2I9FGF9U" frameborder="0" allowfullscreen></iframe><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M7W2I9FGF9U" frameborder="0" allowfullscreen></iframe>
 
 It's easy to get overwhelmed by the daily demands of your job.  But it's also important to keep a mind toward long-term investments in your career, and having a solid foundation of knowledge and the ability to think for yourself is one of the most important investments you can make.
 

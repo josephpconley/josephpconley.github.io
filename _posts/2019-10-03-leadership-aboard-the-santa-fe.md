@@ -9,7 +9,7 @@ published: true
 
 What is leadership?  It's certainly a fancy term.  It adorns countless corporate walls paired with some inspirational message or image.  It appears as a common requirement for most management-level job applications.  It can even inspire folks to come together in an almost cult-like fashion:
 
-<iframe width="700" height="450" src="https://www.youtube.com/embed/1aYN5XpWzpM" frameborder="0" allowfullscreen=""></iframe><br>
+<iframe width="700" height="450" src="https://www.youtube.com/embed/1aYN5XpWzpM" frameborder="0" allowfullscreen=""></iframe>
 
 But **defining** leadership can be tricky.  We can use words like humility, decision-making, servant to try to arrive at a definition, but that's boring and often incomplete.
 

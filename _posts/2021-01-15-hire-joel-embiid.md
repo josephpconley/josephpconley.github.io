@@ -53,6 +53,6 @@ It's cliche to say that culture matters in startups, but it's important to note 
 
 Lastly and most importantly, we're on this earth a short while.  Let's have fun and play hard!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oPxj5gif9W4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oPxj5gif9W4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 

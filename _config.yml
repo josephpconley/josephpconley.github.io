@@ -39,12 +39,12 @@ defaults:
 
 navbar-links:
   Now: "now"
+  Services: "services"
   Ideas:
     - Departing Words: "departing"
     - Principles: "principles"
     - Joe OS: "joe-os"
     - Models: "models"
-  Services: "services"
   Tech:
     - Projects: "projects"
     - Presentations: "presentations"

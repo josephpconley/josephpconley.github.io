@@ -1,6 +1,8 @@
 # blog
 
-My personal blog, powered by Jekyll
+My personal blog, powered by Jekyll.
+
+Theme by [Beautiful Jekyll](https://beautifuljekyll.com/)
 
 ## build
 ```
@@ -31,16 +33,9 @@ I use [JSONResume](https://jsonresume.org/) to generate both HTML and PDF versio
 `resume export --format html --theme compact resume.html;html-pdf resume.html resume.pdf`
 
 ## tags
-run `scalac Tags.scala` to compile the Tag generator
+run `scalac Tags.scala` to compile the Tag generator (should be rare)
 run `scala Tags` to generate tag pages based on the tags in tags.csv
-
-## Medium
-Remember to use Import Story... when duplicating content in Medium, otherwise you'll anger the Google Gods of SEO!  
 
 ## Jekyll setup
 - sudo apt-get install ruby ruby-dev
 - https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
-
-## TODO
-
-- cleaned up version of resume - [online-cv](https://github.com/sharu725/online-cv)

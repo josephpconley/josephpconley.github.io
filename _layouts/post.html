@@ -1,21 +1,25 @@
 ---
 layout: main
 ---
-<div class="ui grid">
-    {% capture date_format %}%b %-d %Y{% endcapture %}
-    <time datetime="{{ page.date | html_global_date }}">{{ page.date | date: date_format }}</time>
-    <div class="blog-tags">
-      <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-      <ul class="d-inline list-inline" role="list">
+    <h1>{{ page.title }}</h1>
+    {% assign date_format = site.date_format | default: "%b %-d %Y" %}
+    <small>{{ page.date | date: date_format }}</small>
+      <ul class="blog-tags d-inline list-inline" role="list">
         {% for tag in page.tags %}
         <li class="list-inline-item">
           <a href="/tags/{{tag}}/">{{tag}}</a>
         </li>
         {% endfor %}
       </ul>
-    </div>
+
+    {% if page.cover-img %}
+        <br>
+        <div class="text-center">
+            <img class="img-fluid rounded" src="{{page.cover-img}}" />
+        </div>
+    {% endif %}
+
     <div class="copy">
-      <h1>{{ page.title }}</h1>
       <div class="content">
       {{ content }}
       </div>

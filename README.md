@@ -3,6 +3,7 @@
 My personal blog, powered by Jekyll.
 
 Theme by [Beautiful Jekyll](https://beautifuljekyll.com/)
+- uses Bootstrap under the covers
 
 ## build
 ```

@@ -1,9 +1,6 @@
-akka
-aop
 api
 books
 buyside
-cassandra
 chariot
 comcast
 conferences
@@ -12,9 +9,7 @@ csv
 cto
 datacombinator
 datascience
-django
 economics
-episteme
 golf
 history
 innovation
@@ -27,7 +22,6 @@ leadership
 majors
 microservices
 news
-nodejs
 par
 pgatour
 philosophy
@@ -41,7 +35,6 @@ python
 rss
 sbt
 scala
-scrape
 sivers
 software
 startups
@@ -52,6 +45,5 @@ swingstats
 taleb
 technology
 tolkien
-totaljs
 xml
 zeppelin

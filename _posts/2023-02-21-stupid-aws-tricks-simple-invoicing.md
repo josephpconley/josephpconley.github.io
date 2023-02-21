@@ -10,7 +10,7 @@ published: true
 Like all purely rational engineers with 4 kids and no spare time, I prefer to write my own utilities to automate recurring
 mundane tasks rather than pay a pittance to have a third party do it for me and make my life an order of magnitude easier.
 Lucky for me, AWS has a really expansive Free Tier!  So yes, I rolled a [simple monthly invoicing solution](https://github.com/josephpconley/create-invoice) using [Serverless](https://serverless.com)
-using a handful of simple AWS services (see the [README](https://github.com/josephpconley/create-invoice#readme) for more technical guidance and instructions on how to use in your own AWS account)
+and a handful of simple AWS services (see the [README](https://github.com/josephpconley/create-invoice#readme) for more technical guidance and instructions on how to use in your own AWS account)
 
 ![serverless](/assets/create_invoice.svg)
 
@@ -36,5 +36,6 @@ when working with Layers.
 
 ## The sheer volume of AWS services is a blessing and a curse
 
-There's a lot of a ways to sovle problems using AWS.  Too many.  And based on the [recent re:Invent announcements](https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2022/)
-, these services are continuing to grow and talk to each other.  This can all get very confusing very fast to cloud newcomers, which is why I still prefer DigitalOcean for simpler applications that don't need planet-scale, and manage them using Terraform to enable multi-cloud when necessary (i.e. to handle testing workloads and other capabilities). 
+There's a lot of a ways to sovle problems using AWS.  Too many.  And based on the [recent re:Invent announcements](https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2022/), these services are continuing to grow and talk to each other.
+This can all get very confusing very fast to cloud newcomers, which is why I still prefer DigitalOcean for simpler applications that don't need planet-scale, and manage them using Terraform to enable multi-cloud when necessary (i.e. to handle testing workloads and other capabilities).
+As [HEY has recently shown](https://world.hey.com/dhh/we-stand-to-save-7m-over-five-years-from-our-cloud-exit-53996caa), AWS isn't the only game in town, so it's important to have a thoughful approach to how you manage infrastructure (recession or no). 

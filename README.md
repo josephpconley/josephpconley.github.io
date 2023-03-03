@@ -8,6 +8,8 @@ Theme by [Beautiful Jekyll](https://beautifuljekyll.com/)
 ## build
 ```
 sudo apt-get install ruby-bundler
+
+--anytime Gemfile needs to be updated
 bundle install
 ```
 

@@ -15,19 +15,20 @@ Here's my latest snapshot (updated quarterly-ish) of the equities in my portfoli
                 <tr><th>Company</th><th>%</th></tr>
             </thead>
             <tbody>
-                <tr><td>BOC</td><td>18%</td></tr>
+                <tr><td>BOC</td><td>16%</td></tr>
                 <tr><td>BRK.B</td><td>9%</td></tr>
-                <tr><td>AMPS</td><td>9%</td></tr>
-                <tr><td>NNI</td><td>9%</td></tr>
                 <tr><td>CSU.TO</td><td>9%</td></tr>
-                <tr><td>JDC.DE</td><td>7%</td></tr>
-                <tr><td>SKYH</td><td>7%</td></tr>
+                <tr><td>SKYH</td><td>9%</td></tr>
+                <tr><td>JDC.DE</td><td>8%</td></tr>
+                <tr><td>NNI</td><td>8%</td></tr>
+                <tr><td>AMPS</td><td>7%</td></tr>
+                <tr><td>TOI.V</td><td>7%</td></tr>
                 <tr><td>HIFS</td><td>6%</td></tr>
-                <tr><td>TOI.V</td><td>6%</td></tr>
                 <tr><td>PLTR</td><td>6%</td></tr>
-                <tr><td>HGTY</td><td>5%</td></tr>
                 <tr><td>SNOW</td><td>5%</td></tr>
+                <tr><td>HGTY</td><td>4%</td></tr>
                 <tr><td>PAR</td><td>4%</td></tr>
+                <tr><td>LMGIF</td><td>4%</td></tr>
             </tbody>
         </table>
     </div>
@@ -44,7 +45,7 @@ Here's my latest snapshot (updated quarterly-ish) of the equities in my portfoli
     </div>
 </div>
 
-**Watchlist**: ONEW, LILM, NICK
+**Watchlist**: NU, NICK
 
 I'm hoping to learn as much as I can about these great businesses and go a few rounds with Mr. Market in the process.  I'll link these positions with deeper dives as time permits, or if anyone has any requests?
 

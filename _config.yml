@@ -141,3 +141,8 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

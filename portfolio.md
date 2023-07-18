@@ -15,20 +15,19 @@ Here's my latest snapshot (updated quarterly-ish) of the equities in my portfoli
                 <tr><th>Company</th><th>%</th></tr>
             </thead>
             <tbody>
-                <tr><td>BOC</td><td>16%</td></tr>
-                <tr><td>BRK.B</td><td>9%</td></tr>
-                <tr><td>CSU.TO</td><td>9%</td></tr>
-                <tr><td>SKYH</td><td>9%</td></tr>
+                <tr><td>PLTR</td><td>13%</td></tr>
+                <tr><td>BOC</td><td>13%</td></tr>
+                <tr><td>BRK.B</td><td>10%</td></tr>
+                <tr><td>CNSWF</td><td>10%</td></tr>
                 <tr><td>JDC.DE</td><td>8%</td></tr>
                 <tr><td>NNI</td><td>8%</td></tr>
                 <tr><td>AMPS</td><td>7%</td></tr>
-                <tr><td>TOI.V</td><td>7%</td></tr>
-                <tr><td>HIFS</td><td>6%</td></tr>
-                <tr><td>PLTR</td><td>6%</td></tr>
-                <tr><td>SNOW</td><td>5%</td></tr>
+                <tr><td>TOITF</td><td>7%</td></tr>
+                <tr><td>HIFS</td><td>7%</td></tr>
+                <tr><td>PAR</td><td>6%</td></tr>
+                <tr><td>SKYH</td><td>5%</td></tr>
                 <tr><td>HGTY</td><td>4%</td></tr>
-                <tr><td>PAR</td><td>4%</td></tr>
-                <tr><td>LMGIF</td><td>4%</td></tr>
+                <tr><td>LMGIF</td><td>0.19%</td></tr>
             </tbody>
         </table>
     </div>
@@ -40,6 +39,7 @@ Here's my latest snapshot (updated quarterly-ish) of the equities in my portfoli
             </thead>
             <tbody>
                 <tr><td>2022</td><td>-9.07%</td><td>-19.44%</td></tr>
+                <tr><td>2023</td><td>11.8%</td><td>15.9%</td></tr>
             </tbody>
         </table>
     </div>
@@ -58,13 +58,13 @@ And honestly it's just more fun to read about conglomerates.
 
 I still believe BOC has the biggest upside based on their solid "ground game" and the optionality of their more high-flying "passing game" (see their latest [annual letter](https://s29.q4cdn.com/675306481/files/doc_financials/2021/ar/2021-Annual-Letter.pdf)).
 
-## VMS Acquirers - CSU.TO, TOI.V (Lumine coming soon!)
+## VMS Acquirers - CNSWF, TOITF, LMGIF
 
 Hard to deny the outstanding track record of CSI, hoping their recent spin-out Topicus (TOI.V) can follow suit.
 The biggest question hanging over both here is, just how long can they compound capital by acquiring small-sized vertical market software companies?
 The recent pace for both is proving promising, plus they have a mountain of data and experience to draw from and CSI has already shown signs of evolving with their [700M purchase of Allscripts](https://twitter.com/Teemacsj/status/1499378195287756802) in 2022.
 
-## Software Platforms - PLTR, SNOW, JDC.DE, PAR
+## Software Platforms - PLTR, JDC.DE, PAR
 
 Despite being a CTO, I haven't been as drawn to most high-flying tech companies (and as such have dodged some of the 2022 tech bloodbath).
 However, the strength of these companies and their products is remarkable, and I find it hard to believe any of these platforms will not continue to grow considerably over the next ten years.

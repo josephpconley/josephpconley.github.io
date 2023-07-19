@@ -45,4 +45,43 @@ description: Philadelphia-based CTO offering services for building software, man
             </div>
         </div>
     </div>
+    <hr>
+    <div class="row">
+        <div class="col-lg-6">
+            <h3>Reach out to learn more!</h3>
+        </div>
+        <div class="col-lg-6">
+            <!-- Make sure you don't change the form action-->
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="52662869-7885-4a30-acc4-9a1d9034b392"> <!-- Required -->
+                <div class="form-row">
+                    <div class="col">
+                        <input name="name" type="text" class="form-control" id="exampleInputName1" placeholder="Name"/>
+                    </div>
+                    <div class="col">
+                        <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"/>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input name="subject" type="text" class="form-control" id="exampleInputSubject1" placeholder="Subject"/>
+                    </div>
+                    <div class="col">
+                        <textarea name="message" class="form-control" id="exampleInputMessage1" placeholder="Message"></textarea>
+                    </div>
+                </div>
+
+                <!-- If you want replyTo to be set to specific email -->
+                <!--            <input type="text" name="replyTo" value="myreplytoemail@example.com"> &lt;!&ndash; Optional &ndash;&gt;-->
+                <!-- Specify @ as reply to value if you want it to be customers email -->
+                <!--            <input type="hidden" name="replyTo" value="@"> &lt;!&ndash; Optional &ndash;&gt;-->
+                <!-- If you want form to redirect to a specific url after submission -->
+                <input type="hidden" name="redirectTo" value="/services?"> <!-- Optional -->
+
+                <!-- If we receive data in this field submission will be ignored -->
+                <input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </div>
 </div>

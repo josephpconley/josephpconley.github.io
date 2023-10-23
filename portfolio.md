@@ -25,7 +25,6 @@ Here's my latest snapshot (updated quarterly-ish) of the equities in my portfoli
                 <tr><td>TOITF</td><td>7%</td></tr>
                 <tr><td>HIFS</td><td>7%</td></tr>
                 <tr><td>PAR</td><td>6%</td></tr>
-                <tr><td>SKYH</td><td>5%</td></tr>
                 <tr><td>HGTY</td><td>4%</td></tr>
                 <tr><td>LMGIF</td><td>0.19%</td></tr>
             </tbody>

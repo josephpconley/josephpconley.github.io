@@ -7,42 +7,7 @@ title: My Portfolio
 
 Here's my latest snapshot (updated quarterly-ish) of the equities in my portfolio.  As it's just equities I've omitted the more "boring" parts (529, Treasuries, Fundrise) but will still talk about them in quarterly updates as needed.
 
-<div class="row">
-    <div class="col-sm">
-        <h2>Holdings</h2>
-        <table>
-            <thead>
-                <tr><th>Company</th><th>%</th></tr>
-            </thead>
-            <tbody>
-                <tr><td>PLTR</td><td>13%</td></tr>
-                <tr><td>BOC</td><td>13%</td></tr>
-                <tr><td>BRK.B</td><td>10%</td></tr>
-                <tr><td>CNSWF</td><td>10%</td></tr>
-                <tr><td>JDC.DE</td><td>8%</td></tr>
-                <tr><td>NNI</td><td>8%</td></tr>
-                <tr><td>AMPS</td><td>7%</td></tr>
-                <tr><td>TOITF</td><td>7%</td></tr>
-                <tr><td>HIFS</td><td>7%</td></tr>
-                <tr><td>PAR</td><td>6%</td></tr>
-                <tr><td>HGTY</td><td>4%</td></tr>
-                <tr><td>LMGIF</td><td>0.19%</td></tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="col-sm">
-        <h2>Performance</h2>
-        <table>
-            <thead>
-                <tr><th>Year</th><th>Me</th><th>S&P 500</th></tr>
-            </thead>
-            <tbody>
-                <tr><td>2022</td><td>-9.07%</td><td>-19.44%</td></tr>
-                <tr><td>2023</td><td>11.8%</td><td>15.9%</td></tr>
-            </tbody>
-        </table>
-    </div>
-</div>
+<iframe width="1000" height="470" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrLfeF9FzaBJv6cuf6O_vG9a86Dqe3ZLAf8ASxoFmZL4G_tfKxE2ujP9AXZAmhvehDNKI5kjxChSCN/pubhtml?gid=1042801470&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 **Watchlist**: NU, NICK
 

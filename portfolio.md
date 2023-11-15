@@ -7,7 +7,7 @@ title: My Portfolio
 
 Here's my latest snapshot (updated quarterly-ish) of the equities in my portfolio.  As it's just equities I've omitted the more "boring" parts (529, Treasuries, Fundrise) but will still talk about them in quarterly updates as needed.
 
-<iframe width="1000" height="470" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrLfeF9FzaBJv6cuf6O_vG9a86Dqe3ZLAf8ASxoFmZL4G_tfKxE2ujP9AXZAmhvehDNKI5kjxChSCN/pubhtml?gid=1042801470&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe width="1200" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrLfeF9FzaBJv6cuf6O_vG9a86Dqe3ZLAf8ASxoFmZL4G_tfKxE2ujP9AXZAmhvehDNKI5kjxChSCN/pubhtml?gid=1042801470&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 **Watchlist**: NU, NICK
 

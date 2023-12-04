@@ -1,0 +1,4 @@
+---
+slug: buffett
+name: buffett
+---

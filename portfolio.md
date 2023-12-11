@@ -9,7 +9,7 @@ Here's my latest snapshot of the equities in my portfolio.  I've omitted the mor
 
 <iframe width="1200" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrLfeF9FzaBJv6cuf6O_vG9a86Dqe3ZLAf8ASxoFmZL4G_tfKxE2ujP9AXZAmhvehDNKI5kjxChSCN/pubhtml?gid=1042801470&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-**Watchlist**: NU, NICK
+**Watchlist**: QUCT, NICK
 
 I'm hoping to learn as much as I can about these great businesses and go a few rounds with Mr. Market in the process.  I'll link these positions with deeper dives as time permits, or if anyone has any requests?
 
@@ -33,6 +33,6 @@ The recent pace for both is proving promising, plus they have a mountain of data
 Despite being a CTO, I haven't been as drawn to most high-flying tech companies (and as such have dodged some of the 2022 tech bloodbath).
 However, the strength of these companies and their products is remarkable, and I find it hard to believe any of these platforms will not continue to grow considerably over the next ten years.
 
-## Small-Cap Niches I Really Like - AMPS, SKYH, HGTY, HIFS
+## Small-Cap Niches I Really Like - AMPS, SKYH (formerly HIFS, HGTY)
 
 Hard to find a common theme for the rest of my companies here, but I think they're all outstanding companies that have great potential to grow with minimal downside.  Plus it's been fun learning about all of them.

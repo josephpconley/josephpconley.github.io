@@ -3,6 +3,13 @@ layout: static
 title: Technical Due Diliegence and Fractional CTO Services
 description: Philadelphia-based CTO offering services for building software, managing teams, and performing technical due diligence for startups and acquisitions
 ---
+<div class="alert alert-success alert-dismissible collapse" role="alert" id="form-alert">
+    <small>Thanks for your interest, we'll be in touch ASAP!</small>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
 <h1>Technical Due Diligence and Fractional CTO Services</h1>
 <p>I offer a variety of services ranging from hands-on technical work, managing teams and process, and performing deep dive technical due diligence for startups, M&A, and other special situations.</p>
 
@@ -55,8 +62,8 @@ description: Philadelphia-based CTO offering services for building software, man
         </div>
         <div class="col-lg-6">
             <!-- Make sure you don't change the form action-->
-            <form action="https://api.staticforms.xyz/submit" method="post">
-                <input type="hidden" name="accessKey" value="52662869-7885-4a30-acc4-9a1d9034b392"> <!-- Required -->
+            <form action="https://kyydbkdp1f.execute-api.us-east-1.amazonaws.com/prod/contact" method="post">
+<!--                <input type="hidden" name="accessKey" value="52662869-7885-4a30-acc4-9a1d9034b392"> &lt;!&ndash; Required &ndash;&gt;-->
                 <div class="form-row">
                     <div class="col">
                         <input name="name" type="text" class="form-control" id="exampleInputName1" placeholder="Name"/>
@@ -65,11 +72,6 @@ description: Philadelphia-based CTO offering services for building software, man
                 <div class="form-row">
                     <div class="col">
                         <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"/>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col">
-                        <input name="subject" type="text" class="form-control" id="exampleInputSubject1" placeholder="Subject"/>
                     </div>
                 </div>
                 <div class="form-row">
@@ -84,11 +86,15 @@ description: Philadelphia-based CTO offering services for building software, man
                 <!--            <input type="hidden" name="replyTo" value="@"> &lt;!&ndash; Optional &ndash;&gt;-->
                 <!-- If you want form to redirect to a specific url after submission -->
                 <input type="hidden" name="redirectTo" value="https://jpc2.org/services.html?success=true"> <!-- Optional -->
-
-                <!-- If we receive data in this field submission will be ignored -->
-                <input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
-                <input type="submit" value="Submit" />
+                <input onclick="window.location.href = 'https://jpc2.org/services.html?success=true';" type="submit" value="Submit" />
             </form>
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    var url = window.location.href;
+    if(url.indexOf('success=true') != -1) {
+        $('#form-alert').show();
+    }
+</script>

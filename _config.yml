@@ -40,16 +40,19 @@ defaults:
 navbar-links:
   Now: "now"
   Services: "services"
+  Tech:
+    - Projects: "projects"
+    - Presentations: "presentations"
+  Books:
+    - Data Analytics on AWS: "da-aws"
+  Investing:
+    - Portfolio: "portfolio"
   Ideas:
     - Departing Words: "departing"
     - Principles: "principles"
     - Joe OS: "joe-os"
     - Models: "models"
-  Tech:
-    - Projects: "projects"
-    - Presentations: "presentations"
-  Investing:
-    - Portfolio: "portfolio"
+
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar

@@ -20,10 +20,13 @@ Most engineers probably won't attend sales calls or talk to users directly, fine
 
 A previous manager of mine, struggling with a team's delivery issues, had everyone think through the example of a pizza shop.
 
-> Think of our team as a pizza shop. Pizza shops need to deliver quality pizza. They also need to deliver quality pizza in a reasonable amount of time.  
-If we take forever to make pizzas, customers will leave.  
-If the pizza we make tastes like shit, customers will leave.   
-If customers leave, we can't afford to keep the shop open and we all go home.
+> Think of our team as a pizza shop. Pizza shops need to deliver quality pizza. They also need to deliver quality pizza in a reasonable amount of time.
+>
+>If we take forever to make pizzas, customers will leave.
+>
+>If the pizza we make tastes like shit, customers will leave.
+>
+>If customers leave, we can't afford to keep the shop open and we all go home.
 
 Customers don't care about the oven you used to make the pizza (microservices, kubernetes, Java applets). They also don't care how the pizza gets delivered (Agile bike delivery or Waterfall waiters). They're hungry! Just make good pizza, and ask them what they liked and didn't like!
 

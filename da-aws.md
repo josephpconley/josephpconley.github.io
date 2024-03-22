@@ -3,7 +3,7 @@ layout: static
 title: Books
 ---
 
-# Data Analytics on AWS - Coming March 2024
+# Data Analytics on AWS - Coming April 2024
 
 This book will help recent graduates and business professionals understand the fundamentals of data analytics and different types of data analysis – descriptive, diagnostic, predictive, and prescriptive.
 

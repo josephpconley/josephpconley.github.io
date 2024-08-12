@@ -6,8 +6,6 @@ title: Product Academy Presentation
 published: true
 ---
 
-## Product Academy Presentation
-
 I really enjoyed my recent talk at Turnberry Solutions' [Product Academy](https://www.turnberrysolutions.com/services/business-excellence/business-agility/). I always enjoy hearing stories and learning lessons from product-minded folks across different industries. Despite the variety of roles there are always some common takeaways that can help us all navigate product development and stay sane!
 
 Here are the slides, reach out if you wanna chat further!

@@ -15,3 +15,4 @@ Enjoy! Please let me know if you have any feedback at all!
 - [Book](https://www.amazon.com/Advanced-Data-Analytics-AWS-Engineering/dp/8197081891)
 - [Code](https://github.com/ava-orange-education/Advanced-Data-Analytics-with-AWS)
 
+P.S. I promise to get the KnowledgeGraphIndex debugging working with a (much shorter) snippet from Lord of the Rings, apparently trying to create a knowledge graph from a thousand page book can't be done during a demo (and also cost $80 trying)

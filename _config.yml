@@ -39,7 +39,6 @@ defaults:
 
 navbar-links:
   Now: "now"
-  Services: "services"
   Tech:
     - Projects: "projects"
     - Presentations: "presentations"

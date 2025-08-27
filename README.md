@@ -7,9 +7,13 @@ Theme by [Beautiful Jekyll](https://beautifuljekyll.com/)
 
 ## build
 ```
-sudo apt-get install ruby-bundler
+-- on project start
+sudo apt-get install ruby-bundler ruby-dev
+bundle config set --local path 'vendor/bundle'
+bundle config set --local build.nokogiri --use-system-libraries
 
 --anytime Gemfile needs to be updated
+
 bundle install
 ```
 

@@ -8,6 +8,12 @@ tags: [ai, code-review, productivity, software]
 
 Ever found yourself drowning in pull request reviews, wishing you had a magical AI assistant to do the heavy lifting and keep coding moving? Well, I've been down that rabbit hole and tested several AI code review tools to see what works and what doesn't. Here's what I discovered in my quest for the (near-)perfect AI code reviewer.
 
+<div class="row justify-content-center">
+<table class="image">
+	<tr><td><img src="/assets/ai-reviewer.png" alt="Step 1"/></td></tr>
+</table>
+</div>
+
 ## The Contenders
 
 I put four popular AI code review tools through their paces, scoring them on features, quality, and pricing (I tend to work and operate startups, so pricing is always front and center).
@@ -16,7 +22,7 @@ I put four popular AI code review tools through their paces, scoring them on fea
 
 **What it does:** Catches bugs early and auto-generates PR descriptions right in Github.
 
-**The good:** Integrates with VS Code, JetBrains, GitHub, and GitLab. Has a free tier with 75 PR reviews per month.
+**The good:** Integrates with VS Code, JetBrains, GitHub, and GitLab. Has a generous free tier with 75 PR reviews per month.
 
 **The not-so-good:** PR descriptions are terribly verbose and usually not very insightful. I know we're getting to the point where we should be writing and generating content specifically for LLMs, but I'm old-fashioned and still prefer concise, specific insights. To wit, most recommendations here tend to focus on low-hanging fruit rather than deep architectural insights.
 
@@ -36,7 +42,7 @@ I put four popular AI code review tools through their paces, scoring them on fea
 
 **Verdict:** Better quality than most, but the price point might make you wince.
 
-## 🥈 Cursor Bugbot (9/15) - The Bug Hunter
+## 🥈 Cursor Bugbot (10/15) - The Bug Hunter
 
 **What it does:** Specializes in bug detection and security issues beyond basic linting.
 

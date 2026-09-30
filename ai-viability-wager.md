@@ -9,11 +9,11 @@ title: AI Viability Wager
 
 ## Wager summary
 
-- **Believer**: Joseph Conley — wins if BOTH OpenAI and Anthropic stay independently operational through June 30, 2028 11:59 PM ET (neither hits Out of Business, now including Ch.11)
-- **Skeptic**: wins only if BOTH hit Out of Business under the wager rules (Ch.7, Ch.11/equivalent restructuring, permanent cessation, receiver wind-down, or dissolution)
-- **No‑bet**: acquisition/merger keeping AI services running (or similar carve-outs) may void a leg; mixed one-OOB / one-healthy → no-bet; both legs voided → no-bet
+- **Believer**: Joseph Conley — wins if it is NOT the case that BOTH OpenAI and Anthropic are Out of Business by June 30, 2028 11:59 PM ET (zero or one failure = Believer; Ch.11 counts as OOB for a lab)
+- **Skeptic**: wins ONLY if BOTH hit Out of Business (Ch.7, Ch.11/equivalent restructuring, permanent cessation, receiver wind-down, or dissolution)
+- **No‑bet**: mainly dual carve-outs / both legs voided (e.g. both acquired with continued AI ops); one-lab OOB is Believer, not no-bet
 
-<small><em>Rules note:</em> Amended ~2026-09-30: Chapter 11 (or equivalent restructuring) counts as Out of Business / Skeptic-win for that lab — even if commercial AI services continue. Acquisition/merger that keeps AI services running may still void that leg.</small>
+<small><em>Rules note:</em> Final amendment ~2026-09-30: Believer wins unless BOTH labs are Out of Business by the deadline (one-lab OOB → Believer). Skeptic wins only on dual OOB. Ch.11 still counts as OOB for a lab. No-bet is mainly dual carve-outs / both legs voided — not single failure.</small>
 
 <br>
 
@@ -27,21 +27,25 @@ Entries are in chronological order.
 
 ### Jul 1, 2026
 
+<!--
+    30|- **Believer**: 92% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 5%
 - **Believer**: 66% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 31%
-- Amended rules: Chapter 11 (or equivalent restructuring) is now Out of Business / Skeptic for that lab — no continued-ops carve-out. Dual failure still rare next to fresh capital (OpenAI March $122B / $852B; Anthropic spring ~$65B at $965B) and early-June confidential listings.
-- Per-lab distress looked low as of this date; Skeptic needs BOTH labs to hit OOB (now including Ch.11), so joint odds stay small. Believer still ahead.
+-->
+    30|- **Believer**: 92% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 5%
+- Final logic (~2026-09-30): Believer wins if it is NOT the case that both labs are Out of Business (zero or one failure = Believer). Skeptic still needs BOTH OOB (Ch.11 counts). Dual failure still rare next to fresh capital (OpenAI March $122B / $852B; Anthropic spring ~$65B at $965B) and early-June confidential listings.
+- No-bet is mainly dual carve-outs / both legs voided — not single-lab failure. Per-lab distress looked low as of this date, so joint Skeptic stays thin and Believer is well ahead.
 
 ### Aug 1, 2026
 
-- **Believer**: 68% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 29%
-- No July solvency break; a July 30 third-party tracker put OpenAI ARR near $43B, so joint-survival odds ticked up even with Ch.11 counting for Skeptic.
-- Anthropic’s last public run-rate was still the May ~$47B figure; Skeptic still needs both labs to hit OOB (incl. Ch.11).
+- **Believer**: 93% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 4%
+- No July solvency break; a July 30 third-party tracker put OpenAI ARR near $43B. Under final rules Believer captures one-out paths as wins, so Believer odds tick up further vs the old partition.
+- Anthropic’s last public run-rate was still the May ~$47B figure; Skeptic still needs both labs OOB (incl. Ch.11). No-bet remains a thin dual-void residual.
 
 ### Sep 30, 2026
 
-- **Believer**: 49% &nbsp;&nbsp; **Skeptic**: 12% &nbsp;&nbsp; **No‑bet**: 39%
-- Rules amendment (~2026-09-30): Ch.11 = Skeptic for that lab. Polymarket any-bankruptcy ~mid-teens to ~17%+ per lab (opened Sep 17) plus Sep burn math meaningfully raise joint Skeptic vs the old ~4% strict-liquidation path; mild positive correlation assumed.
-- Believer still needs BOTH labs independently operational; one Ch.11 + one healthy is No-bet. Acquisition/merger keeping AI services running can still void a leg. Believer remains ahead on the bottle.
+- **Believer**: 83% &nbsp;&nbsp; **Skeptic**: 12% &nbsp;&nbsp; **No‑bet**: 5%
+- Final rules: one-lab OOB → Believer (not no-bet). Polymarket any-bankruptcy ~mid-teens to ~17%+ per lab (opened Sep 17) plus Sep burn math keep joint Skeptic ~similar to the dual-OOB path (~12% with mild correlation).
+- Former mixed one-out mass shifts into Believer, so No-bet collapses to dual carve-outs / both legs voided. Believer remains clearly ahead on the bottle.
 
 <br>
 

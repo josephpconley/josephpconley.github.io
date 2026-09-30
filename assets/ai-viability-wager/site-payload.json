@@ -1,0 +1,47 @@
+{
+  "page_path_suggestion": "ai-viability-wager.md",
+  "public_url_path": "/ai-viability-wager",
+  "title": "AI Viability Wager",
+  "disclaimer": "Rough public-info judgment only. Not betting, investment, or legal advice. Honor wager between private parties through June 30, 2028.",
+  "rules_note": "Amended ~2026-09-30: Chapter 11 (or equivalent restructuring) counts as Out of Business / Skeptic-win for that lab — even if commercial AI services continue. Acquisition/merger that keeps AI services running may still void that leg.",
+  "wager_summary": {
+    "believer": "Joseph Conley — wins if BOTH OpenAI and Anthropic stay independently operational through June 30, 2028 11:59 PM ET (neither hits Out of Business, now including Ch.11)",
+    "skeptic": "wins only if BOTH hit Out of Business under the wager rules (Ch.7, Ch.11/equivalent restructuring, permanent cessation, receiver wind-down, or dissolution)",
+    "no_bet": "acquisition/merger keeping AI services running (or similar carve-outs) may void a leg; mixed one-OOB / one-healthy → no-bet; both legs voided → no-bet"
+  },
+  "months": [
+    {
+      "date": "2026-07-01",
+      "p_believer": 66,
+      "p_skeptic": 3,
+      "p_no_bet": 31,
+      "who_ahead": "Believer",
+      "bullets": [
+        "Amended rules: Chapter 11 (or equivalent restructuring) is now Out of Business / Skeptic for that lab — no continued-ops carve-out. Dual failure still rare next to fresh capital (OpenAI March $122B / $852B; Anthropic spring ~$65B at $965B) and early-June confidential listings.",
+        "Per-lab distress looked low as of this date; Skeptic needs BOTH labs to hit OOB (now including Ch.11), so joint odds stay small. Believer still ahead."
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "p_believer": 68,
+      "p_skeptic": 3,
+      "p_no_bet": 29,
+      "who_ahead": "Believer",
+      "bullets": [
+        "No July solvency break; a July 30 third-party tracker put OpenAI ARR near $43B, so joint-survival odds ticked up even with Ch.11 counting for Skeptic.",
+        "Anthropic’s last public run-rate was still the May ~$47B figure; Skeptic still needs both labs to hit OOB (incl. Ch.11)."
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "p_believer": 49,
+      "p_skeptic": 12,
+      "p_no_bet": 39,
+      "who_ahead": "Believer",
+      "bullets": [
+        "Rules amendment (~2026-09-30): Ch.11 = Skeptic for that lab. Polymarket any-bankruptcy ~mid-teens to ~17%+ per lab (opened Sep 17) plus Sep burn math meaningfully raise joint Skeptic vs the old ~4% strict-liquidation path; mild positive correlation assumed.",
+        "Believer still needs BOTH labs independently operational; one Ch.11 + one healthy is No-bet. Acquisition/merger keeping AI services running can still void a leg. Believer remains ahead on the bottle."
+      ]
+    }
+  ]
+}

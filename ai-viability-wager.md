@@ -27,11 +27,11 @@ Entries are in chronological order.
 
 ### Jul 1, 2026
 
-<!--
+
     30|- **Believer**: 92% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 5%
-- **Believer**: 66% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 31%
--->
-    30|- **Believer**: 92% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 5%
+
+
+- **Believer**: 92% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 5%
 - Final logic (~2026-09-30): Believer wins if it is NOT the case that both labs are Out of Business (zero or one failure = Believer). Skeptic still needs BOTH OOB (Ch.11 counts). Dual failure still rare next to fresh capital (OpenAI March $122B / $852B; Anthropic spring ~$65B at $965B) and early-June confidential listings.
 - No-bet is mainly dual carve-outs / both legs voided — not single-lab failure. Per-lab distress looked low as of this date, so joint Skeptic stays thin and Believer is well ahead.
 

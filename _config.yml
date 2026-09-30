@@ -47,6 +47,7 @@ navbar-links:
   Investing:
     - Portfolio: "portfolio"
   Ideas:
+    - AI Viability Wager: "ai-viability-wager"
     - Departing Words: "departing"
     - Principles: "principles"
     - Joe OS: "joe-os"

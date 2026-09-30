@@ -1,4 +1,14 @@
 {
+  "page_path_suggestion": "ai-viability-wager.md",
+  "public_url_path": "/ai-viability-wager",
+  "title": "AI Viability Wager",
+  "disclaimer": "Rough public-info judgment only. Not betting, investment, or legal advice. Honor wager between private parties through June 30, 2028.",
+  "rules_note": "Amended ~2026-09-30: Chapter 11 (or equivalent restructuring) counts as Out of Business / Skeptic-win for that lab — even if commercial AI services continue. Acquisition/merger that keeps AI services running may still void that leg.",
+  "wager_summary": {
+    "believer": "Joseph Conley — wins if BOTH OpenAI and Anthropic stay independently operational through June 30, 2028 11:59 PM ET (neither hits Out of Business, now including Ch.11)",
+    "skeptic": "wins only if BOTH hit Out of Business under the wager rules (Ch.7, Ch.11/equivalent restructuring, permanent cessation, receiver wind-down, or dissolution)",
+    "no_bet": "acquisition/merger keeping AI services running (or similar carve-outs) may void a leg; mixed one-OOB / one-healthy → no-bet; both legs voided → no-bet"
+  },
   "months": [
     {
       "date": "2026-07-01",
@@ -33,11 +43,5 @@
         "Believer still needs BOTH labs independently operational; one Ch.11 + one healthy is No-bet. Acquisition/merger keeping AI services running can still void a leg. Believer remains ahead on the bottle."
       ]
     }
-  ],
-  "rules_note": "Amended ~2026-09-30: Chapter 11 (or equivalent restructuring) counts as Out of Business / Skeptic-win for that lab — even if commercial AI services continue. Acquisition/merger that keeps AI services running may still void that leg.",
-  "wager_summary": {
-    "believer": "Joseph Conley — wins if BOTH OpenAI and Anthropic stay independently operational through June 30, 2028 11:59 PM ET (neither hits Out of Business, now including Ch.11)",
-    "skeptic": "wins only if BOTH hit Out of Business under the wager rules (Ch.7, Ch.11/equivalent restructuring, permanent cessation, receiver wind-down, or dissolution)",
-    "no_bet": "acquisition/merger keeping AI services running (or similar carve-outs) may void a leg; mixed one-OOB / one-healthy → no-bet; both legs voided → no-bet"
-  }
+  ]
 }

@@ -9,9 +9,11 @@ title: AI Viability Wager
 
 ## Wager summary
 
-- **Believer**: Joseph Conley — wins if BOTH OpenAI and Anthropic stay independently operational through June 30, 2028 11:59 PM ET
-- **Skeptic**: wins only if BOTH cease independent operations under the wager’s Out of Business rules
-- **No‑bet**: acquisition/Ch.11 with continued ops (or similar carve-outs) void a leg; both voided → no-bet
+- **Believer**: Joseph Conley — wins if BOTH OpenAI and Anthropic stay independently operational through June 30, 2028 11:59 PM ET (neither hits Out of Business, now including Ch.11)
+- **Skeptic**: wins only if BOTH hit Out of Business under the wager rules (Ch.7, Ch.11/equivalent restructuring, permanent cessation, receiver wind-down, or dissolution)
+- **No‑bet**: acquisition/merger keeping AI services running (or similar carve-outs) may void a leg; mixed one-OOB / one-healthy → no-bet; both legs voided → no-bet
+
+<small><em>Rules note:</em> Amended ~2026-09-30: Chapter 11 (or equivalent restructuring) counts as Out of Business / Skeptic-win for that lab — even if commercial AI services continue. Acquisition/merger that keeps AI services running may still void that leg.</small>
 
 <br>
 
@@ -25,21 +27,21 @@ Entries are in chronological order.
 
 ### Jul 1, 2026
 
-- **Believer**: 70% &nbsp;&nbsp; **Skeptic**: 2% &nbsp;&nbsp; **No‑bet**: 28%
-- Both labs had just raised large rounds (OpenAI’s March raise; Anthropic’s spring round) and confidentially filed to list in early June — dual liquidation inside ~24 months looked like a thin tail vs a hyperscaler rescue.
-- No required-outlet Ch.7 / dissolution / permanent service shutdown for either lab as of this date.
+- **Believer**: 66% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 31%
+- Amended rules: Chapter 11 (or equivalent restructuring) is now Out of Business / Skeptic for that lab — no continued-ops carve-out. Dual failure still rare next to fresh capital (OpenAI March $122B / $852B; Anthropic spring ~$65B at $965B) and early-June confidential listings.
+- Per-lab distress looked low as of this date; Skeptic needs BOTH labs to hit OOB (now including Ch.11), so joint odds stay small. Believer still ahead.
 
 ### Aug 1, 2026
 
-- **Believer**: 72% &nbsp;&nbsp; **Skeptic**: 2% &nbsp;&nbsp; **No‑bet**: 26%
-- July brought no solvency break; a July 30 third-party tracker put OpenAI ARR near $43B, nudging joint-survival odds up.
-- Anthropic’s last public run-rate still sat at the May ~$47B figure; Skeptic still needed both labs to hit the strict out-of-business bar.
+- **Believer**: 68% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 29%
+- No July solvency break; a July 30 third-party tracker put OpenAI ARR near $43B, so joint-survival odds ticked up even with Ch.11 counting for Skeptic.
+- Anthropic’s last public run-rate was still the May ~$47B figure; Skeptic still needs both labs to hit OOB (incl. Ch.11).
 
 ### Sep 30, 2026
 
-- **Believer**: 63% &nbsp;&nbsp; **Skeptic**: 4% &nbsp;&nbsp; **No‑bet**: 33%
-- September burn math (OpenAI capital possibly exhausted in 2028 on a deep negative-FCF path; Anthropic’s large compute obligations vs thinner cash) raised rescue / Ch.11-with-ops odds more than dual liquidation.
-- Operations still looked strong on ARR (OpenAI above $40B by August and climbing; Anthropic ~$65B by end-July), and prediction markets that count Ch.11 overstate Skeptic’s strict two-lab out-of-business path.
+- **Believer**: 49% &nbsp;&nbsp; **Skeptic**: 12% &nbsp;&nbsp; **No‑bet**: 39%
+- Rules amendment (~2026-09-30): Ch.11 = Skeptic for that lab. Polymarket any-bankruptcy ~mid-teens to ~17%+ per lab (opened Sep 17) plus Sep burn math meaningfully raise joint Skeptic vs the old ~4% strict-liquidation path; mild positive correlation assumed.
+- Believer still needs BOTH labs independently operational; one Ch.11 + one healthy is No-bet. Acquisition/merger keeping AI services running can still void a leg. Believer remains ahead on the bottle.
 
 <br>
 
@@ -48,4 +50,3 @@ Entries are in chronological order.
 <br><br>
 
 <small>Machine‑readable history: <a href="/assets/ai-viability-wager/history.json">history.json</a> · <a href="/assets/ai-viability-wager/history.csv">history.csv</a></small>
-

@@ -1,0 +1,37 @@
+{
+  "months": [
+    {
+      "date": "2026-07-01",
+      "p_believer": 70,
+      "p_skeptic": 2,
+      "p_no_bet": 28,
+      "who_ahead": "Believer",
+      "bullets": [
+        "Both labs had just raised large rounds (OpenAI’s March raise; Anthropic’s spring round) and confidentially filed to list in early June — dual liquidation inside ~24 months looked like a thin tail vs a hyperscaler rescue.",
+        "No required-outlet Ch.7 / dissolution / permanent service shutdown for either lab as of this date."
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "p_believer": 72,
+      "p_skeptic": 2,
+      "p_no_bet": 26,
+      "who_ahead": "Believer",
+      "bullets": [
+        "July brought no solvency break; a July 30 third-party tracker put OpenAI ARR near $43B, nudging joint-survival odds up.",
+        "Anthropic’s last public run-rate still sat at the May ~$47B figure; Skeptic still needed both labs to hit the strict out-of-business bar."
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "p_believer": 63,
+      "p_skeptic": 4,
+      "p_no_bet": 33,
+      "who_ahead": "Believer",
+      "bullets": [
+        "September burn math (OpenAI capital possibly exhausted in 2028 on a deep negative-FCF path; Anthropic’s large compute obligations vs thinner cash) raised rescue / Ch.11-with-ops odds more than dual liquidation.",
+        "Operations still looked strong on ARR (OpenAI above $40B by August and climbing; Anthropic ~$65B by end-July), and prediction markets that count Ch.11 overstate Skeptic’s strict two-lab out-of-business path."
+      ]
+    }
+  ]
+}

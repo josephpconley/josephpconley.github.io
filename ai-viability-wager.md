@@ -5,7 +5,7 @@ title: AI Viability Wager
 
 # AI Viability Wager
 
-<small>{{ page.title }} — monthly tracker for probabilities and brief rationale.</small>
+<small>{{ page.title }} — weekly tracker for probabilities and brief rationale.</small>
 
 ## Wager summary
 
@@ -21,31 +21,39 @@ title: AI Viability Wager
 
 <br>
 
-## Monthly tracker
+## Weekly tracker
 
-Entries are in chronological order.
+Newest first.
 
-### Jul 1, 2026
+### Oct 12, 2026
 
+- **Believer**: 84% &nbsp;&nbsp; **Skeptic**: 11% &nbsp;&nbsp; **No‑bet**: 5%
+- OpenAI told investors 2026 revenue would be ~$50B, well below the ~$70B run-rate signaled weeks earlier (Guardian, Oct 9).
+- The $30B OpenAI raise and Anthropic's expected November IPO both remained on track.
 
-    30|- **Believer**: 92% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 5%
+### Oct 5, 2026
 
-
-- **Believer**: 92% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 5%
-- Final logic (~2026-09-30): Believer wins if it is NOT the case that both labs are Out of Business (zero or one failure = Believer). Skeptic still needs BOTH OOB (Ch.11 counts). Dual failure still rare next to fresh capital (OpenAI March $122B / $852B; Anthropic spring ~$65B at $965B) and early-June confidential listings.
-- No-bet is mainly dual carve-outs / both legs voided — not single-lab failure. Per-lab distress looked low as of this date, so joint Skeptic stays thin and Believer is well ahead.
-
-### Aug 1, 2026
-
-- **Believer**: 93% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 4%
-- No July solvency break; a July 30 third-party tracker put OpenAI ARR near $43B. Under final rules Believer captures one-out paths as wins, so Believer odds tick up further vs the old partition.
-- Anthropic’s last public run-rate was still the May ~$47B figure; Skeptic still needs both labs OOB (incl. Ch.11). No-bet remains a thin dual-void residual.
+- **Believer**: 85% &nbsp;&nbsp; **Skeptic**: 10% &nbsp;&nbsp; **No‑bet**: 5%
+- Bloomberg: OpenAI in talks with UAE funds (incl. MGX) and BlackRock to anchor a $30B+ round at ~$1.4T pre-money; IPO pushed to 2027.
+- Anthropic reported to be preparing an IPO as soon as November.
 
 ### Sep 30, 2026
 
 - **Believer**: 83% &nbsp;&nbsp; **Skeptic**: 12% &nbsp;&nbsp; **No‑bet**: 5%
-- Final rules: one-lab OOB → Believer (not no-bet). Polymarket any-bankruptcy ~mid-teens to ~17%+ per lab (opened Sep 17) plus Sep burn math keep joint Skeptic ~similar to the dual-OOB path (~12% with mild correlation).
-- Former mixed one-out mass shifts into Believer, so No-bet collapses to dual carve-outs / both legs voided. Believer remains clearly ahead on the bottle.
+- Polymarket bankruptcy markets opened Sep 17, pricing each lab's bankruptcy odds in the mid-teens to ~17%.
+- Reports on heavy 2026–2028 compute burn sharpened scrutiny of both labs' cash needs.
+
+### Aug 1, 2026
+
+- **Believer**: 93% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 4%
+- A July 30 third-party tracker put OpenAI annualized revenue near $43B.
+- Anthropic's last public run-rate was still ~$47B (May); no July funding or solvency stress.
+
+### Jul 1, 2026
+
+- **Believer**: 92% &nbsp;&nbsp; **Skeptic**: 3% &nbsp;&nbsp; **No‑bet**: 5%
+- OpenAI closed a $122B round at an $852B valuation in March; Anthropic raised ~$65B at ~$965B in spring.
+- Both labs made early-June confidential IPO filings; no public sign of financial distress.
 
 <br>
 

@@ -25,6 +25,12 @@ title: AI Viability Wager
 
 Newest first.
 
+### Oct 19, 2026
+
+- **Believer**: 86% &nbsp;&nbsp; **Skeptic**: 9% &nbsp;&nbsp; **No‑bet**: 5%
+- Anthropic told investors Q3 revenue rose 45% to $16.8B and that it was profitable on an adjusted basis (Reuters, Oct 14); it plans to file publicly on Oct 26 for a mid-November IPO (IFR).
+- OpenAI's ~$30B raise at ~$1.4T was still in talks with no term sheet; PitchBook put fair value near $1T as losses keep growing.
+
 ### Oct 12, 2026
 
 - **Believer**: 84% &nbsp;&nbsp; **Skeptic**: 11% &nbsp;&nbsp; **No‑bet**: 5%

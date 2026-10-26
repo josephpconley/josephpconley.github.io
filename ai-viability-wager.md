@@ -25,6 +25,12 @@ title: AI Viability Wager
 
 Newest first.
 
+### Oct 26, 2026
+
+- **Believer**: 86% &nbsp;&nbsp; **Skeptic**: 9% &nbsp;&nbsp; **No‑bet**: 5%
+- OpenAI was reported close to signing an up-to-$30B round led by UAE investors and Coatue, though at a $1.25T pre-money valuation, down from the $1.4T discussed earlier (CNBC/Bloomberg, Oct 22).
+- Anthropic was expected to make its S-1 public on Oct 26 ahead of a Nov 9 roadshow, reportedly targeting up to $100B at ~$2T (IFR); NYC's comptroller urged it to pause the IPO over AI-safety concerns.
+
 ### Oct 19, 2026
 
 - **Believer**: 86% &nbsp;&nbsp; **Skeptic**: 9% &nbsp;&nbsp; **No‑bet**: 5%

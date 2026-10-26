@@ -65,6 +65,17 @@
         "Anthropic told investors Q3 revenue rose 45% to $16.8B and that it was profitable on an adjusted basis (Reuters, Oct 14); it plans to file publicly on Oct 26 for a mid-November IPO (IFR).",
         "OpenAI's ~$30B raise at ~$1.4T was still in talks with no term sheet; PitchBook put fair value near $1T as losses keep growing."
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "p_believer": 86,
+      "p_skeptic": 9,
+      "p_no_bet": 5,
+      "who_ahead": "Believer",
+      "bullets": [
+        "OpenAI was reported close to signing an up-to-$30B round led by UAE investors and Coatue, though at a $1.25T pre-money valuation, down from the $1.4T discussed earlier (CNBC/Bloomberg, Oct 22).",
+        "Anthropic was expected to make its S-1 public on Oct 26 ahead of a Nov 9 roadshow, reportedly targeting up to $100B at ~$2T (IFR); NYC's comptroller urged it to pause the IPO over AI-safety concerns."
+      ]
     }
   ]
 }

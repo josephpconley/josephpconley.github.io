@@ -77,14 +77,14 @@
       ]
     },
     {
-      "date": "2026-10-26",
-      "p_believer": 86,
-      "p_skeptic": 9,
+      "date": "2026-10-27",
+      "p_believer": 88,
+      "p_skeptic": 7,
       "p_no_bet": 5,
       "who_ahead": "Believer",
       "bullets": [
-        "OpenAI was reported close to signing an up-to-$30B round led by UAE investors and Coatue, though at a $1.25T pre-money valuation, down from the $1.4T discussed earlier (CNBC/Bloomberg, Oct 22).",
-        "Anthropic was expected to make its S-1 public on Oct 26 ahead of a Nov 9 roadshow, reportedly targeting up to $100B at ~$2T (IFR); NYC's comptroller urged it to pause the IPO over AI-safety concerns."
+        "Anthropic made its S-1 public on Oct 26 (Nasdaq: ANT): H1 2026 revenue of $16.3B, up ~14x, with an implied ~85% gross margin, ~900% net revenue retention and just $6.2B of debt; most of its $80.7B H1 net loss was a non-cash convertible-note revaluation (CNBC).",
+        "The filing also showed ~$266B of noncancelable compute purchase commitments plus ~$321B of lease obligations, and flagged possible material revenue losses from its Pentagon dispute; the IPO could top SpaceX's record $86B raise and would beat OpenAI to market (AP)."
       ]
     }
   ]

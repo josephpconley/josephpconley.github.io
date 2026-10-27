@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" font-family="Helvetica,Arial,sans-serif" font-size="12" role="img" aria-label="AI Viability Wager outcome probabilities over time">
+<style>.pt{cursor:pointer;outline:none}.pt:hover circle.v,.pt:focus circle.v{r:7px}#tip{pointer-events:none}</style>
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="450.0" y="22" text-anchor="middle" font-size="15">AI Viability Wager — outcome probabilities (weekly)</text>
+<line x1="60" x2="830" y1="390.0" y2="390.0" stroke="#ddd"/><text x="52" y="394.0" text-anchor="end">0</text>
+<line x1="60" x2="830" y1="320.0" y2="320.0" stroke="#ddd"/><text x="52" y="324.0" text-anchor="end">20</text>
+<line x1="60" x2="830" y1="250.0" y2="250.0" stroke="#ddd"/><text x="52" y="254.0" text-anchor="end">40</text>
+<line x1="60" x2="830" y1="180.0" y2="180.0" stroke="#ddd"/><text x="52" y="184.0" text-anchor="end">60</text>
+<line x1="60" x2="830" y1="110.0" y2="110.0" stroke="#ddd"/><text x="52" y="114.0" text-anchor="end">80</text>
+<line x1="60" x2="830" y1="40.0" y2="40.0" stroke="#ddd"/><text x="52" y="44.0" text-anchor="end">100</text>
+<text transform="translate(16,215.0) rotate(-90)" text-anchor="middle">Probability (%)</text>
+<line x1="60.0" x2="60.0" y1="40" y2="390" stroke="#eee"/><text x="60.0" y="408" text-anchor="middle">Jul 2026</text>
+<line x1="246.5" x2="246.5" y1="40" y2="390" stroke="#eee"/><text x="246.5" y="408" text-anchor="middle">Aug 2026</text>
+<line x1="433.0" x2="433.0" y1="40" y2="390" stroke="#eee"/><text x="433.0" y="408" text-anchor="middle">Sep 2026</text>
+<line x1="613.4" x2="613.4" y1="40" y2="390" stroke="#eee"/><text x="613.4" y="408" text-anchor="middle">Oct 2026</text>
+<line x1="799.9" x2="799.9" y1="40" y2="390" stroke="#eee"/><text x="799.9" y="408" text-anchor="middle">Nov 2026</text>
+<rect x="60" y="40" width="770" height="350" fill="none" stroke="#999"/>
+<polyline points="60.0,68.0 246.5,64.5 607.4,99.5 637.5,92.5 679.6,96.0 721.7,89.0 769.8,82.0" fill="none" stroke="#2ca02c" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="60.0,379.5 246.5,379.5 607.4,348.0 637.5,355.0 679.6,351.5 721.7,358.5 769.8,365.5" fill="none" stroke="#d62728" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="60.0,372.5 246.5,376.0 607.4,372.5 637.5,372.5 679.6,372.5 721.7,372.5 769.8,372.5" fill="none" stroke="#7f7f7f" stroke-width="2" stroke-linejoin="round"/>
+<text x="779.8" y="86.0" fill="#2ca02c" font-weight="bold" font-size="13">88%</text>
+<text x="779.8" y="359.0" fill="#d62728" font-weight="bold" font-size="13">7%</text>
+<text x="779.8" y="376.5" fill="#7f7f7f" font-weight="bold" font-size="13">5%</text>
+<g transform="translate(72,54)"><line x2="18" stroke="#2ca02c" stroke-width="2"/><circle cx="9" r="4" fill="#2ca02c"/><text x="24" y="4">Believer</text></g>
+<g transform="translate(167,54)"><line x2="18" stroke="#d62728" stroke-width="2"/><circle cx="9" r="4" fill="#d62728"/><text x="24" y="4">Skeptic</text></g>
+<g transform="translate(262,54)"><line x2="18" stroke="#7f7f7f" stroke-width="2"/><circle cx="9" r="4" fill="#7f7f7f"/><text x="24" y="4">No-bet</text></g>
+<g class="pt" tabindex="0" data-tip="Jul 1, 2026|Believer 92%|Skeptic 3%|No-bet 5%" data-x="60.0" data-y="68.0"><title>Jul 1, 2026 · Believer 92% · Skeptic 3% · No-bet 5%</title><circle cx="60.0" cy="68.0" r="11" fill="transparent"/><circle class="v" cx="60.0" cy="68.0" r="5" fill="#2ca02c" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Jul 1, 2026|Believer 92%|Skeptic 3%|No-bet 5%" data-x="60.0" data-y="379.5"><title>Jul 1, 2026 · Believer 92% · Skeptic 3% · No-bet 5%</title><circle cx="60.0" cy="379.5" r="11" fill="transparent"/><circle class="v" cx="60.0" cy="379.5" r="5" fill="#d62728" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Jul 1, 2026|Believer 92%|Skeptic 3%|No-bet 5%" data-x="60.0" data-y="372.5"><title>Jul 1, 2026 · Believer 92% · Skeptic 3% · No-bet 5%</title><circle cx="60.0" cy="372.5" r="11" fill="transparent"/><circle class="v" cx="60.0" cy="372.5" r="5" fill="#7f7f7f" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Aug 1, 2026|Believer 93%|Skeptic 3%|No-bet 4%" data-x="246.5" data-y="64.5"><title>Aug 1, 2026 · Believer 93% · Skeptic 3% · No-bet 4%</title><circle cx="246.5" cy="64.5" r="11" fill="transparent"/><circle class="v" cx="246.5" cy="64.5" r="5" fill="#2ca02c" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Aug 1, 2026|Believer 93%|Skeptic 3%|No-bet 4%" data-x="246.5" data-y="379.5"><title>Aug 1, 2026 · Believer 93% · Skeptic 3% · No-bet 4%</title><circle cx="246.5" cy="379.5" r="11" fill="transparent"/><circle class="v" cx="246.5" cy="379.5" r="5" fill="#d62728" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Aug 1, 2026|Believer 93%|Skeptic 3%|No-bet 4%" data-x="246.5" data-y="376.0"><title>Aug 1, 2026 · Believer 93% · Skeptic 3% · No-bet 4%</title><circle cx="246.5" cy="376.0" r="11" fill="transparent"/><circle class="v" cx="246.5" cy="376.0" r="5" fill="#7f7f7f" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Sep 30, 2026|Believer 83%|Skeptic 12%|No-bet 5%" data-x="607.4" data-y="99.5"><title>Sep 30, 2026 · Believer 83% · Skeptic 12% · No-bet 5%</title><circle cx="607.4" cy="99.5" r="11" fill="transparent"/><circle class="v" cx="607.4" cy="99.5" r="5" fill="#2ca02c" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Sep 30, 2026|Believer 83%|Skeptic 12%|No-bet 5%" data-x="607.4" data-y="348.0"><title>Sep 30, 2026 · Believer 83% · Skeptic 12% · No-bet 5%</title><circle cx="607.4" cy="348.0" r="11" fill="transparent"/><circle class="v" cx="607.4" cy="348.0" r="5" fill="#d62728" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Sep 30, 2026|Believer 83%|Skeptic 12%|No-bet 5%" data-x="607.4" data-y="372.5"><title>Sep 30, 2026 · Believer 83% · Skeptic 12% · No-bet 5%</title><circle cx="607.4" cy="372.5" r="11" fill="transparent"/><circle class="v" cx="607.4" cy="372.5" r="5" fill="#7f7f7f" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Oct 5, 2026|Believer 85%|Skeptic 10%|No-bet 5%" data-x="637.5" data-y="92.5"><title>Oct 5, 2026 · Believer 85% · Skeptic 10% · No-bet 5%</title><circle cx="637.5" cy="92.5" r="11" fill="transparent"/><circle class="v" cx="637.5" cy="92.5" r="5" fill="#2ca02c" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Oct 5, 2026|Believer 85%|Skeptic 10%|No-bet 5%" data-x="637.5" data-y="355.0"><title>Oct 5, 2026 · Believer 85% · Skeptic 10% · No-bet 5%</title><circle cx="637.5" cy="355.0" r="11" fill="transparent"/><circle class="v" cx="637.5" cy="355.0" r="5" fill="#d62728" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Oct 5, 2026|Believer 85%|Skeptic 10%|No-bet 5%" data-x="637.5" data-y="372.5"><title>Oct 5, 2026 · Believer 85% · Skeptic 10% · No-bet 5%</title><circle cx="637.5" cy="372.5" r="11" fill="transparent"/><circle class="v" cx="637.5" cy="372.5" r="5" fill="#7f7f7f" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Oct 12, 2026|Believer 84%|Skeptic 11%|No-bet 5%" data-x="679.6" data-y="96.0"><title>Oct 12, 2026 · Believer 84% · Skeptic 11% · No-bet 5%</title><circle cx="679.6" cy="96.0" r="11" fill="transparent"/><circle class="v" cx="679.6" cy="96.0" r="5" fill="#2ca02c" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Oct 12, 2026|Believer 84%|Skeptic 11%|No-bet 5%" data-x="679.6" data-y="351.5"><title>Oct 12, 2026 · Believer 84% · Skeptic 11% · No-bet 5%</title><circle cx="679.6" cy="351.5" r="11" fill="transparent"/><circle class="v" cx="679.6" cy="351.5" r="5" fill="#d62728" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Oct 12, 2026|Believer 84%|Skeptic 11%|No-bet 5%" data-x="679.6" data-y="372.5"><title>Oct 12, 2026 · Believer 84% · Skeptic 11% · No-bet 5%</title><circle cx="679.6" cy="372.5" r="11" fill="transparent"/><circle class="v" cx="679.6" cy="372.5" r="5" fill="#7f7f7f" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Oct 19, 2026|Believer 86%|Skeptic 9%|No-bet 5%" data-x="721.7" data-y="89.0"><title>Oct 19, 2026 · Believer 86% · Skeptic 9% · No-bet 5%</title><circle cx="721.7" cy="89.0" r="11" fill="transparent"/><circle class="v" cx="721.7" cy="89.0" r="5" fill="#2ca02c" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Oct 19, 2026|Believer 86%|Skeptic 9%|No-bet 5%" data-x="721.7" data-y="358.5"><title>Oct 19, 2026 · Believer 86% · Skeptic 9% · No-bet 5%</title><circle cx="721.7" cy="358.5" r="11" fill="transparent"/><circle class="v" cx="721.7" cy="358.5" r="5" fill="#d62728" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Oct 19, 2026|Believer 86%|Skeptic 9%|No-bet 5%" data-x="721.7" data-y="372.5"><title>Oct 19, 2026 · Believer 86% · Skeptic 9% · No-bet 5%</title><circle cx="721.7" cy="372.5" r="11" fill="transparent"/><circle class="v" cx="721.7" cy="372.5" r="5" fill="#7f7f7f" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Oct 27, 2026|Believer 88%|Skeptic 7%|No-bet 5%" data-x="769.8" data-y="82.0"><title>Oct 27, 2026 · Believer 88% · Skeptic 7% · No-bet 5%</title><circle cx="769.8" cy="82.0" r="11" fill="transparent"/><circle class="v" cx="769.8" cy="82.0" r="5" fill="#2ca02c" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Oct 27, 2026|Believer 88%|Skeptic 7%|No-bet 5%" data-x="769.8" data-y="365.5"><title>Oct 27, 2026 · Believer 88% · Skeptic 7% · No-bet 5%</title><circle cx="769.8" cy="365.5" r="11" fill="transparent"/><circle class="v" cx="769.8" cy="365.5" r="5" fill="#d62728" stroke="#fff" stroke-width="1"/></g>
+<g class="pt" tabindex="0" data-tip="Oct 27, 2026|Believer 88%|Skeptic 7%|No-bet 5%" data-x="769.8" data-y="372.5"><title>Oct 27, 2026 · Believer 88% · Skeptic 7% · No-bet 5%</title><circle cx="769.8" cy="372.5" r="11" fill="transparent"/><circle class="v" cx="769.8" cy="372.5" r="5" fill="#7f7f7f" stroke="#fff" stroke-width="1"/></g>
+<g id="tip" visibility="hidden"><rect rx="4" fill="#fff" fill-opacity=".95" stroke="#888" width="150" height="74"/><text x="10" y="18" font-weight="bold"></text><text x="10" y="35" fill="#2ca02c"></text><text x="10" y="51" fill="#d62728"></text><text x="10" y="67" fill="#7f7f7f"></text></g>
+<script><![CDATA[
+(function(){var t=document.getElementById("tip"),tx=t.querySelectorAll("text");
+function show(g){var p=g.getAttribute("data-tip").split("|"),x=+g.getAttribute("data-x"),y=+g.getAttribute("data-y");
+for(var i=0;i<4;i++)tx[i].textContent=p[i];var tl=g.querySelector("title");if(tl&&tl.textContent){g._t=tl.textContent;tl.textContent="";}
+var bx=x+12>670?x-162:x+12,by=Math.max(42,Math.min(y-37,314));
+t.setAttribute("transform","translate("+bx+","+by+")");t.setAttribute("visibility","visible");}
+function hide(g){var tl=g.querySelector("title");if(tl&&g._t)tl.textContent=g._t;t.setAttribute("visibility","hidden");}
+[].forEach.call(document.querySelectorAll(".pt"),function(g){
+g.addEventListener("mouseenter",function(){show(g)});g.addEventListener("mouseleave",function(){hide(g)});
+g.addEventListener("focus",function(){show(g)});g.addEventListener("blur",function(){hide(g)});
+g.addEventListener("click",function(){show(g)});});})();
+]]></script>
+</svg>

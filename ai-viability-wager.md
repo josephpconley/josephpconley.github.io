@@ -17,7 +17,9 @@ title: AI Viability Wager
 
 <br>
 
-<img class="ui large centered rounded image" alt="AI Viability Wager — outcome probabilities over time" src="/assets/ai-viability-wager/probabilities.png" />
+<object type="image/svg+xml" data="/assets/ai-viability-wager/probabilities.svg" style="display:block;width:100%;max-width:900px;margin:0 auto" aria-label="AI Viability Wager — outcome probabilities over time (hover a dot for values)"><img class="ui large centered rounded image" alt="AI Viability Wager — outcome probabilities over time" src="/assets/ai-viability-wager/probabilities.png" /></object>
+
+<small><em>Hover (or tap) any dot to see that week's Believer / Skeptic / No-bet %.</em></small>
 
 <br>
 

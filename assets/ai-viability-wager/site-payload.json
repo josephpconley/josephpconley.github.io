@@ -86,6 +86,17 @@
         "Anthropic made its S-1 public on Oct 26 (Nasdaq: ANT): H1 2026 revenue of $16.3B, up ~14x, with an implied ~85% gross margin, ~900% net revenue retention and just $6.2B of debt; most of its $80.7B H1 net loss was a non-cash convertible-note revaluation (CNBC).",
         "The filing also showed ~$266B of noncancelable compute purchase commitments plus ~$321B of lease obligations, and flagged possible material revenue losses from its Pentagon dispute; the IPO could top SpaceX's record $86B raise and would beat OpenAI to market (AP)."
       ]
+    },
+    {
+      "date": "2026-11-02",
+      "p_believer": 87,
+      "p_skeptic": 8,
+      "p_no_bet": 5,
+      "who_ahead": "Believer",
+      "bullets": [
+        "OpenAI cut its new round to ~$20B from ~$30B at a $1.25T post-money valuation as some investors trimmed allocations, with the first close expected below $20B (FT, CNBC, Oct 31).",
+        "A tech selloff left the Nasdaq 7.8% below its Oct 6 high, while Anthropic's IPO stayed on track: a Nov 2 filing showed up to $3.5B of shares to be sold to Japanese investors, with ~$1.5T valuations discussed (Reuters)."
+      ]
     }
   ]
 }

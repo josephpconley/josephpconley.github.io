@@ -27,6 +27,12 @@ title: AI Viability Wager
 
 Newest first.
 
+### Nov 2, 2026
+
+- **Believer**: 87% &nbsp;&nbsp; **Skeptic**: 8% &nbsp;&nbsp; **No‑bet**: 5%
+- OpenAI cut its new round to ~$20B from ~$30B at a $1.25T post-money valuation as some investors trimmed allocations, with the first close expected below $20B (FT, CNBC, Oct 31).
+- A tech selloff left the Nasdaq 7.8% below its Oct 6 high, while Anthropic's IPO stayed on track: a Nov 2 filing showed up to $3.5B of shares to be sold to Japanese investors, with ~$1.5T valuations discussed (Reuters).
+
 ### Oct 27, 2026
 
 - **Believer**: 88% &nbsp;&nbsp; **Skeptic**: 7% &nbsp;&nbsp; **No‑bet**: 5%

@@ -27,6 +27,12 @@ title: AI Viability Wager
 
 Newest first.
 
+### Nov 9, 2026
+
+- **Believer**: 87% &nbsp;&nbsp; **Skeptic**: 8% &nbsp;&nbsp; **No‑bet**: 5%
+- OpenAI closed ~$11B, the first tranche of a round now capped near $20B at a $1.25T valuation, with Coatue, T. Rowe Price, SoftBank and an MGX-led UAE syndicate in (Bloomberg, Nov 6).
+- Anthropic is pressing ahead with a pre-Thanksgiving IPO targeting $80B-$100B at $1.25T-$1.75T, down from ~$2T hopes after a tech selloff and a Democratic midterm sweep stoked data-center backlash; its amended S-1 showed Q3 revenue up ~50% to ~$17B and an ~$81B run rate (FT, CNBC, Reuters).
+
 ### Nov 2, 2026
 
 - **Believer**: 87% &nbsp;&nbsp; **Skeptic**: 8% &nbsp;&nbsp; **No‑bet**: 5%

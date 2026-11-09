@@ -87,6 +87,17 @@
         "OpenAI cut its new round to ~$20B from ~$30B at a $1.25T post-money valuation as some investors trimmed allocations, with the first close expected below $20B (FT, CNBC, Oct 31).",
         "A tech selloff left the Nasdaq 7.8% below its Oct 6 high, while Anthropic's IPO stayed on track: a Nov 2 filing showed up to $3.5B of shares to be sold to Japanese investors, with ~$1.5T valuations discussed (Reuters)."
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "p_believer": 87,
+      "p_skeptic": 8,
+      "p_no_bet": 5,
+      "who_ahead": "Believer",
+      "bullets": [
+        "OpenAI closed ~$11B, the first tranche of a round now capped near $20B at a $1.25T valuation, with Coatue, T. Rowe Price, SoftBank and an MGX-led UAE syndicate in (Bloomberg, Nov 6).",
+        "Anthropic is pressing ahead with a pre-Thanksgiving IPO targeting $80B-$100B at $1.25T-$1.75T, down from ~$2T hopes after a tech selloff and a Democratic midterm sweep stoked data-center backlash; its amended S-1 showed Q3 revenue up ~50% to ~$17B and an ~$81B run rate (FT, CNBC, Reuters)."
+      ]
     }
   ]
 }

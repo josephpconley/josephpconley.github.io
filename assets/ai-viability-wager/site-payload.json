@@ -108,6 +108,17 @@
         "OpenAI closed ~$11B, the first tranche of a round now capped near $20B at a $1.25T valuation, with Coatue, T. Rowe Price, SoftBank and an MGX-led UAE syndicate in (Bloomberg, Nov 6).",
         "Anthropic is pressing ahead with a pre-Thanksgiving IPO targeting $80B-$100B at $1.25T-$1.75T, down from ~$2T hopes after a tech selloff and a Democratic midterm sweep stoked data-center backlash; its amended S-1 showed Q3 revenue up ~50% to ~$17B and an ~$81B run rate (FT, CNBC, Reuters)."
       ]
+    },
+    {
+      "date": "2026-11-16",
+      "p_believer": 89,
+      "p_skeptic": 6,
+      "p_no_bet": 5,
+      "who_ahead": "Believer",
+      "bullets": [
+        "Anthropic set IPO terms of 825M shares at $70-$78 (up to ~$1.4T fully diluted), pricing Nov 18 and trading Nov 19 as ANT; orders hit ~7x the offer, and with a $26B chip-and-cloud private placement it could raise up to ~$90B, the largest listing ever (CNBC, Reuters, Bloomberg).",
+        "OpenAI reportedly raised ~$15B at $1.25T, half its original $30B goal, with Q3 revenue above $10B, up ~50%; Anthropic disclosed $895B of committed spend, mostly compute, and Goldman does not see positive annual free cash flow until 2030 (CNBC, Yahoo Finance)."
+      ]
     }
   ]
 }

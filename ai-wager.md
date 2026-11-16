@@ -27,6 +27,12 @@ title: AI Viability Wager
 
 Newest first.
 
+### Nov 16, 2026
+
+- **Believer**: 89% &nbsp;&nbsp; **Skeptic**: 6% &nbsp;&nbsp; **No‑bet**: 5%
+- Anthropic set IPO terms of 825M shares at $70-$78 (up to ~$1.4T fully diluted), pricing Nov 18 and trading Nov 19 as ANT; orders hit ~7x the offer, and with a $26B chip-and-cloud private placement it could raise up to ~$90B, the largest listing ever (CNBC, Reuters, Bloomberg).
+- OpenAI reportedly raised ~$15B at $1.25T, half its original $30B goal, with Q3 revenue above $10B, up ~50%; Anthropic disclosed $895B of committed spend, mostly compute, and Goldman does not see positive annual free cash flow until 2030 (CNBC, Yahoo Finance).
+
 ### Nov 9, 2026
 
 - **Believer**: 87% &nbsp;&nbsp; **Skeptic**: 8% &nbsp;&nbsp; **No‑bet**: 5%

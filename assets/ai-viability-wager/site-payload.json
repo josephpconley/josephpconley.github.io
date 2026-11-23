@@ -119,6 +119,17 @@
         "Anthropic set IPO terms of 825M shares at $70-$78 (up to ~$1.4T fully diluted), pricing Nov 18 and trading Nov 19 as ANT; orders hit ~7x the offer, and with a $26B chip-and-cloud private placement it could raise up to ~$90B, the largest listing ever (CNBC, Reuters, Bloomberg).",
         "OpenAI reportedly raised ~$15B at $1.25T, half its original $30B goal, with Q3 revenue above $10B, up ~50%; Anthropic disclosed $895B of committed spend, mostly compute, and Goldman does not see positive annual free cash flow until 2030 (CNBC, Yahoo Finance)."
       ]
+    },
+    {
+      "date": "2026-11-23",
+      "p_believer": 91,
+      "p_skeptic": 4,
+      "p_no_bet": 5,
+      "who_ahead": "Believer",
+      "bullets": [
+        "Anthropic priced the largest IPO ever at $83 a share, raising $81.3B plus a $26B private placement; ANT opened at $111.50 on Nov 19 and ended its first week at $88.91, still above the offer, as Jensen Huang's ouster at Nvidia and rate worries hit AI stocks (Anthropic, CNBC).",
+        "Oracle said its OpenAI infrastructure contract is fully funded after a $20B stock-and-notes raise, easing financing doubts, while OpenAI's Q3 adjusted operating loss widened to $10.9B and California's attorney general sued it over AI safety lapses (Oracle, Reuters/WSJ)."
+      ]
     }
   ]
 }

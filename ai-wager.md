@@ -27,6 +27,12 @@ title: AI Viability Wager
 
 Newest first.
 
+### Nov 23, 2026
+
+- **Believer**: 91% &nbsp;&nbsp; **Skeptic**: 4% &nbsp;&nbsp; **No‑bet**: 5%
+- Anthropic priced the largest IPO ever at $83 a share, raising $81.3B plus a $26B private placement; ANT opened at $111.50 on Nov 19 and ended its first week at $88.91, still above the offer, as Jensen Huang's ouster at Nvidia and rate worries hit AI stocks (Anthropic, CNBC).
+- Oracle said its OpenAI infrastructure contract is fully funded after a $20B stock-and-notes raise, easing financing doubts, while OpenAI's Q3 adjusted operating loss widened to $10.9B and California's attorney general sued it over AI safety lapses (Oracle, Reuters/WSJ).
+
 ### Nov 16, 2026
 
 - **Believer**: 89% &nbsp;&nbsp; **Skeptic**: 6% &nbsp;&nbsp; **No‑bet**: 5%

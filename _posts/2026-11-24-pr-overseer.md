@@ -72,7 +72,8 @@ It's exciting and disorienting at the same time! Yes we can do more, but if this
 
 ## Next Steps
 
-- Trying an open-source model (something like `qwen3-coder` via Ollama) for the tier classifier, so it doesn't burn paid quota - I tested using [Pi](https://pi.dev/) and so far results were slow but promising
+- Trying an open-source model (something like `qwen3-coder` via Ollama) for the tier classifier, so it doesn't burn paid quota - I tested using [Pi](https://pi.dev/) and so far results were promising (more of a concern when tokens become scarce)
+- Or even better - try [Jev](https://typesafe.ai/) as the classifier?
 - Turning on automatic fixes for my own PRs more broadly: the overseer can already push a fix for its own review feedback, but I've kept that switched off by default for now
 - Packaging it up so it's easier to run outside my own machine
 

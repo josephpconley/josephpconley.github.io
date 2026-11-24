@@ -64,6 +64,12 @@ It also helps to have a centralized view of all of your AI usage - saved me more
 </table>
 </div>
 
+### Moving On Up (in the stack)
+
+This idea underscores the prevailing trend of moving up a layer in the stack. Focusing much more on automation (CI), testing, and verification, as well as just plain "where is the bottleneck?" (think The Goal).
+
+It's exciting and disorienting at the same time! Yes we can do more, but if this is still an "engineering" discipline, then we need to be adults too and inspect and re-inspect our systems and guardrails (which is now also super cheap to do!).
+
 ## Next Steps
 
 - Trying an open-source model (something like `qwen3-coder` via Ollama) for the tier classifier, so it doesn't burn paid quota - I tested using [Pi](https://pi.dev/) and so far results were slow but promising
